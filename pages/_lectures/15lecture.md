@@ -1,0 +1,10 @@
+---
+layout: lecture
+title: Dictionaries
+type: lecture
+draft: 0
+description: Dictionaries
+due_date: 2020-05-19
+---
+
+TBD

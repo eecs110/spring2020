@@ -1,0 +1,39 @@
+.lectures {
+    table {
+        th:first-child {
+            min-width: 80px;
+        }
+    }
+}
+table {
+    margin-top: 30px;
+    &.grading, &.rubric {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 500px;
+        // background: #F9F9F9;
+        border-collapse: collapse;
+        td:first-child {
+            padding-left: 30px;
+        }
+
+        td, th {
+            border: dotted 1px #CCC;
+            padding: 3px;
+        }
+        td {
+            font-size: 0.9em;
+        }
+        th {
+            background: #F9F9F9;
+            padding-top: 5px;
+            //font-family: 'Open Sans Condensed';
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 500;
+            min-width: 80px;
+            text-align: left;
+            // font-weight: 1.1em;
+        }
+    }
+    
+}
