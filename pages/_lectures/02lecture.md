@@ -1,11 +1,10 @@
 ---
 layout: lecture
-title: No class
+title: No Class
 type: lecture
 draft: 1
 due_date: 2020-04-02
-description: |
-    No class today (see you next week). Stay Healthy!
+description: See you next week!
 ---
 
 No Class today

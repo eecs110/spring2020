@@ -3,7 +3,7 @@ layout: lecture
 title: |   
     Loops 1: While Loops
 type: lecture
-draft: 0
+draft: 1
 description:
   - If / Else
   - Booleans

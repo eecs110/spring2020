@@ -9,17 +9,17 @@ due_date: 2020-04-07
 slides_url: | 
     https://docs.google.com/presentation/d/1l-g-d3AL1AoauTP0iQ2STK7yjL4YSpBGgUNI1N97agg/edit?usp=sharing
 readings:
-  - title: "The Knowledge Navigator (Video)"
-    author: "For Apple CEO John Sculley's EDUCOM Keynote"
-    url: https://www.youtube.com/watch?v=umJsITGzXd0
-    source: Apple
-    date: 1987
-  - title: "A Brief History of Human Computer Interaction Technology"
-    author: Meyers, Brad
-    date: 1996
-    url: "https://www.cs.cmu.edu/~amulet/papers/uihistory.tr.html"
-    source: "ACM Interactions"
-    optional: 1
+  - title: "Ch1: Intro to Computing"
+    author: "Charles Severance"
+    url: https://www.py4e.com/html3/01-intro
+    video_url: https://www.py4e.com/lessons/intro
+    source: "Python for Everybody"
+  - title: "Ch1: Getting Started"
+    author: "Brian Heinold"
+    url: https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf
+    source: "A Practical Introduction to Python Programming"
+    year: 2012
+
 ---
 
 Intro to the course!

@@ -6,16 +6,21 @@
         ({{ item.date }}).
     {% endif %}
     {% if item.url %}
-        {% if item.internal %}
-            <a href="{{item.url}}">{{ item.title }}</a>.
+        {% if item.video_url == False %}
+            <a href="{{ item.url }}" {% if item.internal %}target="_blank"{% endif %}>{{ item.title }}</a>.
         {% else %}
-            <a href="{{item.url}}" target="_blank">{{ item.title }}</a>.
-        {% endif %} 
+            {{ item.title }}.
+        {% endif %}
     {% else %}
-        {{ item.title }}
+        {{ item.title }}.
     {% endif %}
     {% if item.source %}
-        <em>{{ item.source }}</em>.
+        <em>{{ item.source }}</em>
+    {% endif %}
+    {% if item.video_url %}
+        <br>
+        <a href="{{ item.url }}" target="_blank">lecture</a> &bull;
+        <a href="{{ item.video_url }}" target="_blank">video</a> 
     {% endif %}
     {% if item.notes %}
         <br>{{ item.notes }}</em>

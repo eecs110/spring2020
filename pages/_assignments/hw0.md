@@ -1,12 +1,12 @@
 ---
 layout: assignment-two-column
-title: Intro to Programming
-abbreviation: HW1
+title: Signup for a Discussion Section!
+abbreviation: HW0
 type: homework
-due_date: 2020-04-14
+due_date: 2020-04-07
 ordering: 1
 draft: 0
-points: 5
+points: 0
 ---
 
 See Google Doc

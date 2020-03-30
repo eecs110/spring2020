@@ -1,8 +1,9 @@
 ---
 layout: lecture
-title: Functions Part III
+title: |
+    Functions 3: More Practice
 type: lecture
-draft: 0
+draft: 1
 description:
   - Creating your own functions
   - Modules

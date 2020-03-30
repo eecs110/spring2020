@@ -2,7 +2,7 @@
 layout: lecture
 title: Intro to Cloud-Based Services
 type: lecture
-draft: 0
+draft: 1
 description: Intro to Cloud-Based Services
 due_date: 2020-05-26
 ---

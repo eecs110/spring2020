@@ -3,7 +3,7 @@ layout: lecture
 title: | 
     Loops 2: For Loops & Lists
 type: lecture
-draft: 0
+draft: 1
 description:
   - If / Else
   - Booleans

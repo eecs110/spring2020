@@ -25,7 +25,7 @@ h1 span.pj {
     }
 }
 
-.assignments, .lectures, .readings, .syllabus {
+.assignments, .lectures, .readings, .syllabus, .schedule {
     .passed {
         color: #AAA;
         .hw, a.hw, 
@@ -39,7 +39,7 @@ h1 span.pj {
     }
 }
 
-.assignments, .lectures, .assignment, .reference, .lecture, .readings, .link-menu, .two-column article, .syllabus {
+.assignments, .lectures, .assignment, .reference, .lecture, .readings, .link-menu, .two-column article, .syllabus, .schedule {
     display: flex;
     flex-direction: column;
     
@@ -153,6 +153,14 @@ h1 span.pj {
         font-weight: 500;
     }
 }
+.schedule {
+    td:nth-child(2), th:nth-child(2) {
+        min-width: 80px;
+    }
+    td:nth-child(4) {
+        min-width: 380px !important;
+    }
+}
 .readings {
     td:nth-child(2), th:nth-child(2) {
         width: 80px !important;
@@ -189,7 +197,7 @@ h1 span.pj {
     }
 }
 
-.assignment, .reference, .lecture, .two-column article, .syllabus {
+.assignment, .reference, .lecture, .two-column article, .syllabus, .schedule {
     ul.toc {
         padding-left: 0px;
         li {
@@ -242,20 +250,20 @@ ol.readings, ul.readings {
     }
 }
 
-.lectures {
+.lectures, .schedule, .readings {
     ul {
         margin: 0px;
     }
     td:nth-child(1)  {
         min-width: 60px;
-        width: 60px;
+        width: 70px;
     }
     td:nth-child(1), th:nth-child(1), td:nth-child(2), th:nth-child(2) {
-        width: 50px;
-        min-width: 30px;
+        // width: 50px;
+        min-width: 60px;
     }
     td:nth-child(2)  {
-        min-width: 70px;
+        min-width: 90px;
     }
     td:nth-child(3)  {
         min-width: 330px;
@@ -327,9 +335,11 @@ blockquote.quote {
     }
 }
 
+.schedule ul {
+    padding-left: 20px;
+}
 
-
-.assignment, .lecture, .details, .two-column article, .syllabus {
+.assignment, .lecture, .details, .two-column article, .syllabus, .schedule {
     .outline {
         margin-top: 30px;
     }
@@ -343,11 +353,11 @@ blockquote.quote {
     ul {
         list-style: none;
         li::before {
-            font-size: 1.6em;
+            font-size: 20px;
             content: "\2022";
             font-weight: bold;
             display: inline-block;
-            text-indent: -0.9em;
+            text-indent: -16px;
             vertical-align: text-bottom;
             color: $purple;
         }

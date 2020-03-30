@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Animations & Landscapes with Loops
+title: Animations & Landscapes
 abbreviation: HW4
 type: homework
 files: course-files/assignments/hw05.zip

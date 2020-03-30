@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Creating a Creature
+title: Make a Creature
 abbreviation: HW3
 type: homework
 due_date: 2020-04-28

@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Introduction to Tkinter (Graphics Library)
+title: Intro to Tkinter
 abbreviation: HW2
 type: homework
 due_date: 2020-04-21
