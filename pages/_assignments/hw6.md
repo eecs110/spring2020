@@ -1,12 +1,12 @@
 ---
 layout: assignment-two-column
-title: Accessible Web Design
+title: Getting Started on P2
 abbreviation: HW6
 type: homework
 due_date: 2020-06-02
 files: course-files/assignments/hw06.zip
 points: 5
-draft: 0
+draft: 1
 ---
 
 <style>

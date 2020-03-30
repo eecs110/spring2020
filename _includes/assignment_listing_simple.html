@@ -1,7 +1,8 @@
 {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
 {% assign projectPoints = 0 %}
 {% assign homeworkPoints = 0 %}
-{% assign totalPoints = 20 %}
+{% assign examPoints = 90 %}
+{% assign totalPoints = examPoints %}
 {% for assignment in sortedAssignments %}
     {% if assignment.type == "project" %}
         {% assign projectPoints = projectPoints | plus: assignment.points %}
@@ -13,6 +14,7 @@
 {% endfor %}
 {% assign projectPercent = projectPoints | times: 1.0 | divided_by: totalPoints | times: 100 | round  %}
 {% assign homeworkPercent = homeworkPoints | times: 1.0 | divided_by: totalPoints | times: 100 | round %}
+{% assign examPercent = examPoints | times: 1.0 | divided_by: totalPoints | times: 100 | round %}
 
 <table class="grading">
         <tr>
@@ -47,12 +49,16 @@
         {% endfor %}
 
         <tr>
-            <th>Exams (??)</th>
-            <th>20 points</th>
+            <th>Exams ({{ examPercent }}%)</th>
+            <th>{{ examPoints }} points</th>
         </tr>
         <tr>
-            <td>Class / Studio Participation</td>
-            <td>20 points</td>
+            <td>Exam 1</td>
+            <td>45 points</td>
+        </tr>
+        <tr>
+            <td>Exam 2</td>
+            <td>45 points</td>
         </tr>
     </tbody>
 </table>

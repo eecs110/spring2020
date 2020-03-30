@@ -25,7 +25,7 @@ h1 span.pj {
     }
 }
 
-.assignments, .lectures, .readings {
+.assignments, .lectures, .readings, .syllabus {
     .passed {
         color: #AAA;
         .hw, a.hw, 
@@ -39,7 +39,7 @@ h1 span.pj {
     }
 }
 
-.assignments, .lectures, .assignment, .reference, .lecture, .readings, .link-menu, .two-column article {
+.assignments, .lectures, .assignment, .reference, .lecture, .readings, .link-menu, .two-column article, .syllabus {
     display: flex;
     flex-direction: column;
     
@@ -189,7 +189,7 @@ h1 span.pj {
     }
 }
 
-.assignment, .reference, .lecture, .two-column article {
+.assignment, .reference, .lecture, .two-column article, .syllabus {
     ul.toc {
         padding-left: 0px;
         li {
@@ -329,7 +329,7 @@ blockquote.quote {
 
 
 
-.assignment, .lecture, .details, .two-column article {
+.assignment, .lecture, .details, .two-column article, .syllabus {
     .outline {
         margin-top: 30px;
     }
