@@ -102,7 +102,6 @@ layout: default
                 <td>
                     {% assign assignments = site.assignments | where: 'due_date', date %}
                     {% for assignment in assignments %}
-                        <p>
                         {% assign classname = "pj" %}
                         {% if assignment.type == "homework" %}
                             {% assign classname = "hw" %}
@@ -120,7 +119,6 @@ layout: default
                             </a>
                         {% endif %} 
                         {{ assignment.title }}
-                        </p>
                     {% endfor %}
                 </td>
             </tr>

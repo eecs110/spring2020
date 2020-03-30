@@ -10,13 +10,13 @@ h1 span {
     display: inline-block;
     border-radius: 4px;
     color: white;
-    text-transform: uppercase;
+    // text-transform: uppercase;
 }
 h1 span.hw {
-    background: $blue;
+    background: $purple;
 }
 h1 span.pj {
-    background: $lightpink;
+    background: $blue;
 }
 
 .assignments {
@@ -46,7 +46,7 @@ h1 span.pj {
     a, a:hover, a:visited, a:active {
         text-decoration: none;
         color: #444;
-        border-bottom: dotted $mutedblue 2px;
+        border-bottom: dotted $lightgrey 2px;
     }
     a:hover {
         // border-bottom: dotted #444 2px;
@@ -72,19 +72,20 @@ h1 span.pj {
         text-indent: 0px;
     }
     .hw, .hw:hover {
-        background: $blue;
-    }
-    .pj, .pj:hover {
-        background: $lightpink;
-    }
-    .lec, .lec:hover {
-        background: $mutedblue;
-    }
-    .lab, .lab:hover {
         background: $purple;
     }
+    .pj, .pj:hover {
+        background: $blue;
+    }
+    .lec, .lec:hover, a.lec {
+        background: $lightgrey;
+        color: #444;
+    }
+    .lab, .lab:hover {
+        background: $green;
+    }
     .ec, .ec:hover {
-        background: $turquoise;
+        background: $lightgrey;
     }
     table {
         td, th {
@@ -99,7 +100,7 @@ h1 span.pj {
         width: 100%;
         margin-bottom: 30px;
 
-        td:first-child {
+        td:first-child, th:first-child {
             min-width: 80px;
         }
 
@@ -111,11 +112,11 @@ h1 span.pj {
             border-bottom: dotted 1px #999;
             padding: 8px;
         }
-        td {
-            font-size: 0.9em;
-        }
+        // td {
+        //     font-size: 0.9em;
+        // }
         th {
-            font-family: 'Barlow Condensed', sans-serif;
+            //font-family: 'Akkurat Pro Regular', sans-serif;
             font-weight: 500;
             min-width: 60px;
             text-align: left;
@@ -157,9 +158,9 @@ h1 span.pj {
     td:nth-child(2), th:nth-child(2) {
         min-width: 80px;
     }
-    td:nth-child(4) {
-        min-width: 380px !important;
-    }
+    // td:nth-child(4) {
+    //     min-width: 380px !important;
+    // }
 }
 .readings {
     td:nth-child(2), th:nth-child(2) {
@@ -168,7 +169,7 @@ h1 span.pj {
     h3 {
         font-size: 1em;
         font-weight: 500;
-        font-family: 'Barlow', sans-serif;
+        // font-family: 'Akkurat Pro Regular', sans-serif;
     }
     li {
         margin-bottom: 8px;
@@ -268,9 +269,9 @@ ol.readings, ul.readings {
     td:nth-child(3)  {
         min-width: 330px;
     }
-    td:nth-child(4)  {
-        min-width: 235px !important;
-    }
+    // td:nth-child(4)  {
+    //     min-width: 235px !important;
+    // }
     p, li, th, td {
         margin-top: 0px;
     }
@@ -305,7 +306,7 @@ blockquote.quote {
 
     p:before {
         content: '“';
-        color: $mutedblue;
+        color: $lightgrey;
         font-size: 2em;
         line-height: 0.1em;
         margin-right: 0.1em;
@@ -363,7 +364,7 @@ blockquote.quote {
         }
     }
     h2 {
-        border-bottom: solid 1px $mutedblue;
+        border-bottom: solid 1px $lightgrey;
     }
     h3 {
         color: #676767;

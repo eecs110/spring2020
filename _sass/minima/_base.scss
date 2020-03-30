@@ -1,10 +1,17 @@
-$blue: #49ACBB;
-$turquoise: #61cac8;
-$mutedblue: #88a5b3;
-$purple: #b0809e;
-$lightpink: #d85c8a;
-$pink: #ff3775;
-$redhot: #EB1962;
+// $blue: #49ACBB;
+// $turquoise: #61cac8;
+// $purple: #b0809e;
+// $lightpink: #d85c8a;
+// $pink: #ff3775;
+// $redhot: #EB1962;
+$lightgrey: #EEE;
+$grey: #999;
+$darkgrey: #5c5962;
+$nupurple: #4e2a84;
+$purple: #684a98;
+$lightpurple: #846dac;
+$green: #009c7b;
+$blue: #2869e6;
 
 * {
     box-sizing: border-box;
@@ -16,10 +23,7 @@ iframe {
 
 body {
     margin: 0;
-    // font-family: 'Open Sans';
-    font-family: 'Barlow', sans-serif;
-    // font-family: 'Barlow Condensed', sans-serif;
-    // font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Akkurat Pro Regular';
     color: #444;
     box-sizing: border-box;
     section, div, aside {
@@ -32,19 +36,36 @@ body {
     color: #444;
     border-bottom: solid transparent 2px;
 }
+
+td, th, td a {
+    font-size: 0.9em;
+}
+td {
+    font-family: "Akkurat Pro Light";
+    strong, i, a.lec, a.hw, a.pj {
+        font-family: 'Akkurat Pro Regular';
+    }
+}
+p {
+    // font-size: 1.1em;
+    // line-height: 1.8em;
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #5c5962;
+}
  
- h1, h2, h3, h4, h5 {
-    // font-family: 'Open Sans Condensed';
-    // font-family: 'Barlow', sans-serif;
-    font-family: 'Barlow Condensed', sans-serif;
-    // font-family: 'Barlow Semi Condensed', sans-serif;
+h1, h2, h3, h4, h5 {
+    //font-family: 'Barlow Condensed', sans-serif;
+    // font-family: 46px/1.2em "Campton Book",Tahoma,sans-serif;
+    font-family: "Campton Book",Tahoma,sans-serif;
+    color: $nupurple;
     font-weight: 600;
 
     a, a:hover, a:visited, a:active {
         text-decoration: none;
-        color: #444;
+        color: $nupurple;
     }
- }
+}
 
 p, th, td {
     line-height: 1.5em;
@@ -68,9 +89,18 @@ h2, h3, h4, h5 {
     margin-bottom: 0px;
 }
 
+// h2 {
+//     &::before, &::after {
+//         background: url(https://common.northwestern.edu/v8/css/images/icons/grey-slash.svg) no-repeat 50%/17px 21px;
+//         padding: 0 20px;
+//         content: " ";
+//     }
+// }
+
 h3 {
-    text-transform: uppercase;
+    // text-transform: uppercase;
     margin-bottom: 10px;
+    
 }
 h4 {
     font-size: 1.2em;
@@ -141,7 +171,7 @@ pre.highlight {
     margin-top: 0px;
 }
 blockquote {
-    border-left: solid 7px $mutedblue;
+    border-left: solid 7px $lightgrey;
     background: #F6F6F6;
     padding: 10px;
     margin: 0px;
@@ -154,9 +184,9 @@ blockquote {
 
 h1 {
     font-weight: 400;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     a, a:visited {
-        color: black;
+        color: $nupurple;
         text-decoration: none;
         padding-left: 5px;
         padding-right: 5px;
@@ -185,8 +215,29 @@ table.small {
 header {
     grid-area: top;
     align-items: flex-end;
+    flex-direction: column;
+    background: url(/spring2020/assets/images/purple-polygons.png) repeat-y;
+    h1 {
+        margin-bottom: 0px;
+        color: white;
+        a, a:hover, a:visited, a:active {
+            color: white;
+        }
+    }
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-family: "Campton Extra Light",Tahoma,sans-serif;
+        border-bottom: none;
+        color: white;
+        a, a:hover, a:visited, a:active {
+            color: white;
+        }
+        // color:#4e2a84;
+    }
 }
 nav {
+    background: #F0F0F0;
     grid-area: menu;
     &.sticky {
         height: 55px;
@@ -203,15 +254,15 @@ nav {
         display: flex;
         flex-direction: row;
         padding: 0px;
-        margin-top: 0px;
+        margin: 0px;
         
         li {
             border-bottom: solid 3px transparent;
             list-style: none;
-            padding: 5px;
+            padding: 10px 5px;
 
             &.active {
-                border-bottom: solid 3px $lightpink;
+                border-bottom: solid 3px $nupurple;
                 // background: #EEE;
             }
 
@@ -224,7 +275,7 @@ nav {
             }
             &:hover, &:active {
                 background: #F9F9F9;
-                border-bottom: solid 3px $mutedblue;
+                border-bottom: solid 3px $grey;
             }
         }
     }
