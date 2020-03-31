@@ -27,21 +27,11 @@
     }
 }
 
+
 .assignments, .lectures, .assignment, .reference, .lecture, .readings, .link-menu, .two-column article, .syllabus, .schedule {
     display: flex;
     flex-direction: column;
     
-    a, a:hover, a:visited, a:active {
-        text-decoration: none;
-        color: #444;
-        //border-bottom: dotted $grey 2px;
-        border-bottom: solid $lightpurple 1px;
-    }
-    a:hover {
-        // border-bottom: dotted #444 2px;
-        background: #f6f6f6;
-    }
-
     .hw, a.hw, 
     .pj, a.pj, 
     .lec, a.lec, 

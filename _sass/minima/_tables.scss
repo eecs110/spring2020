@@ -1,68 +1,68 @@
-td, th {
-    font-size: 0.9em;
-    line-height: 1.5em;
-    margin-top: 5px;
-}
-td {
-    font-family: "Akkurat Pro Light";
-    strong, i, a.lec, a.hw, a.pj {
-        font-family: 'Akkurat Pro Regular';
-    }
-}
+table {
+    border-top: solid 1px #444;
+    border-bottom: solid 1px #444;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
 
-.assignments, .lectures, .readings, .syllabus, .schedule {
-    table {
-        td, th {
-            vertical-align: top;
-            ul {
-                margin-bottom: 0px;
-            }
-        }
-        border-top: solid 1px #444;
-        border-bottom: solid 1px #444;
-        border-collapse: collapse;
-        width: 100%;
-        margin-bottom: 30px;
-
-        td:first-child, th:first-child {
-            min-width: 80px;
-        }
-
-        thead tr:first-child {
-            border-bottom: solid 1px #444;
-        }
-
-        td, th {
-            border-bottom: dotted 1px #999;
-            padding: 8px;
-        }
-        th {
-            font-weight: 500;
-            min-width: 60px;
-            text-align: left;
-        }
-    }
-    table.rubric {
-        td, th {
-            border-bottom: dotted 1px #CCC;
-            // font-size: 0.95em;
-        }
-        th:nth-child(2) {
-            width: 80px;
-        }
-        border: dotted 1px #CCC;
-        width: 100%;
-        max-width: 100%;
-        tr:first-child {
-            border-bottom: dotted 1px #CCC;
-            th {
-                text-transform: uppercase;
-                color: #000;
-            }
-        }
+    td, th {
+        font-size: 0.9em;
+        line-height: 1.5em;
+        margin-top: 5px;
+        vertical-align: top;
         ul {
-            margin: 0px;
+            margin-bottom: 0px;
+            li {
+                line-height: 1.5em;
+                font-size: 1em;
+            }
         }
+    }
+    td {
+        font-family: "Akkurat Pro Light";
+        strong, i, a.lec, a.hw, a.pj {
+            font-family: 'Akkurat Pro Regular';
+        }
+    }
+
+    td:first-child, th:first-child {
+        min-width: 80px;
+    }
+
+    thead tr:first-child {
+        border-bottom: solid 1px #444;
+    }
+
+    td, th {
+        border-bottom: dotted 1px #999;
+        padding: 8px;
+    }
+    th {
+        font-weight: 500;
+        min-width: 60px;
+        text-align: left;
+    }
+}
+table.rubric {
+    td, th {
+        border-bottom: dotted 1px #CCC;
+        // font-size: 0.95em;
+    }
+    th:nth-child(2) {
+        width: 80px;
+    }
+    border: dotted 1px #CCC;
+    width: 100%;
+    max-width: 100%;
+    tr:first-child {
+        border-bottom: dotted 1px #CCC;
+        th {
+            text-transform: uppercase;
+            color: #000;
+        }
+    }
+    ul {
+        margin: 0px;
     }
 }
 

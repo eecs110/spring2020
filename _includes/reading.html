@@ -7,7 +7,7 @@
     {% endif %}
     {% if item.url %}
         {% if item.video_url == False %}
-            <a href="{{ item.url }}" {% if item.internal %}target="_blank"{% endif %}>{{ item.title }}</a>.
+            <a href="{{ item.url }}" {% if item.internal != 1 %}target="_blank"{% endif %}>{{ item.title }}</a>.
         {% else %}
             {{ item.title }}.
         {% endif %}
