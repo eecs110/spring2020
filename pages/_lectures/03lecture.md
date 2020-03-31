@@ -2,7 +2,7 @@
 layout: lecture-two-column
 title: Introduction
 type: lecture
-draft: 0
+draft: 1
 description: |
     Intro to the course.
 due_date: 2020-04-07

@@ -2,7 +2,7 @@
 layout: lecture
 title: The Building Blocks
 type: lecture
-draft: 0
+draft: 1
 description:
   - Variables, operators, and data types
   - Installing Anaconda + VS Code

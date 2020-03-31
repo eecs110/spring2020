@@ -84,7 +84,7 @@ layout: default
                                         <a href="{{ reading.url }}" target="_blank">readings</a> &bull;
                                         <a href="{{ reading.video_url }}" target="_blank">videos</a> 
                                     {% else %}
-                                        <a href="{{ reading.url }}" target="_blank">{{ reading.title }}</a>
+                                        <a href="{{ reading.url }}" {% if reading.internal != 1 %}target="_blank"{% endif %}>{{ reading.title }}</a>
                                     {% endif %}
                                 </li>
                             {% endfor %}
