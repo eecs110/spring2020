@@ -6,18 +6,6 @@
         "main"
         "bottom";
 }
-h1 span {
-    display: inline-block;
-    border-radius: 4px;
-    color: white;
-    // text-transform: uppercase;
-}
-h1 span.hw {
-    background: $purple;
-}
-h1 span.pj {
-    background: $blue;
-}
 
 .assignments {
     .passed {
@@ -46,7 +34,8 @@ h1 span.pj {
     a, a:hover, a:visited, a:active {
         text-decoration: none;
         color: #444;
-        border-bottom: dotted $lightgrey 2px;
+        //border-bottom: dotted $grey 2px;
+        border-bottom: solid $lightpurple 1px;
     }
     a:hover {
         // border-bottom: dotted #444 2px;
@@ -87,85 +76,13 @@ h1 span.pj {
     .ec, .ec:hover {
         background: $lightgrey;
     }
-    table {
-        td, th {
-            vertical-align: top;
-            ul {
-                margin-bottom: 0px;
-            }
-        }
-        border-top: solid 1px #444;
-        border-bottom: solid 1px #444;
-        border-collapse: collapse;
-        width: 100%;
-        margin-bottom: 30px;
-
-        td:first-child, th:first-child {
-            min-width: 80px;
-        }
-
-        thead tr:first-child {
-            border-bottom: solid 1px #444;
-        }
-
-        td, th {
-            border-bottom: dotted 1px #999;
-            padding: 8px;
-        }
-        // td {
-        //     font-size: 0.9em;
-        // }
-        th {
-            //font-family: 'Akkurat Pro Regular', sans-serif;
-            font-weight: 500;
-            min-width: 60px;
-            text-align: left;
-        }
-    }
-    table.rubric {
-        td, th {
-            border-bottom: dotted 1px #CCC;
-            // font-size: 0.95em;
-        }
-        th:nth-child(2) {
-            width: 80px;
-        }
-        border: dotted 1px #CCC;
-        width: 100%;
-        max-width: 100%;
-        tr:first-child {
-            border-bottom: dotted 1px #CCC;
-            th {
-                text-transform: uppercase;
-                color: #000;
-            }
-        }
-        ul {
-            margin: 0px;
-        }
-    }
+    
     ul {
         margin-top: 0px;
     }
 }
-.assignments {
-    td:nth-child(1), th:nth-child(1) {
-        width: 60px !important;
-        font-weight: 500;
-    }
-}
-.schedule {
-    td:nth-child(2), th:nth-child(2) {
-        min-width: 80px;
-    }
-    // td:nth-child(4) {
-    //     min-width: 380px !important;
-    // }
-}
+
 .readings {
-    td:nth-child(2), th:nth-child(2) {
-        width: 80px !important;
-    }
     h3 {
         font-size: 1em;
         font-weight: 500;
@@ -228,11 +145,8 @@ h1 span.pj {
 
     .checkbox-list > li:before {
         font-family:"Font Awesome 5 Pro";
-        // content: "\f14a";
-        // font-weight: 400;
         content: "\f00c";
         font-weight: 600;
-        // color: #444;
         color: #1cb954;
         font-size: 1.2em;
         vertical-align: top;
@@ -243,8 +157,6 @@ h1 span.pj {
 ol.readings, ul.readings {
     margin-top: 0px;
     margin-bottom: 0px;
-    // padding: 0px;
-    // padding-left: 20px;
 
     li {
         margin-top: 0px;
@@ -255,24 +167,7 @@ ol.readings, ul.readings {
     ul {
         margin: 0px;
     }
-    td:nth-child(1)  {
-        min-width: 60px;
-        width: 70px;
-    }
-    td:nth-child(1), th:nth-child(1), td:nth-child(2), th:nth-child(2) {
-        // width: 50px;
-        min-width: 60px;
-    }
-    td:nth-child(2)  {
-        min-width: 90px;
-    }
-    // td:nth-child(3)  {
-    //     min-width: 230px;
-    // }
-    // td:nth-child(4)  {
-    //     min-width: 235px !important;
-    // }
-    p, li, th, td {
+    p, li {
         margin-top: 0px;
     }
     ol {
@@ -290,8 +185,6 @@ blockquote.caveat {
     background: none;
     border-left: 0px;
     padding: 25px;
-    // font-size: 1.2em;
-    // font-weight: 500;
     padding: 0px;
 } 
 

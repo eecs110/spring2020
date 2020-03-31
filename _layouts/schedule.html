@@ -61,9 +61,7 @@ layout: default
                             <a class="{{ className }}" href="{{site.baseurl}}{{lecture.url}}">
                                 {{ lecture.title }} <i class="fas fa-link"></i>
                             </a>
-                            <!-- <a href="{{site.baseurl}}{{lecture.url}}">
-                                {{ lecture.title }}
-                            </a> -->
+
                         {% endif %} 
                         <br>
                         {% if lecture.description.first %}
@@ -82,9 +80,9 @@ layout: default
                             {% for reading in lecture.readings %}
                                 <li>
                                     {% if reading.video_url %}
-                                        {{ reading.title }}
-                                        (<a href="{{ reading.url }}" target="_blank">lecture</a> &amp;
-                                        <a href="{{ reading.video_url }}" target="_blank">video</a>) 
+                                        {{ reading.title }}<br>
+                                        <a href="{{ reading.url }}" target="_blank">readings</a> &bull;
+                                        <a href="{{ reading.video_url }}" target="_blank">videos</a> 
                                     {% else %}
                                         <a href="{{ reading.url }}" target="_blank">{{ reading.title }}</a>
                                     {% endif %}

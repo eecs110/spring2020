@@ -28,36 +28,13 @@ a, a:hover, a:visited, a:active {
   border-bottom: solid transparent 2px;
 }
 
-td, th {
-  font-size: 0.9em;
-}
-
-td {
-  font-family: "Akkurat Pro Light";
-}
-
-td strong, td i, td a.lec, td a.hw, td a.pj {
-  font-family: 'Akkurat Pro Regular';
-}
-
 p {
   font-size: 16px;
   line-height: 1.7em;
   color: #5c5962;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: "Campton Book",Tahoma,sans-serif;
-  color: #4e2a84;
-  font-weight: 600;
-}
-
-h1 a, h1 a:hover, h1 a:visited, h1 a:active, h2 a, h2 a:hover, h2 a:visited, h2 a:active, h3 a, h3 a:hover, h3 a:visited, h3 a:active, h4 a, h4 a:hover, h4 a:visited, h4 a:active, h5 a, h5 a:hover, h5 a:visited, h5 a:active {
-  text-decoration: none;
-  color: #4e2a84;
-}
-
-p, th, td {
+p {
   line-height: 1.5em;
   margin-top: 5px;
 }
@@ -75,8 +52,61 @@ ol, ul {
   margin-top: 0px;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: "Campton Book",Tahoma,sans-serif;
+  color: #4e2a84;
+  font-weight: 600;
+}
+
+h1 a, h1 a:hover, h1 a:visited, h1 a:active, h2 a, h2 a:hover, h2 a:visited, h2 a:active, h3 a, h3 a:hover, h3 a:visited, h3 a:active, h4 a, h4 a:hover, h4 a:visited, h4 a:active, h5 a, h5 a:hover, h5 a:visited, h5 a:active {
+  text-decoration: none;
+  color: #4e2a84;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h1 a, h1 a:visited {
+  color: #4e2a84;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: -5px;
+}
+
+h1 a:hover {
+  background: #EEE;
+  border-radius: 5px;
+}
+
+h1 span {
+  display: inline-block;
+  border-radius: 4px;
+  color: white;
+}
+
+h1 span.hw {
+  background: #684a98;
+}
+
+h1 span.pj {
+  background: #684a98;
+}
+
 h2, h3, h4, h5 {
   margin-bottom: 0px;
+}
+
+h2.slashes::before, h2.slashes::after, h3.slashes::before, h3.slashes::after, h4.slashes::before, h4.slashes::after, h5.slashes::before, h5.slashes::after {
+  background: url(https://common.northwestern.edu/v8/css/images/icons/grey-slash.svg) no-repeat 50%/17px 21px;
+  padding: 0 20px;
+  content: " ";
+}
+
+h2 {
+  border-bottom: solid 1px #444;
+  padding-bottom: 5px;
 }
 
 h3 {
@@ -89,11 +119,6 @@ h4 {
 
 h5 {
   font-size: 1.1em;
-}
-
-h2 {
-  border-bottom: solid 1px #444;
-  padding-bottom: 5px;
 }
 
 strong {
@@ -174,23 +199,6 @@ blockquote p {
   margin: 0px;
 }
 
-h1 {
-  font-weight: 400;
-}
-
-h1 a, h1 a:visited {
-  color: #4e2a84;
-  text-decoration: none;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-left: -5px;
-}
-
-h1 a:hover {
-  background: #EEE;
-  border-radius: 5px;
-}
-
 footer {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
@@ -205,14 +213,6 @@ main {
 
 main.sticky {
   padding-top: 48px;
-}
-
-table.xsmall {
-  width: 250px !important;
-}
-
-table.small {
-  width: 400px !important;
 }
 
 header {
@@ -300,16 +300,6 @@ nav ul li:hover, nav ul li:active {
   border-bottom: solid 3px #999;
 }
 
-.details h2 {
-  margin-top: 50px;
-}
-
-.details .fa, .details .fas, .details .far, .details .fab {
-  font-size: 1.8em;
-  color: #F6F6F6;
-  margin-right: 10px;
-}
-
 @font-face {
   font-family: "Akkurat Pro Light";
   src: url("https://common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");
@@ -380,24 +370,147 @@ nav ul li:hover, nav ul li:active {
   font-style: normal;
 }
 
+td, th {
+  font-size: 0.9em;
+  line-height: 1.5em;
+  margin-top: 5px;
+}
+
+td {
+  font-family: "Akkurat Pro Light";
+}
+
+td strong, td i, td a.lec, td a.hw, td a.pj {
+  font-family: 'Akkurat Pro Regular';
+}
+
+.assignments table, .lectures table, .readings table, .syllabus table, .schedule table {
+  border-top: solid 1px #444;
+  border-bottom: solid 1px #444;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.assignments table td, .assignments table th, .lectures table td, .lectures table th, .readings table td, .readings table th, .syllabus table td, .syllabus table th, .schedule table td, .schedule table th {
+  vertical-align: top;
+}
+
+.assignments table td ul, .assignments table th ul, .lectures table td ul, .lectures table th ul, .readings table td ul, .readings table th ul, .syllabus table td ul, .syllabus table th ul, .schedule table td ul, .schedule table th ul {
+  margin-bottom: 0px;
+}
+
+.assignments table td:first-child, .assignments table th:first-child, .lectures table td:first-child, .lectures table th:first-child, .readings table td:first-child, .readings table th:first-child, .syllabus table td:first-child, .syllabus table th:first-child, .schedule table td:first-child, .schedule table th:first-child {
+  min-width: 80px;
+}
+
+.assignments table thead tr:first-child, .lectures table thead tr:first-child, .readings table thead tr:first-child, .syllabus table thead tr:first-child, .schedule table thead tr:first-child {
+  border-bottom: solid 1px #444;
+}
+
+.assignments table td, .assignments table th, .lectures table td, .lectures table th, .readings table td, .readings table th, .syllabus table td, .syllabus table th, .schedule table td, .schedule table th {
+  border-bottom: dotted 1px #999;
+  padding: 8px;
+}
+
+.assignments table th, .lectures table th, .readings table th, .syllabus table th, .schedule table th {
+  font-weight: 500;
+  min-width: 60px;
+  text-align: left;
+}
+
+.assignments table.rubric, .lectures table.rubric, .readings table.rubric, .syllabus table.rubric, .schedule table.rubric {
+  border: dotted 1px #CCC;
+  width: 100%;
+  max-width: 100%;
+}
+
+.assignments table.rubric td, .assignments table.rubric th, .lectures table.rubric td, .lectures table.rubric th, .readings table.rubric td, .readings table.rubric th, .syllabus table.rubric td, .syllabus table.rubric th, .schedule table.rubric td, .schedule table.rubric th {
+  border-bottom: dotted 1px #CCC;
+}
+
+.assignments table.rubric th:nth-child(2), .lectures table.rubric th:nth-child(2), .readings table.rubric th:nth-child(2), .syllabus table.rubric th:nth-child(2), .schedule table.rubric th:nth-child(2) {
+  width: 80px;
+}
+
+.assignments table.rubric tr:first-child, .lectures table.rubric tr:first-child, .readings table.rubric tr:first-child, .syllabus table.rubric tr:first-child, .schedule table.rubric tr:first-child {
+  border-bottom: dotted 1px #CCC;
+}
+
+.assignments table.rubric tr:first-child th, .lectures table.rubric tr:first-child th, .readings table.rubric tr:first-child th, .syllabus table.rubric tr:first-child th, .schedule table.rubric tr:first-child th {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.assignments table.rubric ul, .lectures table.rubric ul, .readings table.rubric ul, .syllabus table.rubric ul, .schedule table.rubric ul {
+  margin: 0px;
+}
+
+.assignments td:nth-child(1), .assignments th:nth-child(1) {
+  width: 60px !important;
+  font-weight: 500;
+}
+
+.readings td:nth-child(2), .readings th:nth-child(2), .schedule td:nth-child(2), .schedule th:nth-child(2) {
+  min-width: 80px;
+}
+
+.readings td:nth-child(2), .readings th:nth-child(2), .schedule td:nth-child(2), .schedule th:nth-child(2) {
+  min-width: 100px;
+}
+
+.readings td:nth-child(4), .readings th:nth-child(4), .schedule td:nth-child(4), .schedule th:nth-child(4) {
+  min-width: 280px;
+}
+
+.readings td:nth-child(3), .readings th:nth-child(3), .schedule td:nth-child(3), .schedule th:nth-child(3) {
+  min-width: 210px;
+}
+
+.schedule td:nth-child(3), .schedule th:nth-child(3) {
+  min-width: 280px;
+}
+
+table.grading, table.rubric {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  border-collapse: collapse;
+}
+
+table.grading td:first-child, table.rubric td:first-child {
+  padding-left: 30px;
+}
+
+table.grading td, table.grading th, table.rubric td, table.rubric th {
+  border: dotted 1px #CCC;
+  padding: 3px;
+}
+
+table.grading td, table.rubric td {
+  font-size: 0.9em;
+}
+
+table.grading th, table.rubric th {
+  background: #F9F9F9;
+  padding-top: 5px;
+  font-weight: 500;
+  min-width: 80px;
+  text-align: left;
+}
+
+table.xsmall {
+  width: 250px !important;
+}
+
+table.small {
+  width: 400px !important;
+}
+
 .container {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
       grid-template-areas: "top" "menu" "main" "bottom";
-}
-
-h1 span {
-  display: inline-block;
-  border-radius: 4px;
-  color: white;
-}
-
-h1 span.hw {
-  background: #684a98;
-}
-
-h1 span.pj {
-  background: #2869e6;
 }
 
 .assignments .passed {
@@ -445,7 +558,7 @@ h1 span.pj {
 .assignments a, .assignments a:hover, .assignments a:visited, .assignments a:active, .lectures a, .lectures a:hover, .lectures a:visited, .lectures a:active, .assignment a, .assignment a:hover, .assignment a:visited, .assignment a:active, .reference a, .reference a:hover, .reference a:visited, .reference a:active, .lecture a, .lecture a:hover, .lecture a:visited, .lecture a:active, .readings a, .readings a:hover, .readings a:visited, .readings a:active, .link-menu a, .link-menu a:hover, .link-menu a:visited, .link-menu a:active, .two-column article a, .two-column article a:hover, .two-column article a:visited, .two-column article a:active, .syllabus a, .syllabus a:hover, .syllabus a:visited, .syllabus a:active, .schedule a, .schedule a:hover, .schedule a:visited, .schedule a:active {
   text-decoration: none;
   color: #444;
-  border-bottom: dotted #F6F6F6 2px;
+  border-bottom: solid #846dac 1px;
 }
 
 .assignments a:hover, .lectures a:hover, .assignment a:hover, .reference a:hover, .lecture a:hover, .readings a:hover, .link-menu a:hover, .two-column article a:hover, .syllabus a:hover, .schedule a:hover {
@@ -528,83 +641,8 @@ h1 span.pj {
   background: #F6F6F6;
 }
 
-.assignments table, .lectures table, .assignment table, .reference table, .lecture table, .readings table, .link-menu table, .two-column article table, .syllabus table, .schedule table {
-  border-top: solid 1px #444;
-  border-bottom: solid 1px #444;
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-.assignments table td, .assignments table th, .lectures table td, .lectures table th, .assignment table td, .assignment table th, .reference table td, .reference table th, .lecture table td, .lecture table th, .readings table td, .readings table th, .link-menu table td, .link-menu table th, .two-column article table td, .two-column article table th, .syllabus table td, .syllabus table th, .schedule table td, .schedule table th {
-  vertical-align: top;
-}
-
-.assignments table td ul, .assignments table th ul, .lectures table td ul, .lectures table th ul, .assignment table td ul, .assignment table th ul, .reference table td ul, .reference table th ul, .lecture table td ul, .lecture table th ul, .readings table td ul, .readings table th ul, .link-menu table td ul, .link-menu table th ul, .two-column article table td ul, .two-column article table th ul, .syllabus table td ul, .syllabus table th ul, .schedule table td ul, .schedule table th ul {
-  margin-bottom: 0px;
-}
-
-.assignments table td:first-child, .assignments table th:first-child, .lectures table td:first-child, .lectures table th:first-child, .assignment table td:first-child, .assignment table th:first-child, .reference table td:first-child, .reference table th:first-child, .lecture table td:first-child, .lecture table th:first-child, .readings table td:first-child, .readings table th:first-child, .link-menu table td:first-child, .link-menu table th:first-child, .two-column article table td:first-child, .two-column article table th:first-child, .syllabus table td:first-child, .syllabus table th:first-child, .schedule table td:first-child, .schedule table th:first-child {
-  min-width: 80px;
-}
-
-.assignments table thead tr:first-child, .lectures table thead tr:first-child, .assignment table thead tr:first-child, .reference table thead tr:first-child, .lecture table thead tr:first-child, .readings table thead tr:first-child, .link-menu table thead tr:first-child, .two-column article table thead tr:first-child, .syllabus table thead tr:first-child, .schedule table thead tr:first-child {
-  border-bottom: solid 1px #444;
-}
-
-.assignments table td, .assignments table th, .lectures table td, .lectures table th, .assignment table td, .assignment table th, .reference table td, .reference table th, .lecture table td, .lecture table th, .readings table td, .readings table th, .link-menu table td, .link-menu table th, .two-column article table td, .two-column article table th, .syllabus table td, .syllabus table th, .schedule table td, .schedule table th {
-  border-bottom: dotted 1px #999;
-  padding: 8px;
-}
-
-.assignments table th, .lectures table th, .assignment table th, .reference table th, .lecture table th, .readings table th, .link-menu table th, .two-column article table th, .syllabus table th, .schedule table th {
-  font-weight: 500;
-  min-width: 60px;
-  text-align: left;
-}
-
-.assignments table.rubric, .lectures table.rubric, .assignment table.rubric, .reference table.rubric, .lecture table.rubric, .readings table.rubric, .link-menu table.rubric, .two-column article table.rubric, .syllabus table.rubric, .schedule table.rubric {
-  border: dotted 1px #CCC;
-  width: 100%;
-  max-width: 100%;
-}
-
-.assignments table.rubric td, .assignments table.rubric th, .lectures table.rubric td, .lectures table.rubric th, .assignment table.rubric td, .assignment table.rubric th, .reference table.rubric td, .reference table.rubric th, .lecture table.rubric td, .lecture table.rubric th, .readings table.rubric td, .readings table.rubric th, .link-menu table.rubric td, .link-menu table.rubric th, .two-column article table.rubric td, .two-column article table.rubric th, .syllabus table.rubric td, .syllabus table.rubric th, .schedule table.rubric td, .schedule table.rubric th {
-  border-bottom: dotted 1px #CCC;
-}
-
-.assignments table.rubric th:nth-child(2), .lectures table.rubric th:nth-child(2), .assignment table.rubric th:nth-child(2), .reference table.rubric th:nth-child(2), .lecture table.rubric th:nth-child(2), .readings table.rubric th:nth-child(2), .link-menu table.rubric th:nth-child(2), .two-column article table.rubric th:nth-child(2), .syllabus table.rubric th:nth-child(2), .schedule table.rubric th:nth-child(2) {
-  width: 80px;
-}
-
-.assignments table.rubric tr:first-child, .lectures table.rubric tr:first-child, .assignment table.rubric tr:first-child, .reference table.rubric tr:first-child, .lecture table.rubric tr:first-child, .readings table.rubric tr:first-child, .link-menu table.rubric tr:first-child, .two-column article table.rubric tr:first-child, .syllabus table.rubric tr:first-child, .schedule table.rubric tr:first-child {
-  border-bottom: dotted 1px #CCC;
-}
-
-.assignments table.rubric tr:first-child th, .lectures table.rubric tr:first-child th, .assignment table.rubric tr:first-child th, .reference table.rubric tr:first-child th, .lecture table.rubric tr:first-child th, .readings table.rubric tr:first-child th, .link-menu table.rubric tr:first-child th, .two-column article table.rubric tr:first-child th, .syllabus table.rubric tr:first-child th, .schedule table.rubric tr:first-child th {
-  text-transform: uppercase;
-  color: #000;
-}
-
-.assignments table.rubric ul, .lectures table.rubric ul, .assignment table.rubric ul, .reference table.rubric ul, .lecture table.rubric ul, .readings table.rubric ul, .link-menu table.rubric ul, .two-column article table.rubric ul, .syllabus table.rubric ul, .schedule table.rubric ul {
-  margin: 0px;
-}
-
 .assignments ul, .lectures ul, .assignment ul, .reference ul, .lecture ul, .readings ul, .link-menu ul, .two-column article ul, .syllabus ul, .schedule ul {
   margin-top: 0px;
-}
-
-.assignments td:nth-child(1), .assignments th:nth-child(1) {
-  width: 60px !important;
-  font-weight: 500;
-}
-
-.schedule td:nth-child(2), .schedule th:nth-child(2) {
-  min-width: 80px;
-}
-
-.readings td:nth-child(2), .readings th:nth-child(2) {
-  width: 80px !important;
 }
 
 .readings h3 {
@@ -694,20 +732,7 @@ ol.readings li, ul.readings li {
   margin: 0px;
 }
 
-.lectures td:nth-child(1), .schedule td:nth-child(1), .readings td:nth-child(1) {
-  min-width: 60px;
-  width: 70px;
-}
-
-.lectures td:nth-child(1), .lectures th:nth-child(1), .lectures td:nth-child(2), .lectures th:nth-child(2), .schedule td:nth-child(1), .schedule th:nth-child(1), .schedule td:nth-child(2), .schedule th:nth-child(2), .readings td:nth-child(1), .readings th:nth-child(1), .readings td:nth-child(2), .readings th:nth-child(2) {
-  min-width: 60px;
-}
-
-.lectures td:nth-child(2), .schedule td:nth-child(2), .readings td:nth-child(2) {
-  min-width: 90px;
-}
-
-.lectures p, .lectures li, .lectures th, .lectures td, .schedule p, .schedule li, .schedule th, .schedule td, .readings p, .readings li, .readings th, .readings td {
+.lectures p, .lectures li, .schedule p, .schedule li, .readings p, .readings li {
   margin-top: 0px;
 }
 
@@ -809,42 +834,6 @@ blockquote.quote.slim:before {
   color: #676767;
   font-family: "Campton Extra Light";
   font-size: 1.5em;
-}
-
-.lectures table th:first-child {
-  min-width: 80px;
-}
-
-table {
-  margin-top: 30px;
-}
-
-table.grading, table.rubric {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  max-width: 500px;
-  border-collapse: collapse;
-}
-
-table.grading td:first-child, table.rubric td:first-child {
-  padding-left: 30px;
-}
-
-table.grading td, table.grading th, table.rubric td, table.rubric th {
-  border: dotted 1px #CCC;
-  padding: 3px;
-}
-
-table.grading td, table.rubric td {
-  font-size: 0.9em;
-}
-
-table.grading th, table.rubric th {
-  background: #F9F9F9;
-  padding-top: 5px;
-  font-weight: 500;
-  min-width: 80px;
-  text-align: left;
 }
 
 .container {
@@ -1038,70 +1027,6 @@ table.grading th, table.rubric th {
 
 .two-column article h1 {
   font-size: 1.8em;
-}
-
-.projects-container h2 {
-  margin-bottom: 30px;
-}
-
-.project-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 50px;
-}
-
-.project-container .image {
-  width: 30%;
-  padding-top: 15px;
-}
-
-.project-container .image img {
-  width: 100%;
-  border: solid 1px #CCC;
-}
-
-.project-container .image a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: solid 9px transparent;
-}
-
-.project-container .image a:hover {
-  border: solid 9px #F6F6F6;
-}
-
-.project-container .image a:hover img {
-  border: solid 1px #F6F6F6;
-}
-
-.project-container .data {
-  padding-left: 40px;
-  width: 70%;
-}
-
-@media (max-width: 1000px) {
-  .project-container .image {
-    width: 40%;
-  }
-  .project-container .data {
-    width: 60%;
-  }
-}
-
-@media (max-width: 800px) {
-  .project-container .image {
-    display: none;
-  }
-  .project-container .data {
-    padding-left: 0px;
-    width: 100%;
-  }
 }
 
 /*! Inkpot Theme; https://github.com/uraimo/pygments-vimstyles */
@@ -1482,20 +1407,24 @@ table.grading th, table.rubric th {
 
 /* Literal.Number.Integer.Long */
 @media (max-width: 1100px) {
-  .one-column main, .two-column main {
+  .one-column main {
     padding-left: 10vw;
     padding-right: 10vw;
   }
 }
 
 @media (max-width: 900px) {
-  .one-column main, .two-column main {
+  .one-column main {
     padding-left: 5vw;
     padding-right: 5vw;
   }
 }
 
 @media (max-width: 800px) {
+  .two-column main {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
   td {
     font-family: "Akkurat Pro Regular";
   }
@@ -1509,6 +1438,23 @@ table.grading th, table.rubric th {
   .schedule table td:nth-child(2), .schedule table th:nth-child(2) {
     min-width: 40px;
     width: 40px;
+  }
+  .two-column main > article {
+    margin-top: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  .two-column nav, .two-column aside {
+    display: none;
+  }
+  .two-column .desktop {
+    display: none;
+  }
+  .two-column .mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1538,9 +1484,6 @@ table.grading th, table.rubric th {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-  .one-column aside, .one-column nav, .two-column aside, .two-column nav {
-    display: none;
   }
   .one-column footer, .one-column header, .two-column footer, .two-column header {
     border: none;
@@ -1626,31 +1569,6 @@ table.grading th, table.rubric th {
   .one-column nav ul li:hover, .one-column nav ul li:active, .two-column nav ul li:hover, .two-column nav ul li:active {
     border-bottom: solid 1px #EEE;
     background: #E9E9E9;
-  }
-  .two-column main > article {
-    margin-top: auto;
-    width: auto;
-    margin: 0px;
-    padding: 0px;
-  }
-  .two-column nav {
-    display: none;
-    height: auto;
-    top: 65px;
-  }
-  .two-column .desktop {
-    display: none;
-  }
-  .two-column .mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  nav, header, aside, article {
-    -webkit-transition: all 0s;
-    transition: all 0s;
-    -webkit-transform: translateY(0) !important;
-            transform: translateY(0) !important;
   }
   .assignments section, .people section {
     width: 100%;

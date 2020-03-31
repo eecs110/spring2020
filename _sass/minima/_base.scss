@@ -1,9 +1,3 @@
-// $blue: #49ACBB;
-// $turquoise: #61cac8;
-// $purple: #b0809e;
-// $lightpink: #d85c8a;
-// $pink: #ff3775;
-// $redhot: #EB1962;
 $lightgrey: #F6F6F6;
 $grey: #999;
 $darkgrey: #5c5962;
@@ -37,33 +31,13 @@ body {
     border-bottom: solid transparent 2px;
 }
 
-td, th {
-    font-size: 0.9em;
-}
-td {
-    font-family: "Akkurat Pro Light";
-    strong, i, a.lec, a.hw, a.pj {
-        font-family: 'Akkurat Pro Regular';
-    }
-}
 p {
     font-size: 16px;
     line-height: 1.7em;
     color: #5c5962;
 }
- 
-h1, h2, h3, h4, h5 {
-    font-family: "Campton Book",Tahoma,sans-serif;
-    color: $nupurple;
-    font-weight: 600;
 
-    a, a:hover, a:visited, a:active {
-        text-decoration: none;
-        color: $nupurple;
-    }
-}
-
-p, th, td {
+p {
     line-height: 1.5em;
     margin-top: 5px;
 }
@@ -80,18 +54,58 @@ ol, ul {
     margin-top: 0px;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: "Campton Book",Tahoma,sans-serif;
+    color: $nupurple;
+    font-weight: 600;
+
+    a, a:hover, a:visited, a:active {
+        text-decoration: none;
+        color: $nupurple;
+    }
+}
+
+h1 {
+    font-weight: 400;
+    a, a:visited {
+        color: $nupurple;
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: -5px;
+    }
+    a:hover {
+        background: #EEE;
+        border-radius: 5px;
+    }
+    span {
+        display: inline-block;
+        border-radius: 4px;
+        color: white;
+        &.hw {
+            background: $purple;
+        }
+        &.pj {
+            background: $purple;
+        }
+    }
+}
 
 h2, h3, h4, h5 {
     margin-bottom: 0px;
+    &.slashes {
+        &::before, &::after {
+            background: url(https://common.northwestern.edu/v8/css/images/icons/grey-slash.svg) no-repeat 50%/17px 21px;
+            padding: 0 20px;
+            content: " ";
+        }
+    }
 }
 
-// h2 {
-//     &::before, &::after {
-//         background: url(https://common.northwestern.edu/v8/css/images/icons/grey-slash.svg) no-repeat 50%/17px 21px;
-//         padding: 0 20px;
-//         content: " ";
-//     }
-// }
+h2 {
+    border-bottom: solid 1px #444;
+    padding-bottom: 5px;
+}
 
 h3 {
     margin-bottom: 10px;
@@ -102,11 +116,6 @@ h4 {
 }
 h5 {
     font-size: 1.1em;
-}
-
-h2 {
-    border-bottom: solid 1px #444;
-    padding-bottom: 5px;
 }
 strong {
     font-weight: 600;
@@ -173,24 +182,7 @@ blockquote {
         margin: 0px;
     }
 }
-
-h1 {
-    font-weight: 400;
-    a, a:visited {
-        color: $nupurple;
-        text-decoration: none;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-left: -5px;
-    }
-    a:hover {
-        background: #EEE;
-        border-radius: 5px;
-    }
-}
-
-
-    
+  
 footer {
     grid-area: bottom;
 }
@@ -201,12 +193,6 @@ main {
         padding-top: 48px;
     }
 
-}
-table.xsmall {
-    width: 250px !important;
-}
-table.small {
-    width: 400px !important;
 }
 
 header {
