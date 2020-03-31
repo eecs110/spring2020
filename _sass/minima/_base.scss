@@ -185,6 +185,10 @@ blockquote {
   
 footer {
     grid-area: bottom;
+    p {
+        margin-top: 50px;
+        text-align: center;
+    }
 }
  
 main {

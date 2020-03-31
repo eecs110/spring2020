@@ -94,6 +94,8 @@ td {
 }
 
 table.grading, table.rubric {
+    border-top: dotted 1px #ccc;
+    border-bottom: dotted 1px #ccc;
     margin-top: 20px;
     margin-bottom: 20px;
     max-width: 500px;
