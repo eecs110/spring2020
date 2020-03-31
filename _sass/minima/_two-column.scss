@@ -124,35 +124,3 @@ $twocolHeaderHeight: 168px;
         }
     }
 }
-
-@media (max-width: 600px) {
-    .two-column {
-        main > article {
-            margin-top: auto;
-            width: auto;
-            margin: 3vh;
-            padding: 10px;
-        }
-        header {
-            height: 65px;
-            background: #444 !important;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.52), 0 1px 2px rgba(0,0,0,0.64);
-            color: white;
-            h1 { font-size: 1.3em; }
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-        }
-        nav {
-            display: none;
-            height: auto;
-            top: 65px;
-        }
-        .desktop { display: none; }
-        .mobile { display: flex; }
-    }
-    nav, header, aside, article {
-        transition: all 0s;
-        transform: translateY(0) !important;
-    }
-}

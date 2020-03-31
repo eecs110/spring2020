@@ -47,16 +47,12 @@ td {
     }
 }
 p {
-    // font-size: 1.1em;
-    // line-height: 1.8em;
     font-size: 16px;
     line-height: 1.7em;
     color: #5c5962;
 }
  
 h1, h2, h3, h4, h5 {
-    //font-family: 'Barlow Condensed', sans-serif;
-    // font-family: 46px/1.2em "Campton Book",Tahoma,sans-serif;
     font-family: "Campton Book",Tahoma,sans-serif;
     color: $nupurple;
     font-weight: 600;
@@ -98,7 +94,6 @@ h2, h3, h4, h5 {
 // }
 
 h3 {
-    // text-transform: uppercase;
     margin-bottom: 10px;
     
 }
@@ -150,11 +145,8 @@ ol.flush, ul.flush {
 }
 .checkbox:before {
     font-family:"Font Awesome 5 Pro";
-    // content: "\f14a";
-    // font-weight: 400;
     content: "\f00c";
     font-weight: 600;
-    // color: #999;
     color: #1cb954;
     margin-right: 10px;
     font-size: 1.5em;
@@ -184,7 +176,6 @@ blockquote {
 
 h1 {
     font-weight: 400;
-    // text-transform: uppercase;
     a, a:visited {
         color: $nupurple;
         text-decoration: none;
