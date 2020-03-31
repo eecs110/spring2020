@@ -1499,8 +1499,16 @@ table.grading th, table.rubric th {
   td {
     font-family: "Akkurat Pro Regular";
   }
-  .schedule th:nth-child(4), .schedule td:nth-child(4) {
+  .schedule table th:nth-child(4), .schedule table td:nth-child(4) {
     display: none;
+  }
+  .schedule table td:nth-child(1), .schedule table th:nth-child(1) {
+    min-width: 72px;
+    width: 72px;
+  }
+  .schedule table td:nth-child(2), .schedule table th:nth-child(2) {
+    min-width: 40px;
+    width: 40px;
   }
 }
 
