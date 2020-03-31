@@ -4,7 +4,7 @@
 // $lightpink: #d85c8a;
 // $pink: #ff3775;
 // $redhot: #EB1962;
-$lightgrey: #EEE;
+$lightgrey: #F6F6F6;
 $grey: #999;
 $darkgrey: #5c5962;
 $nupurple: #4e2a84;
@@ -196,14 +196,20 @@ h1 {
         background: #EEE;
         border-radius: 5px;
     }
+}
+
+
     
-    footer {
-        grid-area: bottom;
+footer {
+    grid-area: bottom;
+}
+ 
+main {
+    grid-area: main;
+    &.sticky {
+        padding-top: 48px;
     }
-     
-    main {
-         grid-area: main;
-    }
+
 }
 table.xsmall {
     width: 250px !important;
@@ -222,6 +228,7 @@ header {
         color: white;
         a, a:hover, a:visited, a:active {
             color: white;
+            background: none;
         }
     }
     h2 {
@@ -237,7 +244,7 @@ header {
     }
 }
 nav {
-    background: #F0F0F0;
+    background: $lightgrey;
     grid-area: menu;
     &.sticky {
         position: fixed;

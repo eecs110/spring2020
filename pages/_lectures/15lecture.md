@@ -1,9 +1,9 @@
 ---
 layout: lecture
-title: Dictionaries
+title: Files and Strings
 type: lecture
 draft: 1
-description: Dictionaries
+description: Files and Strings
 due_date: 2020-05-19
 ---
 

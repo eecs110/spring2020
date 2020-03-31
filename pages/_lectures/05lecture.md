@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: |
-    Functions 1: Introduction
+    Functions 1: How They Work
 type: lecture
 draft: 1
 description: IDK

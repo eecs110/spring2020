@@ -162,7 +162,7 @@ pre.highlight {
 }
 
 blockquote {
-  border-left: solid 7px #EEE;
+  border-left: solid 7px #F6F6F6;
   background: #F6F6F6;
   padding: 10px;
   margin: 0px;
@@ -191,16 +191,20 @@ h1 a:hover {
   border-radius: 5px;
 }
 
-h1 footer {
+footer {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: bottom;
 }
 
-h1 main {
+main {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: main;
+}
+
+main.sticky {
+  padding-top: 48px;
 }
 
 table.xsmall {
@@ -232,6 +236,7 @@ header h1 {
 
 header h1 a, header h1 a:hover, header h1 a:visited, header h1 a:active {
   color: white;
+  background: none;
 }
 
 header h2 {
@@ -247,7 +252,7 @@ header h2 a, header h2 a:hover, header h2 a:visited, header h2 a:active {
 }
 
 nav {
-  background: #F0F0F0;
+  background: #F6F6F6;
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: menu;
@@ -301,7 +306,7 @@ nav ul li:hover, nav ul li:active {
 
 .details .fa, .details .fas, .details .far, .details .fab {
   font-size: 1.8em;
-  color: #EEE;
+  color: #F6F6F6;
   margin-right: 10px;
 }
 
@@ -440,7 +445,7 @@ h1 span.pj {
 .assignments a, .assignments a:hover, .assignments a:visited, .assignments a:active, .lectures a, .lectures a:hover, .lectures a:visited, .lectures a:active, .assignment a, .assignment a:hover, .assignment a:visited, .assignment a:active, .reference a, .reference a:hover, .reference a:visited, .reference a:active, .lecture a, .lecture a:hover, .lecture a:visited, .lecture a:active, .readings a, .readings a:hover, .readings a:visited, .readings a:active, .link-menu a, .link-menu a:hover, .link-menu a:visited, .link-menu a:active, .two-column article a, .two-column article a:hover, .two-column article a:visited, .two-column article a:active, .syllabus a, .syllabus a:hover, .syllabus a:visited, .syllabus a:active, .schedule a, .schedule a:hover, .schedule a:visited, .schedule a:active {
   text-decoration: none;
   color: #444;
-  border-bottom: dotted #EEE 2px;
+  border-bottom: dotted #F6F6F6 2px;
 }
 
 .assignments a:hover, .lectures a:hover, .assignment a:hover, .reference a:hover, .lecture a:hover, .readings a:hover, .link-menu a:hover, .two-column article a:hover, .syllabus a:hover, .schedule a:hover {
@@ -511,7 +516,7 @@ h1 span.pj {
 }
 
 .assignments .lec, .assignments .lec:hover, .assignments a.lec, .lectures .lec, .lectures .lec:hover, .lectures a.lec, .assignment .lec, .assignment .lec:hover, .assignment a.lec, .reference .lec, .reference .lec:hover, .reference a.lec, .lecture .lec, .lecture .lec:hover, .lecture a.lec, .readings .lec, .readings .lec:hover, .readings a.lec, .link-menu .lec, .link-menu .lec:hover, .link-menu a.lec, .two-column article .lec, .two-column article .lec:hover, .two-column article a.lec, .syllabus .lec, .syllabus .lec:hover, .syllabus a.lec, .schedule .lec, .schedule .lec:hover, .schedule a.lec {
-  background: #EEE;
+  background: #F6F6F6;
   color: #444;
 }
 
@@ -520,7 +525,7 @@ h1 span.pj {
 }
 
 .assignments .ec, .assignments .ec:hover, .lectures .ec, .lectures .ec:hover, .assignment .ec, .assignment .ec:hover, .reference .ec, .reference .ec:hover, .lecture .ec, .lecture .ec:hover, .readings .ec, .readings .ec:hover, .link-menu .ec, .link-menu .ec:hover, .two-column article .ec, .two-column article .ec:hover, .syllabus .ec, .syllabus .ec:hover, .schedule .ec, .schedule .ec:hover {
-  background: #EEE;
+  background: #F6F6F6;
 }
 
 .assignments table, .lectures table, .assignment table, .reference table, .lecture table, .readings table, .link-menu table, .two-column article table, .syllabus table, .schedule table {
@@ -702,10 +707,6 @@ ol.readings li, ul.readings li {
   min-width: 90px;
 }
 
-.lectures td:nth-child(3), .schedule td:nth-child(3), .readings td:nth-child(3) {
-  min-width: 330px;
-}
-
 .lectures p, .lectures li, .lectures th, .lectures td, .schedule p, .schedule li, .schedule th, .schedule td, .readings p, .readings li, .readings th, .readings td {
   margin-top: 0px;
 }
@@ -740,7 +741,7 @@ blockquote.quote {
 
 blockquote.quote p:before {
   content: '“';
-  color: #EEE;
+  color: #F6F6F6;
   font-size: 2em;
   line-height: 0.1em;
   margin-right: 0.1em;
@@ -801,13 +802,13 @@ blockquote.quote.slim:before {
 }
 
 .assignment h2, .lecture h2, .details h2, .two-column article h2, .syllabus h2, .schedule h2 {
-  border-bottom: solid 1px #EEE;
+  border-bottom: solid 1px #F6F6F6;
 }
 
 .assignment h3, .lecture h3, .details h3, .two-column article h3, .syllabus h3, .schedule h3 {
   color: #676767;
-  font-weight: 500;
-  font-size: 1.3em;
+  font-family: "Campton Extra Light";
+  font-size: 1.5em;
 }
 
 @media (max-width: 600px) {
@@ -994,13 +995,13 @@ table.grading th, table.rubric th {
   }
   .one-column nav ul li.active, .two-column nav ul li.active {
     border-bottom: solid 1px #EEE;
-    background: #EEE;
+    background: #F6F6F6;
   }
   .one-column nav ul li.active a, .two-column nav ul li.active a {
     color: white;
   }
   .one-column nav ul li.active:hover, .one-column nav ul li.active:active, .two-column nav ul li.active:hover, .two-column nav ul li.active:active {
-    background: #EEE;
+    background: #F6F6F6;
   }
   .one-column nav ul li a, .two-column nav ul li a {
     display: -webkit-box;
@@ -1022,9 +1023,12 @@ table.grading th, table.rubric th {
   padding: 0px;
 }
 
-.two-column h1, .two-column h2, .two-column h3, .two-column h4 {
+.two-column main h1, .two-column main h2, .two-column main h3, .two-column main h4 {
   padding-top: 85px;
   margin-top: -70px;
+}
+
+.two-column main h2, .two-column main h3, .two-column main h4 {
   z-index: -1;
 }
 
@@ -1039,7 +1043,7 @@ table.grading th, table.rubric th {
 }
 
 .two-column header {
-  background: white;
+  height: 120px;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1058,8 +1062,7 @@ table.grading th, table.rubric th {
 }
 
 .two-column nav {
-  height: 60px;
-  background: white;
+  height: 48px;
   border-bottom: dotted 1px #CCC;
   width: 100vw;
   display: -webkit-box;
@@ -1071,24 +1074,27 @@ table.grading th, table.rubric th {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 100;
+}
+
+.two-column nav ul {
+  z-index: 300;
 }
 
 .two-column aside {
   background: #F6F6F6;
   position: absolute;
-  top: 135px;
+  top: 168px;
   left: 0px;
-  height: calc(100vh - $twocolHeaderHeight);
+  height: calc(100vh - 180px);
   width: 250px;
   overflow-y: auto;
   padding-bottom: 40px;
 }
 
 .two-column aside.sticky {
-  top: 60px;
+  top: 48px;
   position: fixed;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 48px);
 }
 
 .two-column aside h3 {
@@ -1119,10 +1125,11 @@ table.grading th, table.rubric th {
 
 .two-column aside .side-menu > li a {
   display: block;
+  padding-top: 5px;
 }
 
 .two-column aside .side-menu > li a.active {
-  background: #EEE;
+  background: #846dac;
   color: white;
 }
 
@@ -1161,8 +1168,12 @@ table.grading th, table.rubric th {
 .two-column article {
   width: calc(100vw - 250px);
   margin-left: 250px;
-  padding: 40px;
+  padding: 20px 40px;
   padding-right: 15vh;
+}
+
+.two-column article h1 {
+  font-size: 1.8em;
 }
 
 @media (max-width: 600px) {
@@ -1245,11 +1256,11 @@ table.grading th, table.rubric th {
 }
 
 .project-container .image a:hover {
-  border: solid 9px #EEE;
+  border: solid 9px #F6F6F6;
 }
 
 .project-container .image a:hover img {
-  border: solid 1px #EEE;
+  border: solid 1px #F6F6F6;
 }
 
 .project-container .data {

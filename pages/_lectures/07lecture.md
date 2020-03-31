@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: |
-    Functions 3: More Practice
+    Functions 3: Practice
 type: lecture
 draft: 1
 description:

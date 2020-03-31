@@ -1,9 +1,9 @@
 ---
 layout: lecture
-title: Intro to Cloud-Based Services
+title: Dictionaries
 type: lecture
 draft: 1
-description: Intro to Cloud-Based Services
+description: Dictionaries
 due_date: 2020-05-26
 ---
 

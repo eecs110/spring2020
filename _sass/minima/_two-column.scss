@@ -1,16 +1,20 @@
-$twocolHeaderHeight: 135px;
+$twocolHeaderHeight: 168px;
 .two-column {
-    h1, h2, h3, h4 {
-        padding-top: 85px;
-        margin-top: -70px;
-        z-index: -1;
+    main {
+        h1, h2, h3, h4 {
+            padding-top: 85px;
+            margin-top: -70px;
+        }
+        h2, h3, h4 {
+            z-index: -1;
+        }
     }
     padding: 0px;
     
     .desktop { display: flex; }
     .mobile { display: none; }
     header {
-        background: white;
+        height: 120px;
         width: 100vw;
         display: flex;
         align-items: center;
@@ -21,26 +25,28 @@ $twocolHeaderHeight: 135px;
         }
     }
     nav {
-        height: 60px;
-        background: white;
+        height: 48px;
+        // background: white;
         border-bottom: dotted 1px #CCC;
         width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 100;
+        ul {
+            z-index: 300;
+        }
     }
     aside {
         &.sticky {
-            top: 60px;
+            top: 48px;
             position: fixed;
-            height: calc(100vh - 60px);
+            height: calc(100vh - 48px);
         }
         background: #F6F6F6;
         position: absolute;
         top: $twocolHeaderHeight;
         left: 0px;
-        height: calc(100vh - $twocolHeaderHeight);
+        height: calc(100vh - 180px);
         width: 250px;
         overflow-y: auto;
         padding-bottom: 40px;
@@ -67,8 +73,9 @@ $twocolHeaderHeight: 135px;
             >li {
                 a {
                     display: block;
+                    padding-top: 5px;
                     &.active {
-                        background: $lightgrey;
+                        background: $lightpurple;
                         color: white;
                     }
                 }
@@ -109,8 +116,12 @@ $twocolHeaderHeight: 135px;
     article {
         width: calc(100vw - 250px);
         margin-left: 250px;
-        padding: 40px;
+        padding: 20px 40px;
         padding-right: 15vh;
+
+        h1 {
+            font-size: 1.8em;
+        }
     }
 }
 

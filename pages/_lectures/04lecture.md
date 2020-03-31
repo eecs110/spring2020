@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Variables, Operators, & Data Types
+title: The Building Blocks
 type: lecture
 draft: 0
 description:

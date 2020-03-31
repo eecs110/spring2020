@@ -1,9 +1,9 @@
 ---
 layout: lecture
-title: String Templates
+title: Dictionary Algorithms
 type: lecture
 draft: 1
-description: String Templates
+description: Dictionary Algorithms
 due_date: 2020-05-28
 ---
 

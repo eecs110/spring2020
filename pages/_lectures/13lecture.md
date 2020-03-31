@@ -1,9 +1,9 @@
 ---
 layout: lecture
-title: Exam 1
+title: Exam 1 Review
 type: lecture
 draft: 1
-description: Midterm Exam
+description: Lots of practice exam materials
 due_date: 2020-05-12
 ---
 

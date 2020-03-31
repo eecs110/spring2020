@@ -266,9 +266,9 @@ ol.readings, ul.readings {
     td:nth-child(2)  {
         min-width: 90px;
     }
-    td:nth-child(3)  {
-        min-width: 330px;
-    }
+    // td:nth-child(3)  {
+    //     min-width: 230px;
+    // }
     // td:nth-child(4)  {
     //     min-width: 235px !important;
     // }
@@ -368,8 +368,9 @@ blockquote.quote {
     }
     h3 {
         color: #676767;
-        font-weight: 500;
-        font-size: 1.3em;
+        font-family:"Campton Extra Light";
+        // color: $lightpurple;
+        font-size: 1.5em;
     }
 }
 

@@ -9,6 +9,17 @@
     const sticky = nav.offsetTop;
 
     const stickyToggle = (yPos) => {
+        const hasMinHeight = () => {
+            // only do sticky menu if page is tall enough to avoid weird blinking thing.
+            var body = document.body,
+                html = document.documentElement;
+            var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                           html.clientHeight, html.scrollHeight, html.offsetHeight );
+            return (height - window.innerHeight) > 200;
+        };
+        if (!hasMinHeight()) {
+            return;
+        }
         yPos = yPos || window.pageYOffset;
         if (yPos > sticky) {
             nav.classList.add("sticky");

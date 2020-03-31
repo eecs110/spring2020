@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: |
-    Functions 2: Creating Your Own
+    Functions 2: Making Them
 type: lecture
 draft: 1
 description:

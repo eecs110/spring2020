@@ -4,7 +4,7 @@ toc: 0
 ---
 {% assign lecture = page %}
 {% if page.due_date %}
-    {% assign dateStart = '2020-01-06' | date: '%s' %}
+    {% assign dateStart = site.term_start_date | date: '%s' %}
     {% assign lectureDate = page.due_date | date: '%s' %}
     {% assign diffSeconds = lectureDate | minus: dateStart %}
     {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}

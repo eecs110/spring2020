@@ -1,5 +1,5 @@
 ---
-layout: lecture
+layout: lecture-two-column
 title: Introduction
 type: lecture
 draft: 0
@@ -7,7 +7,7 @@ description: |
     Intro to the course.
 due_date: 2020-04-07
 slides_url: | 
-    https://docs.google.com/presentation/d/1l-g-d3AL1AoauTP0iQ2STK7yjL4YSpBGgUNI1N97agg/edit?usp=sharing
+    https://docs.google.com/presentation/d/1089_Wc3dV22F5ibP88iYGCNlSn-MNR3ASQd80Ajk8Aw/edit?usp=sharing
 readings:
   - title: "Ch1: Intro to Computing"
     author: "Charles Severance"
@@ -22,4 +22,12 @@ readings:
 
 ---
 
-Intro to the course!
+## Agenda
+
+### Watch the lecture
+
+### Review the slides
+
+### Do the readings
+
+### Take the quiz
