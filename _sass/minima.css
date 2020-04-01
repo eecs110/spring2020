@@ -1441,7 +1441,7 @@ blockquote.quote.slim:before {
     padding-left: 5vw;
     padding-right: 5vw;
   }
-  td {
+  table td {
     font-family: "Akkurat Pro Regular";
   }
   .schedule table th:nth-child(4), .schedule table td:nth-child(4) {
@@ -1475,9 +1475,6 @@ blockquote.quote.slim:before {
 }
 
 @media (max-width: 600px) {
-  td {
-    font-family: "Akkurat Pro Regular";
-  }
   .one-column main, .two-column main {
     min-height: 82vh;
     padding: 80px 20px 20px 20px;

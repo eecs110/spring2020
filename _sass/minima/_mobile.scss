@@ -28,8 +28,10 @@
             padding-right: 5vw;
         }
     }
-    td {
-        font-family: "Akkurat Pro Regular";
+    table {
+        td {
+            font-family: "Akkurat Pro Regular";
+        }
     }
     .schedule {
         table {
@@ -64,9 +66,6 @@
 }
     
 @media (max-width: 600px) {
-    td {
-        font-family: "Akkurat Pro Regular";
-    }
     .one-column, .two-column {
         main {
             min-height: 82vh;
