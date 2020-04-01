@@ -1,4 +1,4 @@
-$twocolHeaderHeight: 168px;
+$twocolHeaderHeight: 164px;
 .two-column {
     margin-bottom: 500px;
     main {
@@ -15,7 +15,7 @@ $twocolHeaderHeight: 168px;
     .desktop { display: flex; }
     .mobile { display: none; }
     header {
-        height: 120px;
+        height: 116px;
         width: 100vw;
         display: flex;
         align-items: center;
@@ -41,14 +41,14 @@ $twocolHeaderHeight: 168px;
         &.sticky {
             top: 48px;
             position: fixed;
-            height: calc(100vh - 48px);
+            height: calc(100vh - 44px);
             left: 0px;
         }
         background: #F6F6F6;
         position: absolute;
         top: $twocolHeaderHeight;
         left: 0px;
-        height: calc(100vh - 168px);
+        height: calc(100vh - 164px);
         width: 250px;
         overflow-y: auto;
         padding-bottom: 40px;

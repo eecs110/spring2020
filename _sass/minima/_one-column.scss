@@ -7,6 +7,9 @@
         "bottom";
 }
 .one-column {
+    header {
+        height: 116px;
+    }
     header, nav, footer, main {
         display: flex;
     }

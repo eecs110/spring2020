@@ -5,7 +5,7 @@ abbreviation: HW2
 type: homework
 due_date: 2020-04-21
 ordering: 1 
-points: 5
+points: 8
 draft: 1
 ---
 
