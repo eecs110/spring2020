@@ -41,7 +41,9 @@
         element_type = element_type || '*';
         const elements = document.getElementsByTagName(element_type);
         for (let i = 0; i < elements.length; i++) {
-            if (elements[i].getAttribute(attribute).includes(value)) { 
+            const target = elements[i].getAttribute(attribute).replace('#', '');
+            //console.log(target, value);
+            if (target === value) { 
                 return elements[i]; 
             }
         }
@@ -53,7 +55,6 @@
         };
         var targetID = ev.target.getAttribute('href');
         const targetAnchor = document.querySelector(targetID);
-        //stickyToggle(distanceToTop(targetAnchor));
         window.scrollBy({ top: distanceToTop(targetAnchor), left: 0, behavior: 'smooth' });
         ev.preventDefault();
     }
@@ -61,12 +62,10 @@
     const initPositions = () => {
         sections = {};
         document.querySelectorAll("h1, h2, h3, h4, h5").forEach(element => {
-            // console.log(e.id, e.offsetTop);
             if (element.id.length > 0) {
                 sections[element.id] = Math.abs(element.offsetTop - element.clientTop);
             }
         });
-        console.log(sections);
     };
 
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: two-column
 title: Syllabus
 permalink: /syllabus/
 ---
@@ -12,13 +12,29 @@ permalink: /syllabus/
 | **Lecture Time** | Tuesdays and Thursdays, 3:30 - 4:50pm |
 | **Lecture Location** | Online (for now) |
 
-This course is an introduction to computer programming using Python, and assumes no prior programming knowledge. The intent of the course is twofold. First, we want to give you a sense of the kinds of problem-solving and creative pursuits that programming can support. Programming can be many different things — a representational medium, a tool for thinking about problems, a way of amplifying and/or communicating ideas, a means of performing complex calculations over massive datasets, and so forth. Most people who write computer programs are not computer scientists, but rather people who occupy a range of professions (journalists, geographers, sociologists, scientists, artists, musicians, entrepreneurs, researchers, etc.), and who use various programming languages to accomplish diverse and specialized goals. Moreover, as data and computing increasingly mediate modern life, knowing a bit about the mechanisms (and risks!) that underlie these systems is a valuable modern literacy that is likely to serve you well.
+## About the Course
+CS 110 is an introduction to computer programming using Python, and assumes no prior programming knowledge. The intent of the course is twofold. First, we want to give you a sense of the kinds of problem-solving and creative pursuits that programming can support. Programming can be many different things — a representational medium, a tool for thinking about problems, a way of amplifying and/or communicating ideas, a means of performing complex calculations over massive datasets, and so forth. Most people who write computer programs are not computer scientists, but rather people who occupy a range of professions (journalists, geographers, sociologists, scientists, artists, musicians, entrepreneurs, researchers, etc.), and who use various programming languages to accomplish diverse and specialized goals. Moreover, as data and computing increasingly mediate modern life, knowing a bit about the mechanisms (and risks!) that underlie these systems is a valuable modern literacy that is likely to serve you well.
 
 A second goal of the course is to introduce you to the fundamental constructs of computer programming, and some skills and strategies for helping you apply these low-level constructs in creative and useful ways. Towards this end, there will be quite a few drills and practice problems to get you familiar with ‘the basics.’ You need to dedicate enough time to practicing the basics: the fun, creative parts of programming are only possible when you understand the building blocks; and understanding comes from an active, consistent, and iterative engagement with new ideas. Taking this course means committing — for 10 weeks — to attending lectures and office hours, turning in assignments / projects, doing (lots of) practice problems, and most importantly, persevering when things get difficult and asking questions. We have an excellent staff of teaching assistants and peer mentors who are here just for you and your questions and ideas. With your consistent and active participation in your own learning, we can guide you through the material so that you can become a proficient programmer. Welcome to the course!
 
+## Course Format
+
+### Lectures
+Lectures will be taught asynchronously (not live). Each lesson will be a combination of slides, pre-recorded "live-coding" videos, programming exercises, and (sometimes) a mini-quiz. That said, we will still be using the scheduled lecture time for more interactive Q&A sessions on Zoom with professor Van Wart -- to answer any questions about the material for that day. Organizationally, some topics/modules span multiple lectures (see the [course schedule](../)).
+
+### Tutorial Sessions
+This course involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 3. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of targeted programming concepts. Tutorial sessions are a way to earn participation points.
+
+There are two ways to earn full participation credit in each tutorial session:
+
+1. By attending them (synchronously), working through the exercises, and asking questions (as they arise).
+2. By turning in the tutorial exercise(s) ***before*** the tutorial session. Tutorial exercises will be posted at the beginning of the week (at least 48 hours in advance).
+
+I (prof. Van Wart) have a strong preference for option #1, because it's a form of low-pressure, built-in accountability that will help you learn. That said, it's up to you. Attending and working in the tutorials is worth 10% of your grade.  But you have to actually work -- if you zone out, we will know, and will not give you credit.
+
+Following the submission deadline, a solution and walkthrough of each problem will be made available via Canvas.
 
 ## Course Staff
-
 
 ### Peer Mentors
 
@@ -53,7 +69,6 @@ A second goal of the course is to introduce you to the fundamental constructs of
 
 ## Course Materials and Resources 
 
-
 ### Free Online Books
 
 * <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf">A Practical Introduction to Python Programming</a>, by Brian Heinold
@@ -63,25 +78,18 @@ A second goal of the course is to introduce you to the fundamental constructs of
 
 ### Software
 
-As this is a programming course, you will be using the free software programs listed below. This software will take about 3GB of space to install. Installing and configuring programming software can be a hassle, but it is part of the process of developing your working computing knowledge.  We will help you.
-
-* Python3
-* Anaconda
-* Visual Studio Code
-
+As this is a programming course, you will be using some free software programs (TBD). Installing and configuring programming software can be a hassle, but it is part of the process of developing your working computing knowledge.  We will help you.
 
 ## Getting Questions Answered
 
 
 ### Assignment & Programming Questions
-
 For assignment and programming related questions you should post questions on our class Piazza site. Before you post a question, please do a quick search to make sure that one of your classmates hasn’t already asked the same question. Piazza gives you the option of posting anonymously (to your classmates) so that you don’t feel intimidated to ask a question. As a general rule, do not post ANY code that would be part of an answer to an assignment question. It is critical that you use Piazza for assignment questions; any assignment questions emailed directly to any course staff will be forwarded to Piazza.
 
 If you have a question about code that requires you to show someone your code, please go to one of the peer mentor office hours. These hours (days/times/locations) are posted on a google calendar linked to from the Piazza resources page (under the ‘course information’ tab) for our class. In general, please use the peer mentor hours, these mentors were selected from a large number of applicants and are highly qualified!
 
 
 ### Grading Questions
-
 For grading questions/concerns you should go to the graduate TA’s grading office hours (also posted on the google calendar). You can also send them a private message through Piazza with assignment grading questions/concerns.
 
 
@@ -95,7 +103,12 @@ Office hours and locations / Zoom links are posted <a href="{{site.baseurl}}/tim
 ## Grading
 Your course grade is calculated based on 200 points as follows:
 
-XXXXXXXXXX
+{:.small}
+| **2 Projects** | 2 x 40 Points | 80 Points | 40% |
+| **1 Exam** | 60 Points | 60 Points | 30% |
+| **5 Homeworks** | 5 x 8 Points | 40 Points | 20% |
+| **5 Tutorials** | 5 x 4 Points | 20 Points | 10% |
+| | | **200 Points** | **100%** |
 
 Ordinarily, final grades are assigned on a fixed scale: 93-100 is 
 an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. However in light of the 
@@ -109,10 +122,8 @@ assignments to the best of your ability. Some other logistics:
 
 1. Final course grades will not be rounded or curved.
 1. We will not be using the final exam time for this class.
-1. Exam 2 will be on the last day of class (Thursday, 6/4). 
-        The purpose of Exam 2 is to get a second chance if for some reason, 
-        don't do well on your first exam.
-
+1. Exam 2 will be on the last day of class (Thursday, 6/4). The purpose of Exam 2 is to get a second chance if for some reason, 
+don't do well on your first exam.
 
 
 ### Homework Grading
@@ -121,36 +132,15 @@ Homework will be approximately weekly. They are due at 11:59pm on Thursdays spec
 
 We will still accept late homework up to 48 hours after the original due date, but with a 1.5 point penalty (30%). Homework is graded on the following scale:
 
-<table>
-  <tbody>
-    <tr>
-      <td><strong>No submission</strong></td>
-      <td>0 Points</td>
-      <td>Little to no understanding/effort demonstrated</td>
-    </tr>
-    <tr>
-      <td><strong>Check minus</strong></td>
-      <td>3 Points</td>
-      <td>Some effort made, but significant features are missing or not working</td>
-    </tr>
-    <tr>
-      <td><strong>Check</strong></td>
-      <td>4 Points</td>
-      <td>Mostly working, but some errors or issues were found</td>
-    </tr>
-    <tr>
-      <td><strong>Check Plus</strong></td>
-      <td>5 Points</td>
-      <td>Working exactly as it should</td>
-    </tr>
-  </tbody>
-</table>
+|--|--|
+| **No submission** | 0 Points | Little to no understanding/effort demonstrated |
+| **Check minus** | 4 Points | Some effort made, but significant features are missing or not working |
+| **Check** | 6 Points | Mostly working, but some errors or issues were found |
+| **Check Plus**| 8 Points | Working exactly as it should |
 
-If you would like to re-submit your homework, you have **one week** to revise and re-submit to (potentially) receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 30%. If you re-submit after first turning in a late homework assignment, you can only receive a maximum of 3.5/5 points. If you did not turn anything in (within 48 hours of the due date), you may not re-submit.
+If you would like to re-submit your homework, you have **one week** to revise and re-submit to (potentially) receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 30%. If you re-submit after first turning in a late homework assignment, you can only receive a maximum of 5.6/8 points. If you did not turn anything in (within 48 hours of the due date), you may not re-submit.
 
-In EXTREME circumstances (e.g, if you leave town for a funeral), you must contact your dean of students (like Joe Holtgreive) and have them contact me if they deem it necessary to give you an extension or make other accommodations. Please understand that we do this to make things fair for all students – I don’t want to be in charge of vetting individual students’ situations, and I don’t want students to have to tell me their personal troubles if they don’t want to.
-
-In your programming assignments, it is critical that you name your functions/classes/files EXACTLY as specified. More generally, failure to follow the specification given in the assignment will result in a significant score penalty. Because of the nature and size of the class, we will find it necessary to do some automated testing of your programming assignments. On occasion, this testing/grading may make an error. You will receive your assignment grades on Canvas. If you have any grading questions/concerns, please send a private message on Piazza within 1 week to the graduate TA (Mohammed Alam - MohammedAlam2009@u.northwestern.edu) to resolve the issue. We will NOT drop any scores in this class, but ***may*** offer up to 15 points of extra credit. Finally, it is your responsibility to keep up-to-date on class material and announcements. This includes material presented and announcements made in class, via email, or on Piazza.
+On occasion, this testing/grading may make an error. You will receive your assignment grades on Canvas. If you have any grading questions/concerns, please send a private message on Piazza within 1 week to the graduate TA (Mohammed Alam - MohammedAlam2009@u.northwestern.edu) to resolve the issue. We will NOT drop any scores in this class, but ***may*** offer up to 15 points of extra credit. Finally, it is your responsibility to keep up-to-date on class material and announcements. This includes material presented and announcements made in class, via email, or on Piazza.
 
 ## Policy on Academic Honesty
 
@@ -163,6 +153,17 @@ In the past, there have been a few unfortunate instances in which students have 
 
 
 Contact Sarah Van Wart if you have any questions about what is appropriate.
+
+## A Note on Class Recordings
+The Provost's office has asked instructors to publish the following language in the syllabus:
+
+> ### Class Recordings
+> This class or portions of this class may be recorded by the instructor for educational purposes. These recordings will be shared only with students enrolled in the course and will be deleted at the end of the Spring Quarter, 2020 course. Your instructor will communicate how you can access the recordings.
+>
+> ### Policy On Unauthorized Student Recording of Classroom or other Academic Activities
+> Unauthorized student recording of classroom or other academic activities (including advising sessions or office hours) is prohibited. Unauthorized recording is unethical and may also be a violation of University policy and state law. Students requesting the use of assistive technology as an accommodation should contact AccessibleNU. Unauthorized use of classroom recordings — including distributing or posting them — is also prohibited.  
+>
+> Under the University’s Copyright Policy, faculty own the copyright to instructional materials — including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations.  Students cannot copy, reproduce, display or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.
 
 ## Accommodations for Students with Disabilities
 

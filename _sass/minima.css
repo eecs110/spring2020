@@ -950,8 +950,8 @@ blockquote.quote.slim:before {
   background: #F6F6F6;
   position: absolute;
   top: 168px;
-  left: 0px;
-  height: calc(100vh - 180px);
+  left: 14px;
+  height: calc(100vh - 168px);
   width: 250px;
   overflow-y: auto;
   padding-bottom: 40px;
@@ -961,6 +961,7 @@ blockquote.quote.slim:before {
   top: 48px;
   position: fixed;
   height: calc(100vh - 48px);
+  left: 0px;
 }
 
 .two-column aside h3 {
@@ -1028,7 +1029,7 @@ blockquote.quote.slim:before {
 .two-column aside .side-menu li {
   margin-top: 0px;
   list-style-type: none;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 
 .two-column article {

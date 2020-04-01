@@ -1,5 +1,6 @@
 $twocolHeaderHeight: 168px;
 .two-column {
+    margin-bottom: 500px;
     main {
         h1, h2, h3, h4 {
             padding-top: 85px;
@@ -41,12 +42,13 @@ $twocolHeaderHeight: 168px;
             top: 48px;
             position: fixed;
             height: calc(100vh - 48px);
+            left: 0px;
         }
         background: #F6F6F6;
         position: absolute;
         top: $twocolHeaderHeight;
-        left: 0px;
-        height: calc(100vh - 180px);
+        left: 14px;
+        height: calc(100vh - 168px);
         width: 250px;
         overflow-y: auto;
         padding-bottom: 40px;
@@ -109,7 +111,7 @@ $twocolHeaderHeight: 168px;
             li {
                 margin-top: 0px;
                 list-style-type: none;
-                line-height: 1.5em;
+                line-height: 1.2em;
             }
         }
     }
