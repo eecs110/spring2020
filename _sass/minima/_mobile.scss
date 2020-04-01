@@ -56,8 +56,6 @@
             margin: 0px;
             padding: 0px;
         }
-        .desktop { display: none; }
-        .mobile { display: flex; }
 
         nav, aside {
             display: none;
@@ -123,6 +121,7 @@
                 top: 65px;
             }
             top: 65px;
+            height: auto;
             background: white;
 
             ul {

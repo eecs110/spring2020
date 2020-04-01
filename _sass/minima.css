@@ -855,6 +855,10 @@ blockquote.quote.slim:before {
       grid-template-areas: "top" "menu" "main" "bottom";
 }
 
+.one-column header {
+  height: 116px;
+}
+
 .one-column header, .one-column nav, .one-column footer, .one-column main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -886,6 +890,7 @@ blockquote.quote.slim:before {
 }
 
 .two-column {
+  margin-bottom: 500px;
   padding: 0px;
 }
 
@@ -909,7 +914,7 @@ blockquote.quote.slim:before {
 }
 
 .two-column header {
-  height: 120px;
+  height: 116px;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -949,9 +954,9 @@ blockquote.quote.slim:before {
 .two-column aside {
   background: #F6F6F6;
   position: absolute;
-  top: 168px;
-  left: 14px;
-  height: calc(100vh - 168px);
+  top: 164px;
+  left: 0px;
+  height: calc(100vh - 164px);
   width: 250px;
   overflow-y: auto;
   padding-bottom: 40px;
@@ -960,7 +965,7 @@ blockquote.quote.slim:before {
 .two-column aside.sticky {
   top: 48px;
   position: fixed;
-  height: calc(100vh - 48px);
+  height: calc(100vh - 44px);
   left: 0px;
 }
 
@@ -1462,14 +1467,6 @@ blockquote.quote.slim:before {
     margin: 0px;
     padding: 0px;
   }
-  .two-column .desktop {
-    display: none;
-  }
-  .two-column .mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .two-column nav, .two-column aside {
     display: none;
   }
@@ -1544,6 +1541,7 @@ blockquote.quote.slim:before {
   .one-column nav, .two-column nav {
     display: none;
     top: 65px;
+    height: auto;
     background: white;
   }
   .one-column nav.sticky, .two-column nav.sticky {
