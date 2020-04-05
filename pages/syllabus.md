@@ -128,7 +128,7 @@ don't do well on your first exam.
 
 ### Homework Grading
 
-Homework will be approximately weekly. They are due at 11:59pm on Thursdays specified.
+Homework will be approximately weekly. They are due at 11:59pm on Tuesdays unless otherwise specified.
 
 We will still accept late homework up to 48 hours after the original due date, but with a 1.5 point penalty (30%). Homework is graded on the following scale:
 
