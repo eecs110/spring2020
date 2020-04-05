@@ -153,18 +153,7 @@ Contact Sarah Van Wart if you have any questions about what is appropriate.
 
 ## Zoom Instructions
 
-To ensure a smooth lecture experience for everyone, we’ll need to follow some simple guidelines.	
-
-1. To protect your privacy and avoid outside disruptions, all class-related Zoom meetings will require authentication and be password-protected. You will need to connect to Zoom using Northwestern Single Sign-On (other Zoom accounts you may have will not work). Passwords will be available on the "Passwords" Canvas page.
-2. Keep your audio and video muted at all times, unless you’re asking a question. Your audio and video should be muted by default when you join the lecture meetings.
-3. To ask a question (I love questions!), please use the "raise hand" feature of Zoom. In the "Participants" pane (opened using the "Participants" button at the bottom of the screen), there is a "raise hand" button. When you raise your hand, I will receive a pop-up, and will acknowledge your question as soon as appropriate.
-  * To ask your question, please unmute your audio (and video, if you want), ask, then mute yourself again. Repeat as needed for follow-ups.
-  * We will have a member of the course staff present during lectures to monitor the meeting and the chat. If you think I may not have noticed your question (give me a few moments), or if asking your question directly is an issue (e.g., you prefer not be to recorded, or do not have a microphone), send the staff member on duty a direct message using Zoom’s chat feature.
-4. To avoid audio feedback when you speak up, please use headphones during Zoom meetings.
-5. Please refrain from "experimenting" with the various buttons in the interface, to avoid accidentally disrupting lecture. Zoom has a number of interesting features, but lecture is not the time to fiddle with them. If you want to try things out, please use a different meeting at a different time. I’m happy to help you with that if you want.
-
-We may need to adapt the above and/or introduce new guidelines as the quarter goes on. But above all, we’re relying on everyone doing their part to ensure a conducive learning environment. Thank you for your cooperation.
-
+To ensure a smooth lecture experience for everyone, we have created a [Zoom Guide](../zoom/) for you. Please refer to it to understand how to access the course Zoom sessions, and some of the recording and etiquette policies.
 
 ## A Note on Class Recordings
 The Provost's office has asked instructors to publish the following language in the syllabus:
