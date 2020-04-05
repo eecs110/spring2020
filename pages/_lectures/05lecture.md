@@ -4,7 +4,7 @@ title: |
     Functions 1: How They Work
 type: lecture
 draft: 1
-description: IDK
+description: ""
 due_date: 2020-04-14
 readings:
   - title: "Ch4: Functions"

@@ -144,4 +144,4 @@ Write a tip calculator. Ask the user for the price of the meal and the percent t
 
 
 ## What to Submit
-Please submit your main.py file, that includes code that successfully implements the nine exercises listed in Step 3 (from Heinold book). Before each exercise, use comments to indicate the number of the exercise that your code corresponds to.
+Please submit your main.py file, that includes code that successfully implements the nine exercises listed above (which come from the Heinold book). Before each exercise, use comments (or keep the existing ones) to indicate the number of the exercise that your code corresponds to.
