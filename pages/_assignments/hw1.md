@@ -71,11 +71,8 @@ cs110
 ```
 
 It may seem trivial, but take some time now to organize yourself. It will save you time in the long run!
-        
-### Step 2: Write and run your first program
-Open IDLE (see instructions above).
 
-### Step 3: Complete the following exercises
+### Step 2: Complete the following exercises
 Download the [main.py](../course-files/homework/hw01/main.py) starter file and save it in your hw01 folder. To edit **main.py** using IDLE:
 
 1. Right click on the **main.py** file that you just saved in your **hw02 folder** and open it with IDLE. 
