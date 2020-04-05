@@ -1,3 +1,10 @@
+{% if page.due_date %}
+    {% assign dateStart = site.term_start_date | date: '%s' %}
+    {% assign lectureDate = page.due_date | date: '%s' %}
+    {% assign diffSeconds = lectureDate | minus: dateStart %}
+    {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+    {% assign week = diffDays | divided_by: 7 | plus: 1 %}
+{% endif %}
 {% if page.title %}
     {% if page.layout == 'assignment' or page.layout == 'assignment-two-column' %}
         <h1>
@@ -8,13 +15,6 @@
         <h1>
             <a href="../">Schedule</a> > {{ page.title }}
         </h1>
-        {% if page.due_date %}
-            {% assign dateStart = site.term_start_date | date: '%s' %}
-            {% assign lectureDate = page.due_date | date: '%s' %}
-            {% assign diffSeconds = lectureDate | minus: dateStart %}
-            {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
-            {% assign week = diffDays | divided_by: 7 | plus: 1 %}
-        {% endif %}
         <div class="subtitle">
             {% if page.due_date %}
             Week {{ week }}: {{ page.due_date  | date: "%a, %b %-d" }}
@@ -22,7 +22,13 @@
             Lab
             {% endif %}
         </div>
-
+    {% elsif page.type == "tutorial" %}
+        <h1>
+            <a href="../tutorials/">Tutorials</a> > {{ page.title }}
+        </h1>
+        <div class="subtitle">
+            Week {{ week }}: {{ page.abbreviation }}
+        </div>
     {% else %}
         <h1>{{ page.title }}</h1>
     {% endif %}

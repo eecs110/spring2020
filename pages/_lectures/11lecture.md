@@ -4,6 +4,7 @@ title: |
     Loops 3: Looping Algorithms
 type: lecture
 draft: 1
+num: 9
 description:
   - If / Else
   - Booleans

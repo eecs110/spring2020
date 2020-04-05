@@ -4,6 +4,7 @@ title: |
     Loops 2: For Loops & Lists
 type: lecture
 draft: 1
+num: 8
 description:
   - If / Else
   - Booleans

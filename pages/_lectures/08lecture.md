@@ -3,6 +3,7 @@ layout: lecture
 title: Conditional Execution
 type: lecture
 draft: 1
+num: 6
 description:
   - If / Else
   - Booleans

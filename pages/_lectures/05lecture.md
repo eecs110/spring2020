@@ -1,8 +1,9 @@
 ---
 layout: lecture
 title: |
-    Functions 1: How They Work
+    Introduction to Functions
 type: lecture
+num: 3
 draft: 1
 description: ""
 due_date: 2020-04-14

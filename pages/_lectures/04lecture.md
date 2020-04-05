@@ -3,6 +3,7 @@ layout: module
 title: The Building Blocks
 type: lecture
 draft: 1
+num: 2
 show_schedule: 1
 description:
   - Variables, operators, and data types

@@ -4,6 +4,7 @@ title: |
     User Inputs & Events
 type: lecture
 draft: 1
+num: 10
 description:
   - If / Else
   - Booleans

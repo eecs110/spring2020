@@ -1,8 +1,8 @@
 ---
 layout: module
-title: |
-    L1: Introduction
+title: Introduction
 type: lecture
+num: 1
 draft: 1
 show_schedule: 1
 description: |

@@ -1,9 +1,9 @@
 ---
 layout: lecture
-title: |
-    Functions 2: Making Them
+title: Creating Your Own Functions
 type: lecture
 draft: 1
+num: 4
 description:
   - Creating your own functions
   - Lists and tuples (sequences)

@@ -1,8 +1,8 @@
 ---
 layout: lecture
-title: |
-    Functions 3: Practice
+title: Creating Your Own Functions (Continued)
 type: lecture
+num: 5
 draft: 1
 description:
   - Creating your own functions

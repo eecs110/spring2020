@@ -319,6 +319,13 @@ nav ul li:hover, nav ul li:active {
   border-bottom: solid 3px #999;
 }
 
+.subtitle {
+  margin: -20px 0px 15px 0px;
+  color: #676767;
+  font-family: "Campton Extra Light";
+  font-size: 1.2em;
+}
+
 @font-face {
   font-family: "Akkurat Pro Light";
   src: url("https://common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");
@@ -472,23 +479,24 @@ table.rubric ul {
   font-weight: 500;
 }
 
-.readings td:nth-child(2), .readings th:nth-child(2), .schedule td:nth-child(2), .schedule th:nth-child(2) {
+.readings td:nth-child(2), .readings th:nth-child(2), .schedule td:nth-child(2), .schedule th:nth-child(2), .tutorials td:nth-child(2), .tutorials th:nth-child(2) {
   min-width: 80px;
 }
 
-.readings td:nth-child(2), .readings th:nth-child(2), .schedule td:nth-child(2), .schedule th:nth-child(2) {
+.readings td:nth-child(2), .readings th:nth-child(2), .schedule td:nth-child(2), .schedule th:nth-child(2), .tutorials td:nth-child(2), .tutorials th:nth-child(2) {
   min-width: 100px;
 }
 
-.readings td:nth-child(4), .readings th:nth-child(4), .schedule td:nth-child(4), .schedule th:nth-child(4) {
-  min-width: 280px;
+.readings td:nth-child(3), .readings th:nth-child(3), .schedule td:nth-child(3), .schedule th:nth-child(3), .tutorials td:nth-child(3), .tutorials th:nth-child(3) {
+  min-width: 310px;
 }
 
-.readings td:nth-child(3), .readings th:nth-child(3), .schedule td:nth-child(3), .schedule th:nth-child(3) {
-  min-width: 210px;
+.readings td:last-child, .readings th:last-child, .schedule td:last-child, .schedule th:last-child, .tutorials td:last-child, .tutorials th:last-child {
+  max-width: 180px;
+  min-width: 100px;
 }
 
-.schedule td:nth-child(3), .schedule th:nth-child(3) {
+.schedule td:nth-child(3), .schedule th:nth-child(3), .tutorials td:nth-child(3), .tutorials th:nth-child(3) {
   min-width: 280px;
 }
 
@@ -578,43 +586,53 @@ table.small {
           flex-direction: column;
 }
 
+.assignments .badge, .assignments a.badge,
 .assignments .hw, .assignments a.hw,
 .assignments .pj, .assignments a.pj,
 .assignments .lec, .assignments a.lec,
 .assignments .lab, .assignments a.lab,
-.assignments .ec, .assignments a.ec, .lectures .hw, .lectures a.hw,
+.assignments .ec, .assignments a.ec, .lectures .badge, .lectures a.badge,
+.lectures .hw, .lectures a.hw,
 .lectures .pj, .lectures a.pj,
 .lectures .lec, .lectures a.lec,
 .lectures .lab, .lectures a.lab,
-.lectures .ec, .lectures a.ec, .assignment .hw, .assignment a.hw,
+.lectures .ec, .lectures a.ec, .assignment .badge, .assignment a.badge,
+.assignment .hw, .assignment a.hw,
 .assignment .pj, .assignment a.pj,
 .assignment .lec, .assignment a.lec,
 .assignment .lab, .assignment a.lab,
-.assignment .ec, .assignment a.ec, .reference .hw, .reference a.hw,
+.assignment .ec, .assignment a.ec, .reference .badge, .reference a.badge,
+.reference .hw, .reference a.hw,
 .reference .pj, .reference a.pj,
 .reference .lec, .reference a.lec,
 .reference .lab, .reference a.lab,
-.reference .ec, .reference a.ec, .lecture .hw, .lecture a.hw,
+.reference .ec, .reference a.ec, .lecture .badge, .lecture a.badge,
+.lecture .hw, .lecture a.hw,
 .lecture .pj, .lecture a.pj,
 .lecture .lec, .lecture a.lec,
 .lecture .lab, .lecture a.lab,
-.lecture .ec, .lecture a.ec, .readings .hw, .readings a.hw,
+.lecture .ec, .lecture a.ec, .readings .badge, .readings a.badge,
+.readings .hw, .readings a.hw,
 .readings .pj, .readings a.pj,
 .readings .lec, .readings a.lec,
 .readings .lab, .readings a.lab,
-.readings .ec, .readings a.ec, .link-menu .hw, .link-menu a.hw,
+.readings .ec, .readings a.ec, .link-menu .badge, .link-menu a.badge,
+.link-menu .hw, .link-menu a.hw,
 .link-menu .pj, .link-menu a.pj,
 .link-menu .lec, .link-menu a.lec,
 .link-menu .lab, .link-menu a.lab,
-.link-menu .ec, .link-menu a.ec, .two-column article .hw, .two-column article a.hw,
+.link-menu .ec, .link-menu a.ec, .two-column article .badge, .two-column article a.badge,
+.two-column article .hw, .two-column article a.hw,
 .two-column article .pj, .two-column article a.pj,
 .two-column article .lec, .two-column article a.lec,
 .two-column article .lab, .two-column article a.lab,
-.two-column article .ec, .two-column article a.ec, .syllabus .hw, .syllabus a.hw,
+.two-column article .ec, .two-column article a.ec, .syllabus .badge, .syllabus a.badge,
+.syllabus .hw, .syllabus a.hw,
 .syllabus .pj, .syllabus a.pj,
 .syllabus .lec, .syllabus a.lec,
 .syllabus .lab, .syllabus a.lab,
-.syllabus .ec, .syllabus a.ec, .schedule .hw, .schedule a.hw,
+.syllabus .ec, .syllabus a.ec, .schedule .badge, .schedule a.badge,
+.schedule .hw, .schedule a.hw,
 .schedule .pj, .schedule a.pj,
 .schedule .lec, .schedule a.lec,
 .schedule .lab, .schedule a.lab,
@@ -633,6 +651,11 @@ table.small {
   text-indent: 0px;
 }
 
+.assignments .badge, .assignments .badge:hover, .lectures .badge, .lectures .badge:hover, .assignment .badge, .assignment .badge:hover, .reference .badge, .reference .badge:hover, .lecture .badge, .lecture .badge:hover, .readings .badge, .readings .badge:hover, .link-menu .badge, .link-menu .badge:hover, .two-column article .badge, .two-column article .badge:hover, .syllabus .badge, .syllabus .badge:hover, .schedule .badge, .schedule .badge:hover {
+  background: #F6F6F6;
+  color: #444;
+}
+
 .assignments .hw, .assignments .hw:hover, .lectures .hw, .lectures .hw:hover, .assignment .hw, .assignment .hw:hover, .reference .hw, .reference .hw:hover, .lecture .hw, .lecture .hw:hover, .readings .hw, .readings .hw:hover, .link-menu .hw, .link-menu .hw:hover, .two-column article .hw, .two-column article .hw:hover, .syllabus .hw, .syllabus .hw:hover, .schedule .hw, .schedule .hw:hover {
   background: #684a98;
 }
@@ -642,8 +665,7 @@ table.small {
 }
 
 .assignments .lec, .assignments .lec:hover, .assignments a.lec, .lectures .lec, .lectures .lec:hover, .lectures a.lec, .assignment .lec, .assignment .lec:hover, .assignment a.lec, .reference .lec, .reference .lec:hover, .reference a.lec, .lecture .lec, .lecture .lec:hover, .lecture a.lec, .readings .lec, .readings .lec:hover, .readings a.lec, .link-menu .lec, .link-menu .lec:hover, .link-menu a.lec, .two-column article .lec, .two-column article .lec:hover, .two-column article a.lec, .syllabus .lec, .syllabus .lec:hover, .syllabus a.lec, .schedule .lec, .schedule .lec:hover, .schedule a.lec {
-  background: #F6F6F6;
-  color: #444;
+  background: #5B85AA;
 }
 
 .assignments .lab, .assignments .lab:hover, .lectures .lab, .lectures .lab:hover, .assignment .lab, .assignment .lab:hover, .reference .lab, .reference .lab:hover, .lecture .lab, .lecture .lab:hover, .readings .lab, .readings .lab:hover, .link-menu .lab, .link-menu .lab:hover, .two-column article .lab, .two-column article .lab:hover, .syllabus .lab, .syllabus .lab:hover, .schedule .lab, .schedule .lab:hover {
@@ -808,7 +830,7 @@ blockquote.quote.slim:before {
   font-size: 3em;
 }
 
-.schedule ul {
+.schedule ul, .tutorials ul {
   padding-left: 20px;
 }
 
@@ -1430,8 +1452,10 @@ blockquote.quote.slim:before {
     padding-left: 10vw;
     padding-right: 10vw;
   }
-  .readings td:nth-child(4), .readings th:nth-child(4), .readings td:nth-child(3), .readings th:nth-child(3), .schedule td:nth-child(4), .schedule th:nth-child(4), .schedule td:nth-child(3), .schedule th:nth-child(3) {
-    min-width: auto;
+  .readings td:nth-child(4), .readings th:nth-child(4), .readings td:nth-child(3), .readings th:nth-child(3), .readings th:last-child, .readings td:last-child, .schedule td:nth-child(4), .schedule th:nth-child(4), .schedule td:nth-child(3), .schedule th:nth-child(3), .schedule th:last-child, .schedule td:last-child, .tutorials td:nth-child(4), .tutorials th:nth-child(4), .tutorials td:nth-child(3), .tutorials th:nth-child(3), .tutorials th:last-child, .tutorials td:last-child {
+    min-width: 80px;
+    width: auto;
+    max-width: auto;
   }
 }
 
@@ -1450,16 +1474,16 @@ blockquote.quote.slim:before {
   table td {
     font-family: "Akkurat Pro Regular";
   }
-  .schedule table th:nth-child(4), .schedule table td:nth-child(4) {
-    display: none;
-  }
-  .schedule table td:nth-child(1), .schedule table th:nth-child(1) {
+  .schedule table td:nth-child(1), .schedule table th:nth-child(1), .tutorials table td:nth-child(1), .tutorials table th:nth-child(1) {
     min-width: 72px;
     width: 72px;
   }
-  .schedule table td:nth-child(2), .schedule table th:nth-child(2) {
+  .schedule table td:nth-child(2), .schedule table th:nth-child(2), .tutorials table td:nth-child(2), .tutorials table th:nth-child(2) {
     min-width: 40px;
     width: 40px;
+  }
+  .schedule table th:nth-child(4), .schedule table td:nth-child(4) {
+    display: none;
   }
   .two-column main > article {
     margin-top: auto;

@@ -4,6 +4,7 @@ title: |
     Loops 1: While Loops
 type: lecture
 draft: 1
+num: 7
 description:
   - If / Else
   - Booleans

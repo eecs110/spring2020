@@ -23,7 +23,10 @@ A second goal of the course is to introduce you to the fundamental constructs of
 Lectures will be taught asynchronously (not live). Each lesson will be a combination of slides, pre-recorded "live-coding" videos, programming exercises, and (sometimes) a mini-quiz. That said, we will still be using the scheduled lecture time for more interactive Q&A sessions on Zoom with professor Van Wart -- to answer any questions about the material for that day. Organizationally, some topics/modules span multiple lectures (see the [course schedule](../)).
 
 ### Tutorial Sessions
-This course involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 3. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of targeted programming concepts. Tutorial sessions are a way to earn participation points.
+This course involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 3. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of targeted programming concepts. Tutorial sessions count for 10% of your grade.
+
+{:.blockquote-no-margin}
+> You must complete/attend **at least five tutorial sessions** (4 points each).
 
 There are two ways to earn full participation credit in each tutorial session:
 
@@ -33,6 +36,7 @@ There are two ways to earn full participation credit in each tutorial session:
 I (prof. Van Wart) have a strong preference for option #1, because it's a form of low-pressure, built-in accountability that will help you learn. That said, it's up to you. Attending and working in the tutorials is worth 10% of your grade.  But you have to actually work -- if you zone out, we will know, and will not give you credit.
 
 Following the submission deadline, a solution and walkthrough of each problem will be made available via Canvas.
+
 
 ## Course Staff
 
