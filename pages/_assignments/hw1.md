@@ -34,7 +34,7 @@ Inside, the Python 3.8 folder, you'll find a file called **IDLE** - this is the 
 
 <img class="screenshot" src="/spring2020/assets/images/hw01/idle1.png" />
 
-I recommend keeping IDLE in your dock (on a MAC) or making a Desktop Shortcut to IDLE (on Windows).
+I recommend keeping IDLE in your dock (on a Mac) or making a Desktop Shortcut to IDLE (on Windows).
 
 At the **&gt;&gt;&gt;** prompt, you can type any valid python command. For example, type `print("hello world!")` and hit enter. You should see something like this:
 
