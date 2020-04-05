@@ -1,0 +1,93 @@
+---
+layout: two-column
+show_outline: 1
+show_schedule: 1
+---
+
+{{content}}
+
+{% assign num = 1 %}
+<h2 id="required">Required</h2>
+{% if page.videos %}
+    <h3 id="slides">{{num}}. Review the Course Slides & Videos</h3>
+    <ol>
+    {% for video in page.videos %}
+        <li>
+            {{video.title}}<br>
+            {% if video.slides_url %}
+                <a href="{{video.slides_url}}" target="_blank">slides</a> &bull;
+            {% endif %}
+            {% if video.video_url %}
+                <a href="{{video.video_url}}" target="_blank">video</a>
+            {% endif %}
+        </li>
+    {% endfor %}
+    </ol>
+    {% assign num = num | plus: 1 %}
+{% endif %}
+
+
+{% if page.exercise_url %}
+    <h3 id="exercises">{{num}}. Download & Complete the Programming Exercises</h3>
+    Note: The exercise file correspond with the videos and slides. We will also "live" code some of these
+    exercises in class.
+    <ul>
+        <li>
+            <a href="{{site.baseurl}}/{{page.exercise_url}}" target="_blank">exercise files</a>
+        </li>
+    </ul>
+    {% assign num = num | plus: 1 %}
+{% endif %}
+
+{% if page.quiz_url %}
+    <h3 id="quiz">{{num}}. Take the Quiz</h3>
+    <p>
+        Note: The quiz is to help you test your own understanding 
+        of the concepts. It is not graded, but it helps us understand 
+        how you're progressing through the course.
+    </p>
+    <p>{{page.quiz_url}}</p>
+    {% assign num = num | plus: 1 %}
+{% endif %}
+
+<h2>Recommended</h2>
+<h3>Attend the Lecture</h3>
+<p>During lecture, we will be live coding!</p>
+{% if page.readings %}
+    <h3 id="supplemental">Supplemental Course Materials</h3>
+    <p>
+        The supplemental course material are to help you to 
+        gain additional perspective on the 
+    </p>
+    {% include page_readings.html %} 
+{% endif %}
+
+{% if page.extras %}
+    <h2 id="reminders">Reminders</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Action Item</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for extra in page.extras %}
+        <tr>
+            <td>
+                {{extra.due_date}}
+                {% if extra.due_date_note %}
+                <br>({{ extra.due_date_note }})
+                {% endif %}
+            </td>
+            <td>
+                {{extra.comments}}
+                {% if extra.url %}
+                    <br><a href="{{extra.url}}">{{extra.title}}</a>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endif %}

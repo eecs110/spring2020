@@ -1,13 +1,20 @@
 ---
-layout: lecture-two-column
-title: Introduction
+layout: module
+title: |
+    L1: Introduction
 type: lecture
 draft: 1
+show_schedule: 1
 description: |
     Intro to the course.
 due_date: 2020-04-07
-slides_url: | 
-    https://docs.google.com/presentation/d/1089_Wc3dV22F5ibP88iYGCNlSn-MNR3ASQd80Ajk8Aw/edit?usp=sharing
+videos:
+  - slides_url: https://docs.google.com/presentation/d/1089_Wc3dV22F5ibP88iYGCNlSn-MNR3ASQd80Ajk8Aw/edit?usp=sharing
+    title: Intro to the Course
+    video_url: "#"
+  - slides_url: https://docs.google.com/presentation/d/1VnpgPgCzho_HOOOBZ0RI1D7a6xNXk95PdM7T6YdqYp0/edit?usp=sharing
+    title: Intro to Hardware & Software
+    video_url: "#"
 readings:
   - title: "Ch1: Intro to Computing"
     author: "Charles Severance"
@@ -19,15 +26,8 @@ readings:
     url: https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf
     source: "A Practical Introduction to Python Programming"
     year: 2012
+quiz_url: "#"
+
 
 ---
-
-## Agenda
-
-### Watch the lecture
-
-### Review the slides
-
-### Do the readings
-
-### Take the quiz
+Here is some important lecture content...

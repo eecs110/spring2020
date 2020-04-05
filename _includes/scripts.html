@@ -3,3 +3,11 @@
         <script type="text/javascript" src="{{ url }}"></script>
     {% endfor %}
     <script src="https://kit.fontawesome.com/62a7c74d0d.js" crossorigin="anonymous"></script>
+    <script>
+        //little bit of a hack:
+        const scrollLeft = () => {
+            //console.log('scrollLeft');
+            document.documentElement.scrollLeft = 0;
+        };
+        setTimeout(scrollLeft, 100);
+    </script>
