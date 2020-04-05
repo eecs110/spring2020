@@ -21,6 +21,9 @@ points: 8
 
 ## Part 1: Install Python and IDLE
 
+{: .blockquote-no-margin}
+> **NOTE:** If you have any issues installing Python or IDLE, contact the peer mentor who runs the tutorial session you signed up for. You are also welcome to attend any of the course office hours to get help.
+
 We will use the Python 3 programming language and **IDLE**, which is Python's Integrated Development and Learning Environment.
 
 Download the latest version (3.8.2) of python here: <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>
