@@ -1,12 +1,12 @@
 ---
 layout: assignment-two-column
 title: |
-    HW1: Installing Python & Writing Your First Programs
+    Installation & Introductory Exercises
 abbreviation: HW1
 type: homework
 due_date: 2020-04-14
 ordering: 1
-draft: 1
+draft: 0
 points: 8
 ---
 
@@ -21,42 +21,65 @@ points: 8
 
 ## Part 1: Install Python and IDLE
 
-We will use the Python 3.x programming language and **IDLE**, which is Python's Integrated Development and Learning Environment.
+We will use the Python 3 programming language and **IDLE**, which is Python's Integrated Development and Learning Environment.
 
 Download the latest version (3.8.2) of python here: <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>
 
-After going through the installation process, navigate to the folder on your machine where Python was installed. For me, on a Mac, it was Applications/Python 3.8 (or you can also search for it). For Windows users, it will likely be in a folder inside of Program Files.
+After going through the installation process, navigate to the folder on your machine where Python was installed. For me, on a Mac, my IDLE was saved to Applications > Python 3.8 (or you can also search for it). For Windows users, it will likely be in a folder inside of Program Files (which you can also search for).
 
-Inside, that folder, you'll find a file called **IDLE** - this is the IDLE executable. Double click on that file to run it. You should then see something like:
+Inside, the Python 3.8 folder, you'll find a file called **IDLE** - this is the IDLE executable. Double click on that file to run it. You should then see something like:
 
 <img class="screenshot" src="/spring2020/assets/images/hw01/idle1.png" />
 
-
 I recommend keeping IDLE in your dock (on a MAC) or making a Desktop Shortcut to IDLE (on Windows).
 
-At the >>>, you can type any valid python code. For example, type print("hello world!") and hit enter. You should see something like this.
+At the **&gt;&gt;&gt;** prompt, you can type any valid python command. For example, type `print("hello world!")` and hit enter. You should see something like this:
 
 <img class="screenshot" src="/spring2020/assets/images/hw01/idle2.png" />
 
 
 ## Part 2: Complete the Programming Exercises
-In the section above, you wrote a single line of python using the built-in **print** function. However, in this class, you'll be writing larger programs that are stored in files that end in **.py**, and then run the file (i.e. many lines of code all at once). To try this out.
+In the section above, you wrote a single line of python at the **&gt;&gt;&gt;** prompt. For instance: 
 
-### START HERE!!!
-Next, right click on the file that you just saved (examples.py) and open it with IDLE. You should now see some python code. Click anywhere inside that file so that your cursor is now in that window. Hit F5 (if you're on a MAC with a touchbar, hit the fn key and then F5). As an alternative to F5, you can also go to the Run menu and select "Run Module." Your code will then be executed at the python interpreter.
+`print("hello world!")`
 
-You should then see something like....
+However, in this class, you'll be writing larger programs that are stored in files that end with the "**.py**" extension. You will then run all of the code in the file all at once. To try this out, we will practice writing a Python file in this week's homework. Please follow the steps outlined below, and then complete the exercises.
+
 ### Step 1: Organize yourself!
 File management and organization are an essential part of programming. As such, we suggest the following system:
 1. Create a course folder: **cs110**
 2. Create a **homework** folder inside of the cs110 folder.
 3. Create a **hw01** folder inside of your homework folder.
 
+Sample file structure (there will be course lecture files as well):
+
+```
+cs110
+    |-- homework
+    │   |-- hw01
+    │   |-- hw02
+    |   ...
+    |
+    |-- lectures
+        |-- lecture_01
+        |-- lecture_02
+        |--lecture_03
+        ...
+```
+
+It may seem trivial, but take some time now to organize yourself. It will save you time in the long run!
+        
 ### Step 2: Write and run your first program
 Open IDLE (see instructions above).
 
 ### Step 3: Complete the following exercises
-Download the [main.py](../course-files/homework/hw01/main.py) starter file and save it in your hw01 folder. Then, complete the following 9 exercises within the main.py file.
+Download the [main.py](../course-files/homework/hw01/main.py) starter file and save it in your hw01 folder. To edit **main.py** using IDLE:
+
+1. Right click on the **main.py** file that you just saved in your **hw02 folder** and open it with IDLE. 
+2. You should now see some python code. Click anywhere inside that file so that your cursor is now in that window. 
+3. Hit F5 (if you're on a MAC with a touchbar, hit the **fn** key and then **F5**). As an alternative to F5, you can also go to the Run menu and select **Run Module**. Your code will then be executed by the Python interpreter.
+
+When you're done, please complete the following 9 exercises by editing the **main.py** file using IDLE. 
 
 #### 1. Print a box like the one below:
 ```
