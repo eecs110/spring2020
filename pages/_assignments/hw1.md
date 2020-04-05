@@ -56,7 +56,7 @@ File management and organization are an essential part of programming. As such, 
 Open IDLE (see instructions above).
 
 ### Step 3: Complete the following exercises
-Download the main.py starter file and save it in your hw01 folder. Then, complete the following 9 exercises within the main.py file.
+Download the [main.py](../course-files/homework/hw01/main.py) starter file and save it in your hw01 folder. Then, complete the following 9 exercises within the main.py file.
 
 #### 1. Print a box like the one below:
 ```
