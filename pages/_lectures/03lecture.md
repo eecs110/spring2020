@@ -13,7 +13,9 @@ slides:
      title: Course Logistics
    - url: https://docs.google.com/presentation/d/1VnpgPgCzho_HOOOBZ0RI1D7a6xNXk95PdM7T6YdqYp0/edit?usp=sharing
      title: Intro to Hardware & Software
-
+videos:
+   - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=358762a1-20dc-40b7-88d7-ab90001e7c46
+     title: Intro to Hardware & Software
 readings:
   - title: "Ch1: Intro to Computing"
     author: "Charles Severance"

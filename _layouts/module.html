@@ -54,6 +54,10 @@ show_schedule: 1
 
 {% if page.readings %}
     <h3 id="readings">{{ num }}. Review / Study the Supplemental Materials</h3>
+    <p>
+        Note: these readings / videos are suggested for additional context / 
+        examples, but not required.
+    </p>
     {% include page_readings.html %} 
     {% assign num = num | plus: 1 %}
 {% endif %}
