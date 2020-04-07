@@ -6,64 +6,71 @@ show_schedule: 1
 
 {{content}}
 
+<h2 id="do-now">Please Complete the Following Tasks</h2>
 {% assign num = 1 %}
-<h2 id="required">Required</h2>
-{% if page.videos %}
-    <h3 id="slides">{{num}}. Review the Course Slides & Videos</h3>
+
+{% if page.exercise_url %}
+    <h3 id="code">{{num}}. Download the Exercise Files</h3> 
     <ol>
-    {% for video in page.videos %}
         <li>
-            {{video.title}}<br>
-            {% if video.slides_url %}
-                <a href="{{video.slides_url}}" target="_blank">slides</a> &bull;
-            {% endif %}
-            {% if video.video_url %}
-                <a href="{{video.video_url}}" target="_blank">video</a>
-            {% endif %}
+            <a href="{{site.baseurl}}/course-files/lectures/{{page.exercise_url}}" target="_blank">Python Sample Files</a>
         </li>
-    {% endfor %}
     </ol>
     {% assign num = num | plus: 1 %}
 {% endif %}
 
-
-{% if page.exercise_url %}
-    <h3 id="exercises">{{num}}. Download & Complete the Programming Exercises</h3>
-    Note: The exercise file correspond with the videos and slides. We will also "live" code some of these
-    exercises in class.
-    <ul>
+<h3 id="slides">{{num}}. Review the Slides</h3>  
+{% assign num = num | plus: 1 %}
+{% if page.slides %}
+    <ol>
+    {% for slide in page.slides %}
         <li>
-            <a href="{{site.baseurl}}/{{page.exercise_url}}" target="_blank">exercise files</a>
+            <a href="{{slide.url}}" target="_blank">{{slide.title}}</a>
         </li>
-    </ul>
+    {% endfor %}
+    </ol>
+{% else %}
+    <p>Slides will be posted soon.</p>
+{% endif %}
+
+<h3 id="videos">{{num}}. Watch the Lecture Video(s)</h3>
+{% assign num = num | plus: 1 %}
+{% if page.videos %}
+    <ol>
+    {% for video in page.videos %}
+        <li>
+            <a href="{{video.url}}" target="_blank">{{video.title}}</a>
+            {% if video.live %}
+                (lecture recording)
+            {% else %}
+                (pre-recorded)
+            {% endif %}
+        </li>
+    {% endfor %}
+    </ol>
+{% else %}
+    <p>Videos will be posted soon.</p>
+{% endif %}
+
+{% if page.readings %}
+    <h3 id="readings">{{ num }}. Review / Study the Supplemental Materials</h3>
+    {% include page_readings.html %} 
     {% assign num = num | plus: 1 %}
 {% endif %}
 
 {% if page.quiz_url %}
-    <h3 id="quiz">{{num}}. Take the Quiz</h3>
+    <h3 id="quiz">{{ num }}. Take the Quiz</h3>
     <p>
         Note: The quiz is to help you test your own understanding 
         of the concepts. It is not graded, but it helps us understand 
         how you're progressing through the course.
     </p>
-    <p>{{page.quiz_url}}</p>
+    {{page.quiz_url}}
     {% assign num = num | plus: 1 %}
 {% endif %}
 
-<h2>Recommended</h2>
-<h3>Attend the Lecture</h3>
-<p>During lecture, we will be live coding!</p>
-{% if page.readings %}
-    <h3 id="supplemental">Supplemental Course Materials</h3>
-    <p>
-        The supplemental course material are to help you to 
-        gain additional perspective on the 
-    </p>
-    {% include page_readings.html %} 
-{% endif %}
-
 {% if page.extras %}
-    <h2 id="reminders">Reminders</h2>
+    <h3 id="reminders">{{ num }}. Reminders</h3>
     <table>
         <thead>
             <tr>

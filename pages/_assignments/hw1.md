@@ -66,7 +66,7 @@ cs110
     |-- lectures
         |-- lecture_01
         |-- lecture_02
-        |--lecture_03
+        |-- lecture_03
         ...
 ```
 
