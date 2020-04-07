@@ -23,7 +23,7 @@ readings:
 extras:
   - title: "sign-ups"
     comments: "You MUST sign up for a tutorial session."
-    url: "#"
+    url: "../assignments/hw0/"
     due_date: 2020-04-07
     due_date_note: "past due"
   - title: "configure python"
