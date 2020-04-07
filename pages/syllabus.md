@@ -20,7 +20,7 @@ A second goal of the course is to introduce you to the fundamental constructs of
 ## Course Format
 
 ### Lectures
-Lectures will be taught asynchronously (not live). Each lesson will be a combination of slides, pre-recorded "live-coding" videos, programming exercises, and (sometimes) a mini-quiz. That said, we will still be using the scheduled lecture time for more interactive Q&A sessions on Zoom with professor Van Wart -- to answer any questions about the material for that day. Organizationally, some topics/modules span multiple lectures (see the [course schedule](../)).
+Lectures will a combination of synchronous and asynchronous content, which will include a combination of slides, pre-recorded "live-coding" videos (during lecture), programming exercises, and (sometimes) a mini-quiz. We will still be using the scheduled lecture time for more interactive Q&A sessions on Zoom with Sarah (professor Van Wart) to answer any questions about the material for that day. Organizationally, some topics/modules span multiple lectures (see the [course schedule](../)). So, you are encouraged to attend the regularly scheduled lecture sessions on Zoom, but everything will be recorded and posted to the website.
 
 ### Tutorial Sessions
 This course involves weekly small-group tutorial sessions where you will work with a member of the teaching staff, beginning in Week 3. Tutorial sessions will be run synchronously (live) by your assigned peer mentors via Zoom. During each tutorial session, you will work through an exercise together with your peer mentor, to advance your understanding of targeted programming concepts. Tutorial sessions count for 10% of your grade.
