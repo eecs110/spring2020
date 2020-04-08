@@ -14,13 +14,22 @@ slides:
     title: The Building Blocks of Programming
 videos:
    - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a06db80a-e42d-4f4e-9559-ab96012be392
+     duration: |
+        06:22
      title: Using the Lecture Files
    - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41a588ed-e8f9-4a02-a183-ab96012e0753
+     duration: |
+        14:03
      title: Data Types & Variables
    - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=74153def-e372-483c-a37b-ab96013411e8
      title: Operators
+     duration: |
+        08:36
    - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2930cea4-4821-41a0-ab70-ab960136b2f4
      title: Built-in Functions
+     duration: |
+        13:31
+
 readings:
   - title: "Ch2: Variables"
     author: "Severance"

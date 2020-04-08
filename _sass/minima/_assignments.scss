@@ -37,6 +37,7 @@
     .pj, a.pj, 
     .lec, a.lec, 
     .lab, a.lab, 
+    .live, .recorded, 
     .ec, a.ec {
         display: inline-block;
         border-radius: 4px;
@@ -69,6 +70,12 @@
     }
     .ec, .ec:hover {
         background: $lightgrey;
+    }
+    .live {
+        background: $orange;
+    }
+    .recorded {
+        background: $mutedblue;
     }
     
     ul {

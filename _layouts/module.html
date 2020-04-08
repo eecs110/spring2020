@@ -11,11 +11,9 @@ show_schedule: 1
 
 {% if page.exercise_url %}
     <h3 id="code">{{num}}. Download the Exercise Files</h3> 
-    <ol>
-        <li>
-            <a href="{{site.baseurl}}/course-files/lectures/{{page.exercise_url}}" target="_blank">Python Sample Files</a>
-        </li>
-    </ol>
+    <a class="nu-button" href="{{site.baseurl}}/course-files/lectures/{{page.exercise_url}}" target="_blank">
+        Lecture Files <i class="fas fa-download"></i>
+    </a>
     {% assign num = num | plus: 1 %}
 {% endif %}
 
@@ -36,18 +34,44 @@ show_schedule: 1
 <h3 id="videos">{{num}}. Watch the Lecture Video(s)</h3>
 {% assign num = num | plus: 1 %}
 {% if page.videos %}
-    <ol>
-    {% for video in page.videos %}
-        <li>
-            <a href="{{video.url}}" target="_blank">{{video.title}}</a>
+    <table class="medium">
+        <thead>
+            <tr>
+                <th>Link</th>
+                <th>Title</th>
+                <th>Type</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% assign num = 1 %}
+        {% for video in page.videos %}
+            {% assign className = "recorded" %}
+            {% assign type = "pre-recorded" %}
             {% if video.live %}
-                (lecture recording)
-            {% else %}
-                (pre-recorded)
+                {% assign className = "live" %}
+                {% assign type = "lecture" %}
             {% endif %}
-        </li>
-    {% endfor %}
-    </ol>
+            <tr>
+                <td>
+                    <a class="{{ className }}" href="{{video.url}}" target="_blank">
+                        Video {{num}} <i class="fa fa-link"></i>
+                    </a>
+                </td>
+                <td>
+                    {{video.title}}
+                </td>
+                <td>
+                    {{ type }}
+                </td>
+                <td>
+                    {{ video.duration }}
+                </td>
+            </tr>
+            {% assign num = num | plus: 1 %}
+        {% endfor %}
+        </tbody>
+    </table>
 {% else %}
     <p>Videos will be posted soon.</p>
 {% endif %}
@@ -75,7 +99,7 @@ show_schedule: 1
 
 {% if page.extras %}
     <h3 id="reminders">{{ num }}. Reminders</h3>
-    <table>
+    <table class="medium">
         <thead>
             <tr>
                 <th>Date</th>

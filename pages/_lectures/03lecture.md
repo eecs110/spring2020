@@ -16,6 +16,13 @@ slides:
 videos:
    - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=358762a1-20dc-40b7-88d7-ab90001e7c46
      title: Intro to Hardware & Software
+     duration: |
+       24:35
+   - url: https://northwestern.zoom.us/rec/share/v_xSdenC-VFOBaf1zVzfdbIzQNnpaaa8hiYb_KIKyUZfF2YQVpoMMZmcJjcQb2Pd
+     title: Course Overview & Logistics
+     live: 1
+     duration: |
+       01:03:39
 readings:
   - title: "Ch1: Intro to Computing"
     author: "Charles Severance"
