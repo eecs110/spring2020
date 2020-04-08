@@ -51,6 +51,7 @@ Following the submission deadline, a solution and walkthrough of each problem wi
 1. Athipat Pipatpinyopong (athipatpipatpinyopong2022@u.northwestern.edu)
 1. Barbara Sledz (barbarasledz2022@u.northwestern.edu)
 1. Caroline Lobel (carolinelobel2022@u.northwestern.edu)
+1. Charlotte Jones (charlottejones2022@u.northwestern.edu)
 1. Chase Duvall (chaseduvall2023@u.northwestern.edu)
 1. Faraaz Beyabani (faraazbeyabani2020@u.northwestern.edu)
 1. Isaac Henry (isaachenry2022@u.northwestern.edu)
