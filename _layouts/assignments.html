@@ -7,12 +7,11 @@ layout: default
 {% assign now = 'now' | date: '%s' %}
             
 <section class="assignments">
-    <table>
+    <table class="assignments-table">
         <thead>
             <tr>
                 <th>Week</th>
                 <th>Assignment</th>
-                <th>Type</th>
                 <th>Description</th>
                 <th>Points</th>
                 <th>Due</th>
@@ -22,7 +21,9 @@ layout: default
         <tbody>
         {% assign last_week = 0 %}
         {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
-        {% for assignment in sortedAssignments %}
+        {% assign tutorials = site.lectures | sort: 'due_date' | where: "type", "tutorial" %}
+        {% assign assignments = sortedAssignments | concat: tutorials  | sort: 'due_date' %}
+        {% for assignment in assignments %}
             {% assign dueDate = assignment.due_date | date: '%s' %}
             {% assign diffSeconds = dueDate | minus: dateStart %}
             {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
@@ -30,6 +31,9 @@ layout: default
             {% assign className = 'pj' %}
             {% if assignment.type == 'homework' %}
                 {% assign className = 'hw' %}
+            {% endif %}
+            {% if assignment.type == 'tutorial' %}
+                {% assign className = 'lab' %}
             {% endif %}
             {% if assignment.type == 'extra credit' %}
                 {% assign className = 'ec' %}
@@ -40,16 +44,19 @@ layout: default
                     {% endif %}
                 </td>
                 <td>
+                    {% assign abbreviation = assignment.abbreviation %}
+                    {% unless assignment.abbreviation %}
+                        {% assign abbreviation = "Tutorial" | append: assignment.num %}
+                    {% endunless %} 
                     {% if assignment.draft == 1 %}
-                        {{ assignment.abbreviation }}
+                        {{ abbreviation }}
                     {% else %} 
                         <a class="{{ className }}" href="{{site.baseurl}}{{assignment.url}}">
-                            {{ assignment.abbreviation }} 
+                            {{ abbreviation }} 
                             <i class="fas fa-link"></i>
                         </a> 
                     {% endif %}                   
                 </td>
-                <td>{{ assignment.type }}</td>
                 <td>{{ assignment.title }}</span>
                 <td>{{ assignment.points }} points</td>
                 <td>{{ assignment.due_date | date: "%a, %m/%d" }}</td>
@@ -63,28 +70,45 @@ layout: default
         {% endfor %}
         </tbody>
     </table>
+
+    
 </section>
+
+
 {% if site.deadline_reminder %}
 <script>
     /* 
         Script for calculating # of days until assignment due.
         Note: Can't use Jekyll b/c it doesn't compile every time.
     */
-    const trs = document.querySelectorAll('tr');
+    const trs = document.querySelectorAll('.assignments-table tr');
     for (tr of trs) {
         const lastTd = tr.querySelector('td:last-child');
         if (lastTd) {
+            const isTutorial = tr.querySelector('.lab') != null || tr.querySelector('td:nth-child(2)').innerHTML.includes('Tutorial');
+            const nextToLastTd = lastTd.previousElementSibling;
+            nextToLastTd.style.maxWidth = "140px";
             const dateString = lastTd.querySelector('.due-date').innerHTML;
             const dueDate = new Date(dateString);
             const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
-            if (numDays < -1) {
-                lastTd.innerHTML = "passed"
-                tr.classList.add('passed');
+            if (isTutorial) {
+                nextToLastTd.innerHTML = "scheduled tutorial time";
             }
-            else if (numDays < 0) {
-                lastTd.innerHTML = "due tonight";
-            } else {
-                lastTd.innerHTML = numDays.toFixed();
+            if (numDays < -1) {
+                tr.classList.add('passed');
+                lastTd.innerHTML = "passed";
+            }
+            else if (isTutorial) {
+                lastTd.innerHTML = "<span style='font-family: Arial;'>&#8804;</span> " + (numDays + 1).toFixed();
+                //lastTd.innerHTML = '';
+            }
+            else {
+                if (numDays < 0) {
+                    lastTd.innerHTML = "due tonight";
+                }
+                else {
+                    lastTd.innerHTML = (numDays + 1).toFixed();
+                }
             }
         }
     }
