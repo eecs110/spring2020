@@ -18,15 +18,17 @@ draft: 0
     }
 </style>
 
+<a class="nu-button" href="/spring2020/course-files/homework/hw02.zip" target="_blank">
+    Homework Starter Files <i class="fas fa-download"></i>
+</a> 
+
 {: .blockquote-no-margin}
 > **LEARNING OBJECTIVES:** 
 > 1. Practice working with Python modules, including reading documentation
 > 1. Practice writing your own functions
 
 
-<img class="module-image" src="/spring2020/assets/images/hw02/creature.png" /> In this assignment, you are going to get some practice writing functions using tkinter that will ultimately enable you to create more complex shapes (like animals, trees, plants, etc.). To do this, we will be using a built-in python module: tkinter. Tkinter provides support for creating custom graphical user interfaces (GUIs). I created the buddy to the right using 5 circles, one polygon, and two lines (8 shapes total) in tkinter. Please download the homework starter files:<br><br><a class="nu-button" href="/spring2020/course-files/homework/hw02.zip" target="_blank">
-    Homework Starter Files <i class="fas fa-download"></i>
-</a> 
+<img class="creature" src="/spring2020/assets/images/hw02/creature.png" /> In this assignment, you are going to get some practice writing functions using tkinter that will ultimately enable you to create more complex shapes (like animals, trees, plants, etc.). To do this, we will be using a built-in python module: tkinter. Tkinter provides support for creating custom graphical user interfaces (GUIs). I created the buddy to the right using 5 circles, one polygon, and two lines (8 shapes total) in tkinter. Please download the homework starter files (above).
 
 ## 1. Background Information
 

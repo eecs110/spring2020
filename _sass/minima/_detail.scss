@@ -12,18 +12,23 @@
     border: solid 1px #CCC;
 }
 img.small {
-    width: 30%;
+    max-width: 30%;
 }
 img.medium {
-    width: 50%;
+    max-width: 50%;
 }
 img.med-lg {
-    width: 75%;
+    max-width: 75%;
 }
 .center {
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+img.creature {
+    max-width: 20%;
+    float: left;
+    margin: 0px 10px 0px 0px;
 }
 .module-image {
     border-radius: 5px;
@@ -54,5 +59,14 @@ img.med-lg {
     text-decoration: none;
     i {
         margin-left: 5px;
+    }
+}
+
+@media (max-width: 800px) { 
+    img.small, img.medium, img.med-lg {
+        max-width: 100%;
+    }
+    .module-image {
+        max-width: 50%;
     }
 }
