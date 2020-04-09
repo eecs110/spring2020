@@ -128,5 +128,11 @@ table.small {
     width: 400px !important;
 }
 table.medium {
-    width: 500px !important;
+    width: 600px !important;
+
+    &.module {
+        td:nth-child(2) {
+            max-width: 320px;
+        }
+    }
 }
