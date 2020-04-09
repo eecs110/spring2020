@@ -66,7 +66,7 @@ img.creature {
     img.small, img.medium, img.med-lg {
         max-width: 100%;
     }
-    .module-image {
-        max-width: 50%;
+    img.module-image, img.creature {
+        max-width: 40%;
     }
 }
