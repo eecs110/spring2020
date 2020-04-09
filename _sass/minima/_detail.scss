@@ -6,11 +6,30 @@
     font-size: 1.2em;
 }
 
-.module-image {
-    max-width: 30%;
+.frame {
     border-radius: 5px;
     padding: 5px;
     border: solid 1px #CCC;
+}
+img.small {
+    width: 30%;
+}
+img.medium {
+    width: 50%;
+}
+img.med-lg {
+    width: 75%;
+}
+.center {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.module-image {
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 1px #CCC;
+    max-width: 30%;
     float: left;
     margin: 0px 10px 0px 0px;
 }
