@@ -31,6 +31,11 @@ videos:
      title: Built-in Functions
      duration: |
         13:31
+   - url: https://northwestern.zoom.us/rec/share/7MVeBuHq9XFLfpX_2mjuZoQxG978X6a803cfqKJYy0k7ifhtnsf_MpUsQuT4Dck3
+     live: 1
+     title: Practice with variables, constants, & operators
+     duration: |
+        01:23:07
 
 readings:
   - title: "Ch2: Variables"
