@@ -18,7 +18,7 @@ draft: 1
 > 1. More practice working with built-in functions
 > 1. Practice writing your own functions
 
-<img class="creature" src="/spring2020/assets/images/hw02/creature.png" /> In this assignment, you are going to write a program to draw a creature of your own design/choosing using <a href="" target="_blank">tkinter</a>. Tkinter provides support for creating custom graphical user interfaces (GUIs). 
+<img class="creature" src="/spring2020/assets/images/hw02/creature.png" /> In this assignment, you are going to write a program to draw a creature of your own design/choosing using <a href="" target="_blank">tkinter</a>. At the end of this assignment, someone should be able to use your function to draw your creature: anywhere on the screen at any size or color. In other words, your function needs to honor the parameters that are passed into it. If you don't quite know what this means (it's a confusing concept for people just learning to program), ask Sarah during class or ask your TAs during tutorial / office hours.
 
 ## Part 1: Design your creature
 On paper, sketch out at least 3 creature ideas — it can be different variations of the same creature or all different ones. You can just implement the head of your creature (similar to the bear at the top) or the whole thing — the choice is up to you. Here are some links to ideas:
@@ -38,13 +38,12 @@ From your 3 sketched ideas, select the one that you would like to use for the as
 ## Part 2: Implement your "make_creature" function
 Once you are satisfied with your animal concept, create a `make_creature` function, inside of `creature.py`, using any combination of shapes (points, lines, polygons, rectangles, ovals, etc.). Feel free to use the `make_circle` and `make_oval` functions that you already implemented in homework 2. Also feel free to use any of the code in `warm_up.py`.
 
-> **Tips**: 
-> 1. Again, keep it simple (we recommend anywhere between 4-8 shapes)! You can always add more functionality later.
-> 2. Make only one or two changes at a time and then test out those changes by running your `main.py` file. This makes things easier to debug.
+**Tips**: 
+1. Keep it simple (we recommend anywhere between 4-8 shapes)! You can always add more functionality later.
+2. Make only one or two changes at a time and then test out those changes by running your `main.py` file. This makes things easier to debug.
 
 Once your function successfully draws the creature that you sketched (in Part 2), you will start adding positional and keyword parameters. There is already 1 positional parameter, canvas, used in the sample `make_creature` function. You will add to this:
 
-{:.checkbox-list}
 * <span class="hw">ALREADY DONE FOR YOU</span>  A positional (required) parameter, `canvas`, which will be a reference to your canvas object from main.py.
 * A positional (required) parameter, `center`, specifying the x-y position of the center of your creature (should be a tuple).
 * A keyword (optional) parameter, `primary_color` specifying the primary color of the creature. In the case of the bear, this is the face color. Remember, optional parameters require default values.
@@ -57,12 +56,12 @@ When you're done, please add at least three calls to the `make_creature` functio
 # with a function, you can make slightly different versions of your design, 
 # thereby reusing the same code over and over again
 
-make_creature(canvas, (92, 115), width=85, primary_color='#5e6976', secondary_color='#1b324d')
-make_creature(canvas, (487, 110), width=101, primary_color='#bfdc65', secondary_color='#abb880')
-make_creature(canvas, (454, 423), width=141, primary_color='#aebb83', secondary_color='#227876')
-make_creature(canvas, (333, 227), width=99, primary_color='#94ba77', secondary_color='#3f5364')
-make_creature(canvas, (117, 314), width=91, primary_color='#648d8e', secondary_color='#afc272')
-make_creature(canvas, (199, 469), width=122, primary_color='#3f5364', secondary_color='#bfdc65')
+make_creature(canvas, (92, 115), size=85, primary_color='#5e6976', secondary_color='#1b324d')
+make_creature(canvas, (487, 110), size=101, primary_color='#bfdc65', secondary_color='#abb880')
+make_creature(canvas, (454, 423), size=141, primary_color='#aebb83', secondary_color='#227876')
+make_creature(canvas, (333, 227), size=99, primary_color='#94ba77', secondary_color='#3f5364')
+make_creature(canvas, (117, 314), size=91, primary_color='#648d8e', secondary_color='#afc272')
+make_creature(canvas, (199, 469), size=122, primary_color='#3f5364', secondary_color='#bfdc65')
 
 # helper code for making a grid
 make_grid(canvas, screen_width, screen_height)
@@ -70,8 +69,11 @@ make_grid(canvas, screen_width, screen_height)
 
 <img class="medium frame center" src="/spring2020/assets/images/hw03/creatures.png" />
 
+
 ## What to Submit
-Please create a zip file that includes the following files:
+Before you submit, please do test your make creature function by invoking the function calls above. If your function is working correctly, all of the input parameters will be honored (i.e. the creature will be drawn at the correct position at (roughly) the specified size, with the specified colors).
+
+When you're done, please create a zip file that includes the following files:
 
 1. A photo / scan of your sketches (PDF or JPG)
 1. Your helpers.py file
