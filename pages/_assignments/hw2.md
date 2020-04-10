@@ -9,15 +9,6 @@ points: 8
 draft: 0
 ---
 
-<style>
-    .screenshot {
-        width: 100%;
-        border: solid 1px #ccc;
-        padding: 6px;
-        border-radius: 5px;
-    }
-</style>
-
 <a class="nu-button" href="/spring2020/course-files/homework/hw02.zip" target="_blank">
     Homework Starter Files <i class="fas fa-download"></i>
 </a> 
