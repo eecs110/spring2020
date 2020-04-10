@@ -61,15 +61,17 @@ make_square(canvas, (200, 50), 50, fill_color='#8FCB9B')
 
 <img class="small frame" src="/spring2020/assets/images/tutorial01/after1.png" />
 
-## Part 2: Triangle Challengs
+## Part 2: Triangle Challenge
 Please open `triangle_challenge.py` in IDLE, which is located in the `tutorial01` folder. Take a look at it and then run it. You should see something like this:
 
 <img class="medium frame" src="/spring2020/assets/images/tutorial01/before2.png" />
 
 ### A. Create a make_triangle_left function
+TBD
 
 
 ### B. Create a make_triangle_right function
+TBD
 
 ### C. Use your make_square function to create a drawing
 When you've finished making your `make_triangle_left` and `make_triangle_right` functions, invoke these functions to create the pattern pictured below by copying the following code and pasting it ***below*** your function definition, but ***above*** the helpers.make_grid(...) function:
