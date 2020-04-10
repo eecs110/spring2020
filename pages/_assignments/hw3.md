@@ -70,7 +70,7 @@ make_grid(canvas, screen_width, screen_height)
 
 <img class="medium frame center" src="/spring2020/assets/images/hw03/creatures.png" />
 
-## 3. What to Submit
+## What to Submit
 Please create a zip file that includes the following files:
 
 1. A photo / scan of your sketches (PDF or JPG)
