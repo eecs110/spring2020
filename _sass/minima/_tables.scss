@@ -43,23 +43,23 @@ table {
         text-align: left;
     }
 }
-table.rubric {
-    td, th {
-        border-bottom: dotted 1px #CCC;
-        // font-size: 0.95em;
+table.rubric-short {
+    td:nth-child(1), th:nth-child(1) {
+        width: 40px;
+        min-width: 40px;
+        max-width: 40px;
     }
-    th:nth-child(2) {
+    td:nth-child(2), th:nth-child(2) {
         width: 80px;
     }
-    border: dotted 1px #CCC;
-    width: 100%;
-    max-width: 100%;
-    tr:first-child {
-        border-bottom: dotted 1px #CCC;
-        th {
-            text-transform: uppercase;
-            color: #000;
-        }
+    ul {
+        margin: 0px;
+    }
+}
+
+table.rubric {
+    td:nth-child(1), th:nth-child(1) {
+        min-width: 160px;
     }
     ul {
         margin: 0px;
@@ -93,33 +93,6 @@ table.rubric {
         min-width: 280px;
     }
 }
-
-table.grading, table.rubric {
-    border-top: dotted 1px #ccc;
-    border-bottom: dotted 1px #ccc;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    max-width: 500px;
-    border-collapse: collapse;
-    td:first-child {
-        padding-left: 30px;
-    }
-    td, th {
-        border: dotted 1px #CCC;
-        padding: 3px;
-    }
-    td {
-        font-size: 0.9em;
-    }
-    th {
-        background: #F9F9F9;
-        padding-top: 5px;
-        font-weight: 500;
-        min-width: 80px;
-        text-align: left;
-    }
-}
-
 
 table.xsmall {
     width: 250px !important;

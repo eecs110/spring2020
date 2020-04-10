@@ -54,6 +54,11 @@
             }
         }
     }
+    table.rubric {
+        td:nth-child(1), th:nth-child(1) {
+            min-width: auto;
+        }
+    }
 
     .two-column {
         main > article {
