@@ -1,11 +1,11 @@
 <nav>
     <ul>
-        <li {% if page.url == "/" or page.url contains "/lectures/" %}class="active"{% endif %}><a href="{{site.baseurl}}/" >Schedule</a></li>
+        <li {% if page.url == "/" or page.url contains "/lectures/" %}class="active"{% endif %}><a href="{{site.baseurl}}/" >Lessons</a></li>
         <li {% if page.url == "/syllabus/" %}class="active"{% endif %}><a href="{{site.baseurl}}/syllabus/">Syllabus</a></li>
         <li {% if page.url contains "/assignments/" %}class="active"{% endif %}><a href="{{site.baseurl}}/assignments/">Assignments</a></li>
-        <li {% if page.url contains "/tutorials/" %}class="active"{% endif %}><a href="{{site.baseurl}}/tutorials/">Tutorials</a></li>
+        <!-- <li {% if page.url contains "/tutorials/" %}class="active"{% endif %}><a href="{{site.baseurl}}/tutorials/">Tutorials</a></li> -->
         <li {% if page.url == "/zoom/" %}class="active"{% endif %}><a href="{{site.baseurl}}/zoom/">Zoom Info</a></li>
-        <li {% if page.url == "/times-locations/" %}class="active"{% endif %}><a href="{{site.baseurl}}/times-locations/">Office Hours</a></li>
+        <li {% if page.url == "/times-locations/" %}class="active"{% endif %}><a href="{{site.baseurl}}/times-locations/">Calendar</a></li>
         <li><a href="{{site.piazza_url}}" target="_blank">Piazza</a></li>
     </ul>
 </nav>
