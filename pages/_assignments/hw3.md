@@ -6,7 +6,7 @@ type: homework
 due_date: 2020-04-28
 ordering: 2
 points: 8
-draft: 1
+draft: 0
 ---
 
 <a class="nu-button" href="/spring2020/course-files/homework/hw03.zip" target="_blank">
