@@ -20,8 +20,8 @@ This tutorial is based on content that is reviewed in Lessons 1-4, and is intend
 > **LEARNING OBJECTIVES:** 
 > In order to prepare you for this week's homework, we wanted to use this tutorial session to go over a couple of important logistical and conceptual ideas.
 >
-> 1. 
-> 1. Making sure that TKinter is successfully running on your machineCreating functions
+> 1. Making sure that TKinter is successfully running on your machine
+> 1. Creating functions
 > 1. Working with parameters & arguments
 > 1. Translating specifications into smaller steps that a computer can perform
 
