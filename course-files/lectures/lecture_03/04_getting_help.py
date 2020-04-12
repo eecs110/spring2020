@@ -1,6 +1,8 @@
-# I/O
+# Other Examples:
+# Input / Ouput Functions
 #   1. print()
 #   2. input()
+
 # Understanding your data & functions
 #   1. type()
 #   2. dir()
