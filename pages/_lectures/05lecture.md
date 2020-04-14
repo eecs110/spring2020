@@ -14,6 +14,27 @@ slides:
     title: "The Command Line"
   - url: https://docs.google.com/presentation/d/1IXQhMBo0sM477a3W3VSF38E7CBa3HBAmN_OVKvvH9Qg/edit?usp=sharing
     title: "Working with Functions & Modules"
+videos: 
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e2fe3ec-2b11-42b4-98eb-ab9d000de6e7
+    duration: "12:40"
+    title: |
+      Demo: Working with the Command Line
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=417ca261-a7cc-4ad5-a1d6-ab9d0011938b
+    duration: "05:59"
+    title: |
+      Demo: 3 Ways to Execute Python
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5adcb304-8235-4be2-9e74-ab9d001794db
+    title: "Lists & Tuples"
+    duration: "10:16"
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07ed0a0a-7dc0-4808-9c2a-ab9d001ac22a
+    title: "Expressions & Intro to Functions"
+    duration: "10:33"
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7095e4c7-d6cb-4896-9a36-ab9d001dd1e0
+    title: "More Function Rules"
+    duration: "11:22"
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4a99ebae-8aab-424a-8e7e-ab9d00213d62
+    title: "Built-In Functions"
+    duration: "09:24"
 readings:
   - title: "Ch4: Functions"
     author: "Severance"
