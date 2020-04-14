@@ -37,6 +37,11 @@ videos:
   - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4a99ebae-8aab-424a-8e7e-ab9d00213d62
     title: "Built-In Functions"
     duration: "09:24"
+  - url: https://northwestern.zoom.us/rec/share/ps56Cr-g_2BLXbfw8kjHQYUDOoDJaaa8higfqaIFnko-Lq4V-FiIgTKfIC3HwejI
+    title: "Practice with Built-In Functions"
+    duration: "01:33:20"
+    live: 1
+
 readings:
   - title: "Ch4: Functions"
     author: "Severance"
