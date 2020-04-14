@@ -148,3 +148,6 @@ make_bullseye(canvas, (400, 400), 20, distance=10)
 
 ## 3. What to Submit
 Please zip the entire `hw02` folder and name the zip file `hw02.zip`. We will only be grading your `main.py` file, but since there are dependencies, we would like you to submit all of the files together via a zip file.
+
+{% capture my_include %}{% include tkinter_bug_mac.md %}{% endcapture %}
+{{ my_include | markdownify }}

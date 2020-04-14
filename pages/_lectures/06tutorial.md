@@ -130,3 +130,7 @@ As described in the syllabus, there are two ways to earn full participation cred
 2. By turning in the tutorial exercise(s) ON CANVAS **before** the tutorial session. Tutorial exercises will be posted at the beginning of the week (at least 48 hours in advance). 
 
 Whichever option you choose, you will be expected to know the material reviewed in the tutorial for the exam, and are encouraged to fully complete and submit the tutorial assignments (though this is not required if you attended the tutorial).
+
+
+{% capture my_include %}{% include tkinter_bug_mac.md %}{% endcapture %}
+{{ my_include | markdownify }}
