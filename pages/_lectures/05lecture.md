@@ -14,6 +14,8 @@ slides:
     title: "The Command Line"
   - url: https://docs.google.com/presentation/d/1IXQhMBo0sM477a3W3VSF38E7CBa3HBAmN_OVKvvH9Qg/edit?usp=sharing
     title: "Working with Functions & Modules"
+  - url: https://docs.google.com/presentation/d/13o16NrUAeAyrTRKDYEpn9ZccUwdem1r_ByvGKEQa9hQ/edit?usp=sharing
+    title: Supplementary Slides for Live Lecture
 videos: 
   - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e2fe3ec-2b11-42b4-98eb-ab9d000de6e7
     duration: "12:40"

@@ -44,7 +44,7 @@ show_schedule: 1
             </tr>
         </thead>
         <tbody>
-        {% assign num = 1 %}
+        {% assign vnum = 1 %}
         {% for video in page.videos %}
             {% assign className = "recorded" %}
             {% assign type = "pre-recorded" %}
@@ -55,7 +55,7 @@ show_schedule: 1
             <tr>
                 <td>
                     <a class="{{ className }}" href="{{video.url}}" target="_blank">
-                        Video {{num}} <i class="fa fa-link"></i>
+                        Video {{vnum}} <i class="fa fa-link"></i>
                     </a>
                 </td>
                 <td>
@@ -68,7 +68,7 @@ show_schedule: 1
                     {{ video.duration }}
                 </td>
             </tr>
-            {% assign num = num | plus: 1 %}
+            {% assign vnum = vnum | plus: 1 %}
         {% endfor %}
         </tbody>
     </table>

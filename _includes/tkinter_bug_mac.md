@@ -1,5 +1,3 @@
-## Warning for Mac users: The TKinter bug
-
 There is a known bug that happens on ***some*** newer MacOS laptops, that is described <a href="https://www.python.org/download/mac/tcltk/" target="_blank">here</a>.
 
 You will know that you have this bug if you try to run one of the course Python files that makes use of the TKinter library (doing stuff with drawings), and your computer shuts down / logs out. If this bug happens to you, not to worry -- there is a workaround. Here is what we suggest:
