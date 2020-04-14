@@ -5,6 +5,7 @@ title: |
 type: lecture
 num: 3
 show_schedule: 1
+include_page: "extras/command_line.md"
 draft: 0
 description: ""
 due_date: 2020-04-14

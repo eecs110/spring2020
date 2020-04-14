@@ -126,3 +126,8 @@ show_schedule: 1
         </tbody>
     </table>
 {% endif %}
+
+{% if page.include_page %}
+    {% capture my_include %}{% include_relative {{ page.include_page }} %}{% endcapture %}
+    {{ my_include | markdownify }}
+{% endif %}

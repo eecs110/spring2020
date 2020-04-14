@@ -83,6 +83,12 @@ img.cars {
     }
 }
 
+table.instructions {
+    td, th {
+        font-size: 1em;
+    }
+}
+
 @media (max-width: 800px) { 
     img.small, img.medium, img.med-lg {
         max-width: 100%;
