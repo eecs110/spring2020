@@ -11,6 +11,24 @@ due_date: 2020-04-16
 slides:
   - url: https://docs.google.com/presentation/d/1hvPvBTQD4Or_ekT3M2ElNrwdjmgP5lBlVbv2Ca3SHgU/edit?usp=sharing
     title: "Creating your own functions & modules"
+videos:
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4e4031a9-10e8-4764-808a-ab9e0129f6e2
+    title: "Built-in functions review"
+    duration: "12:03"
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c22b25f-3ad0-45b0-bc9b-ab9e012df885
+    title: "The rules for defining functions"
+    duration: "9:25"
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=65b0084c-d4ee-4cdd-8e48-ab9e0130e259
+    title: "Making our first function"
+    duration: "10:11"
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c6bf46e1-f5dd-44b5-ac41-ab9e0133f64d
+    title: "More on parameters and arguments"
+    duration: "7:20"
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecd7e7a1-97fd-4329-85d0-ab9e01365147
+    title: "Modules"
+    duration: "9:42"
+
+
 readings:
   - title: "Ch9: Lists"
     author: "Severance"
