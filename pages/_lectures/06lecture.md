@@ -11,6 +11,8 @@ due_date: 2020-04-16
 slides:
   - url: https://docs.google.com/presentation/d/1hvPvBTQD4Or_ekT3M2ElNrwdjmgP5lBlVbv2Ca3SHgU/edit?usp=sharing
     title: "Creating your own functions & modules"
+  - url: https://docs.google.com/presentation/d/1JLybaXAFp5-5XQwG2sB2TUDVZ1uy5NiFYj_TUApT9fs/edit?usp=sharing
+    title: Supplementary Slides for Live Lecture
 videos:
   - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4e4031a9-10e8-4764-808a-ab9e0129f6e2
     title: "Built-in functions review"
