@@ -29,6 +29,10 @@ videos:
   - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecd7e7a1-97fd-4329-85d0-ab9e01365147
     title: "Modules"
     duration: "9:42"
+  - url: https://northwestern.zoom.us/rec/share/6_BqfurUyWNLTonz2X7WVpR4D77JX6a8h3JNrPUMzUv6k3lHJsZ0J-jH5V8UV5zM
+    duration: "01:25:47"
+    title: "Practice writing functions and modules"
+    live: 1
 
 
 readings:
