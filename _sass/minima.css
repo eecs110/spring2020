@@ -141,7 +141,7 @@ strong {
 
 code.highlighter-rouge {
   background: #F3F3F3;
-  padding: 6px;
+  padding: 3px;
   border-radius: 6px;
 }
 
@@ -214,13 +214,15 @@ blockquote p {
 }
 
 footer {
+  border-top: dotted 1px #999;
+  margin-top: 150px;
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: bottom;
 }
 
 footer p {
-  margin-top: 50px;
+  margin: 40px 0px 40px 0px;
   text-align: center;
 }
 
@@ -317,13 +319,6 @@ nav ul li a, nav ul li a:visited, nav ul li:active {
 nav ul li:hover, nav ul li:active {
   background: #F9F9F9;
   border-bottom: solid 3px #999;
-}
-
-.subtitle {
-  margin: -20px 0px 15px 0px;
-  color: #676767;
-  font-family: "Campton Extra Light";
-  font-size: 1.2em;
 }
 
 @font-face {
@@ -447,27 +442,22 @@ table th {
   text-align: left;
 }
 
-table.rubric {
-  border: dotted 1px #CCC;
-  width: 100%;
-  max-width: 100%;
+table.rubric-short td:nth-child(1), table.rubric-short th:nth-child(1) {
+  width: 40px;
+  min-width: 40px;
+  max-width: 40px;
 }
 
-table.rubric td, table.rubric th {
-  border-bottom: dotted 1px #CCC;
-}
-
-table.rubric th:nth-child(2) {
+table.rubric-short td:nth-child(2), table.rubric-short th:nth-child(2) {
   width: 80px;
 }
 
-table.rubric tr:first-child {
-  border-bottom: dotted 1px #CCC;
+table.rubric-short ul {
+  margin: 0px;
 }
 
-table.rubric tr:first-child th {
-  text-transform: uppercase;
-  color: #000;
+table.rubric td:nth-child(1), table.rubric th:nth-child(1) {
+  min-width: 160px;
 }
 
 table.rubric ul {
@@ -500,42 +490,20 @@ table.rubric ul {
   min-width: 280px;
 }
 
-table.grading, table.rubric {
-  border-top: dotted 1px #ccc;
-  border-bottom: dotted 1px #ccc;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  max-width: 500px;
-  border-collapse: collapse;
-}
-
-table.grading td:first-child, table.rubric td:first-child {
-  padding-left: 30px;
-}
-
-table.grading td, table.grading th, table.rubric td, table.rubric th {
-  border: dotted 1px #CCC;
-  padding: 3px;
-}
-
-table.grading td, table.rubric td {
-  font-size: 0.9em;
-}
-
-table.grading th, table.rubric th {
-  background: #F9F9F9;
-  padding-top: 5px;
-  font-weight: 500;
-  min-width: 80px;
-  text-align: left;
-}
-
 table.xsmall {
   width: 250px !important;
 }
 
 table.small {
   width: 400px !important;
+}
+
+table.medium {
+  width: 600px !important;
+}
+
+table.medium.module td:nth-child(2) {
+  max-width: 320px;
 }
 
 .container {
@@ -591,51 +559,61 @@ table.small {
 .assignments .pj, .assignments a.pj,
 .assignments .lec, .assignments a.lec,
 .assignments .lab, .assignments a.lab,
+.assignments .live, .assignments .recorded,
 .assignments .ec, .assignments a.ec, .lectures .badge, .lectures a.badge,
 .lectures .hw, .lectures a.hw,
 .lectures .pj, .lectures a.pj,
 .lectures .lec, .lectures a.lec,
 .lectures .lab, .lectures a.lab,
+.lectures .live, .lectures .recorded,
 .lectures .ec, .lectures a.ec, .assignment .badge, .assignment a.badge,
 .assignment .hw, .assignment a.hw,
 .assignment .pj, .assignment a.pj,
 .assignment .lec, .assignment a.lec,
 .assignment .lab, .assignment a.lab,
+.assignment .live, .assignment .recorded,
 .assignment .ec, .assignment a.ec, .reference .badge, .reference a.badge,
 .reference .hw, .reference a.hw,
 .reference .pj, .reference a.pj,
 .reference .lec, .reference a.lec,
 .reference .lab, .reference a.lab,
+.reference .live, .reference .recorded,
 .reference .ec, .reference a.ec, .lecture .badge, .lecture a.badge,
 .lecture .hw, .lecture a.hw,
 .lecture .pj, .lecture a.pj,
 .lecture .lec, .lecture a.lec,
 .lecture .lab, .lecture a.lab,
+.lecture .live, .lecture .recorded,
 .lecture .ec, .lecture a.ec, .readings .badge, .readings a.badge,
 .readings .hw, .readings a.hw,
 .readings .pj, .readings a.pj,
 .readings .lec, .readings a.lec,
 .readings .lab, .readings a.lab,
+.readings .live, .readings .recorded,
 .readings .ec, .readings a.ec, .link-menu .badge, .link-menu a.badge,
 .link-menu .hw, .link-menu a.hw,
 .link-menu .pj, .link-menu a.pj,
 .link-menu .lec, .link-menu a.lec,
 .link-menu .lab, .link-menu a.lab,
+.link-menu .live, .link-menu .recorded,
 .link-menu .ec, .link-menu a.ec, .two-column article .badge, .two-column article a.badge,
 .two-column article .hw, .two-column article a.hw,
 .two-column article .pj, .two-column article a.pj,
 .two-column article .lec, .two-column article a.lec,
 .two-column article .lab, .two-column article a.lab,
+.two-column article .live, .two-column article .recorded,
 .two-column article .ec, .two-column article a.ec, .syllabus .badge, .syllabus a.badge,
 .syllabus .hw, .syllabus a.hw,
 .syllabus .pj, .syllabus a.pj,
 .syllabus .lec, .syllabus a.lec,
 .syllabus .lab, .syllabus a.lab,
+.syllabus .live, .syllabus .recorded,
 .syllabus .ec, .syllabus a.ec, .schedule .badge, .schedule a.badge,
 .schedule .hw, .schedule a.hw,
 .schedule .pj, .schedule a.pj,
 .schedule .lec, .schedule a.lec,
 .schedule .lab, .schedule a.lab,
+.schedule .live, .schedule .recorded,
 .schedule .ec, .schedule a.ec {
   display: inline-block;
   border-radius: 4px;
@@ -674,6 +652,14 @@ table.small {
 
 .assignments .ec, .assignments .ec:hover, .lectures .ec, .lectures .ec:hover, .assignment .ec, .assignment .ec:hover, .reference .ec, .reference .ec:hover, .lecture .ec, .lecture .ec:hover, .readings .ec, .readings .ec:hover, .link-menu .ec, .link-menu .ec:hover, .two-column article .ec, .two-column article .ec:hover, .syllabus .ec, .syllabus .ec:hover, .schedule .ec, .schedule .ec:hover {
   background: #F6F6F6;
+}
+
+.assignments .live, .lectures .live, .assignment .live, .reference .live, .lecture .live, .readings .live, .link-menu .live, .two-column article .live, .syllabus .live, .schedule .live {
+  background: #F46036;
+}
+
+.assignments .recorded, .lectures .recorded, .assignment .recorded, .reference .recorded, .lecture .recorded, .readings .recorded, .link-menu .recorded, .two-column article .recorded, .syllabus .recorded, .schedule .recorded {
+  background: #846dac;
 }
 
 .assignments ul, .lectures ul, .assignment ul, .reference ul, .lecture ul, .readings ul, .link-menu ul, .two-column article ul, .syllabus ul, .schedule ul {
@@ -1447,6 +1433,119 @@ blockquote.quote.slim:before {
 }
 
 /* Literal.Number.Integer.Long */
+.subtitle {
+  margin: -20px 0px 15px 0px;
+  color: #676767;
+  font-family: "Campton Extra Light";
+  font-size: 1.2em;
+}
+
+.caption {
+  line-height: 1.2em;
+  font-size: 0.9em;
+  margin-top: -8px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.frame {
+  border-radius: 5px;
+  padding: 5px;
+  border: solid 1px #CCC;
+}
+
+img.small {
+  max-width: 30%;
+}
+
+img.medium {
+  max-width: 50%;
+}
+
+img.med-lg {
+  max-width: 75%;
+}
+
+img.large {
+  max-width: 100%;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+img.creature {
+  max-width: 20%;
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+img.cars {
+  float: right;
+  max-width: 40%;
+  margin: 0px 0px 0px 10px;
+  border-top: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  border-radius: 5px;
+}
+
+.module-image {
+  border-radius: 5px;
+  padding: 5px;
+  border: solid 1px #CCC;
+  max-width: 30%;
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+.highlighter-rouge {
+  margin-bottom: 20px;
+}
+
+.nu-button, .nu-button:visited, .nu-button:active {
+  background: #684a98;
+  border: none;
+  color: #fff !important;
+  margin: 20px .5em 20px 0;
+  padding: .8em 1em .7em 1em;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.nu-button:hover, .nu-button:visited:hover, .nu-button:active:hover {
+  background: #846dac;
+  border: none;
+}
+
+.nu-button i, .nu-button:visited i, .nu-button:active i {
+  margin-left: 5px;
+}
+
+table.instructions td, table.instructions th {
+  font-size: 1em;
+}
+
+@media (max-width: 800px) {
+  img.small, img.medium, img.med-lg {
+    max-width: 100%;
+  }
+  img.module-image, img.creature, .img.cars {
+    max-width: 40%;
+  }
+  img.cars {
+    max-width: 100%;
+    float: inherit;
+  }
+}
+
 @media (max-width: 1200px) {
   .one-column main {
     padding-left: 10vw;
@@ -1484,6 +1583,9 @@ blockquote.quote.slim:before {
   }
   .schedule table th:nth-child(4), .schedule table td:nth-child(4) {
     display: none;
+  }
+  table.rubric td:nth-child(1), table.rubric th:nth-child(1) {
+    min-width: auto;
   }
   .two-column main > article {
     margin-top: auto;
