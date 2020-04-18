@@ -27,6 +27,7 @@ make_grid(canvas, 600, 600)
 pixel = 20
 top_left = (100, 50)
 body_color = '#5ec031'
+pants_color = 'hotpink'
 x = top_left[0]
 y = top_left[1]
 
@@ -97,18 +98,18 @@ make_square(canvas, (x + 7*pixel, y + 7*pixel), pixel, fill_color=body_color)
 make_square(canvas, (x + 8*pixel, y + 7*pixel), pixel, fill_color=body_color)
 
 # row 9
-make_square(canvas, (x + 2*pixel, y + 8*pixel), pixel, fill_color='black')
-make_square(canvas, (x + 3*pixel, y + 8*pixel), pixel, fill_color='black')
-make_square(canvas, (x + 4*pixel, y + 8*pixel), pixel, fill_color='black')
-make_square(canvas, (x + 5*pixel, y + 8*pixel), pixel, fill_color='black')
-make_square(canvas, (x + 6*pixel, y + 8*pixel), pixel, fill_color='black')
+make_square(canvas, (x + 2*pixel, y + 8*pixel), pixel, fill_color=pants_color)
+make_square(canvas, (x + 3*pixel, y + 8*pixel), pixel, fill_color=pants_color)
+make_square(canvas, (x + 4*pixel, y + 8*pixel), pixel, fill_color=pants_color)
+make_square(canvas, (x + 5*pixel, y + 8*pixel), pixel, fill_color=pants_color)
+make_square(canvas, (x + 6*pixel, y + 8*pixel), pixel, fill_color=pants_color)
 
 # row 10
-make_square(canvas, (x + 2*pixel, y + 9*pixel), pixel, fill_color='black')
-make_square(canvas, (x + 3*pixel, y + 9*pixel), pixel, fill_color='black')
-make_square(canvas, (x + 4*pixel, y + 9*pixel), pixel, fill_color='black')
-make_square(canvas, (x + 5*pixel, y + 9*pixel), pixel, fill_color='black')
-make_square(canvas, (x + 6*pixel, y + 9*pixel), pixel, fill_color='black')
+make_square(canvas, (x + 2*pixel, y + 9*pixel), pixel, fill_color=pants_color)
+make_square(canvas, (x + 3*pixel, y + 9*pixel), pixel, fill_color=pants_color)
+make_square(canvas, (x + 4*pixel, y + 9*pixel), pixel, fill_color=pants_color)
+make_square(canvas, (x + 5*pixel, y + 9*pixel), pixel, fill_color=pants_color)
+make_square(canvas, (x + 6*pixel, y + 9*pixel), pixel, fill_color=pants_color)
 
 # row 11
 make_square(canvas, (x + 2*pixel, y + 10*pixel), pixel, fill_color=body_color)
