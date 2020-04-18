@@ -12,8 +12,15 @@ due_date: 2020-04-25
     
 ---
 
-<img class="module-image" src="/spring2020/assets/images/tutorial02/frank1.png" /> In this tutorial, you are going to design a customizable function that creates an image of Frankenstein (pictured left). The purpose of this exercise is to help you figure out how to use parameters and variables in order to make your ideas more flexible, customizable, and therefore more useful.<br><br>To do this, we're going to walk you through a series of steps to begin trying to "think computationally" -- i.e. finding places where
-code repeats and modularizing it using variables, functions, and parameters. We only have a few tools that are at our disposal right now, but just note that this code in this exercise can be further simplified in a few weeks when we learn more about loops.<br><br>In addition to gaining more practice with functions, there are three takeaways that we hope you will also get from this exercise: 
+<a class="nu-button" href="/spring2020/course-files/tutorials/tutorial02.zip" target="_blank">
+    Tutorial Starter Files <i class="fas fa-download"></i>
+</a> 
+
+In this tutorial, you are going to design a customizable function that creates an image of Frankenstein (pictured left). The purpose of this exercise is to help you figure out how to use parameters and variables in order to make your ideas more flexible, customizable, and therefore more useful.
+
+To do this, we're going to walk you through a series of steps to begin trying to "think computationally" -- i.e. finding places where code repeats and modularizing it using variables, functions, and parameters. We only have a few tools that are at our disposal right now, but just note that this code in this exercise can be further simplified in a few weeks when we learn more about loops.
+
+In addition to gaining more practice with functions, there are three takeaways that we hope you will also get from this exercise: 
 
 1. That programming is a *process* of formulating solutions over time (versus having everything all  planned out at the very the beginning). 
 2. That programmers are always trying to make their code efficient, readable, and succinct, which usually involves "refactoring" code so that it's not repeating the same lines of code over and over again. This is known as the "DRY Principle" -- "Don't repeat yourself." 
@@ -56,7 +63,11 @@ make_square(canvas, (150, 75), 25, fill_color=body_color)            # pixel (7,
 ...
 ```
 
-Then run it using IDLE (or a code editor of your choice). You should see a picture of Frank. A few things to pay attention to in this file:
+Then run it using IDLE (or a code editor of your choice). You should see a picture of Frank (below). 
+
+<img class="small frame" src="/spring2020/assets/images/tutorial02/frank1.png" />
+
+A few things to pay attention to in this file:
 
 1. This program will always draw a Frank that is the same size and positioned in the exact same place. 
 1. Each "pixel" is 25 units wide / tall
