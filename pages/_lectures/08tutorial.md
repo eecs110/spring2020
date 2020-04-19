@@ -77,7 +77,7 @@ A few things to pay attention to in this file:
 Try re-assigning a different color to the `body_color` variable, and running the program (note that Frank's body color changes). When you're done, please create another variable called `pants_color`, and edit the code so that the color of Frank's pants is determined by the value stored inside the `pants_color` variable.
 
 ### Task 2: Customize Frank's size
-Next, modify the code to make it easier to customize Frank's ***size*** (i.e. the size of each pixel). As the program currently stands, each pixel is hardcoded to 25 pixels. But what if you wanted to draw a mini-Frank, or a really big frank? You would have to update every x and y value. 
+Next, modify the code to make it easier to customize Frank's ***size*** (i.e. the size of each pixel). As the program currently stands, each pixel is hardcoded to 25 pixels. But what if you wanted to draw a mini-Frank, or a really big Frank? You would have to update every x and y value. 
 
 To make this process more efficient, create another variable called `pixel` and assign the value `20` (int) to it. Then, figure out a way to use the `pixel` variable to make Frank's size customizable. If you get stuck, see `hints/hint_1.py`. That said, don't just copy this code...think about why it works (and ask questions).
 
@@ -118,8 +118,9 @@ make_frank(canvas, (420, 10), pixel=15)
 
 ## Optional Challenges
 
-1. create a helper function called `make_row` to further simplify your make_frank function. Then, rather than repeating almost identical code for each row created, you will simply invoke `make_row` 11 times (once for each row).
-2. create a second pixel art function that draws a different image. Google "pixel art simple" to get ideas.
+1. Create a helper function called `make_row` to further simplify your make_frank function. Then, rather than repeating almost identical code for each row created, you will simply invoke `make_row` 11 times (once for each row).
+2. Create a second pixel art function that draws a different image. Google "pixel art simple" to get ideas.
+3. The pixel argument is kind of awkward. Arguably a better function design would allow the calling function to specify the width of Frank (as opposed to the individual pixels that comprise him). Therefore, modify the function header so that it requires a `width` (int) parameter instead of a `pixel` parameter. This change means that you will need to derive the appropriate size of the pixel based on the width and the number of columns needed to generate Frank (which is 9). When you're done, update each of the function calls at the bottom of the file so that they pass in a width argument.
 
 ## What to Turn In
 As described in the syllabus, there are two ways to earn full participation credit in each tutorial session:
