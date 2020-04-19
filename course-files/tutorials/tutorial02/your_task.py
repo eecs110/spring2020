@@ -113,7 +113,7 @@ make_square(canvas, (150, 225), 25, fill_color=body_color)           # pixel (7,
 
 '''
 
-# After you're done makeing your "make_frank" function, invoke it as follows:
+# After you're done making your "make_frank" function, invoke it as follows:
 make_frank(canvas, (0, 20))
 make_frank(canvas, (180, 220), pixel=20, body_color='#75B9BE')
 make_frank(canvas, (420, 250), body_color='#E0607E', pixel=10)
