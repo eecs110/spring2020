@@ -14,6 +14,8 @@ readings:
 slides: 
    - title: "Third-Party Modules & Variable Scope"
      url: https://docs.google.com/presentation/d/19QeY3AoZ162C3RFpNBnkzH-KXmqXAJUkQqktWGd2dSM/edit?usp=sharing 
+   - title: "Supplementary Slides for Live Lecture"
+     url: https://docs.google.com/presentation/d/1HuvFdoLE0NJJzp-5M4JkBeK-AyqnJuN8dvTomIB60h4/edit?usp=sharing
 videos:
    - title: "Variable Scope: Local Variables"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1ed07510-3bb5-4a07-a19b-aba4001f8407
