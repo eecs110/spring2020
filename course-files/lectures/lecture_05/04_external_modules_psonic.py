@@ -1,6 +1,6 @@
 # To get this program to work, you must do three things:
 # 1. Install the Python psonic module using PIP:
-#    pip install psonic
+#    pip install python-sonic
 # 2. Install the Sonic Pi music program, downloadable at:
 #    https://sonic-pi.net/ 
 # 3. Make sure that Sonic Pi (the music program) is running

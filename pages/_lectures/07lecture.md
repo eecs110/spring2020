@@ -14,6 +14,16 @@ readings:
 slides: 
    - title: "Third-Party Modules & Variable Scope"
      url: https://docs.google.com/presentation/d/19QeY3AoZ162C3RFpNBnkzH-KXmqXAJUkQqktWGd2dSM/edit?usp=sharing 
+videos:
+   - title: "Variable Scope: Local Variables"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1ed07510-3bb5-4a07-a19b-aba4001f8407
+     duration: "9:38"
+   - title: "Variable Scope: Global Variables"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=295fc8f6-27e6-4489-8c9b-aba400228ed9
+     duration: "7:09"
+   - title: "External Modules & PIP"
+     url: "https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d68cfb5-a5e9-4d79-859a-aba40035d3e7"
+     duration: "19:35"
 due_date: 2020-04-21
 
 exercise_url: "lecture_05.zip"
