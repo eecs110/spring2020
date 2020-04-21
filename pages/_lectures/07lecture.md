@@ -26,6 +26,11 @@ videos:
    - title: "External Modules & PIP"
      url: "https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d68cfb5-a5e9-4d79-859a-aba40035d3e7"
      duration: "19:35"
+   - title: "Practice with custom functions and modules"
+     url: https://northwestern.zoom.us/rec/share/vMJ5Fonh0F9Lc9LPz0HuaIctGprjaaa81icarvoOnUgJD5W2Zo3yZOsDSFNTk7tk
+     live: 1
+     duration: "1:30:17"
+
 due_date: 2020-04-21
 
 exercise_url: "lecture_05.zip"
