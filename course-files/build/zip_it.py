@@ -46,7 +46,11 @@ def main():
         dirnames
     )
 
+    # for dirname in dirnames:
+    #     zipfolder(dirname, dirname)
+
     go_ahead = input('Would you like to proceed? (y/N) ')
+    # print(go_ahead)
     if go_ahead.upper() == 'Y':
         for dirname in dirnames:
             zipfolder(dirname, dirname)

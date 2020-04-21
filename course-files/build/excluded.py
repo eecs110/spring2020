@@ -1,7 +1,7 @@
 EXCLUDED = [
     # 'projects',
-    #'homework',
-    #'lectures',
+    # 'homework',
+    # 'lectures',
     'exams',
     'administrative'
     #'practice_exams',
