@@ -48,4 +48,4 @@ exercise_url: "lecture_04.zip"
     
 ---
 
-In this lesson, we're going to go over (1) how to create your own functions, and (2) using PIP (a command line tool to install third-party Python libraries). After this lesson, we will have covered everything that you need to know in order to complete [Tutorial 1](06tutorial) and [HW2](../assignments/hw2)
+In this lesson, we're going to go over how to create your own functions. After this lesson, we will have covered everything that you need to know in order to complete [Tutorial 1](06tutorial), [Tutorial 1](08tutorial) and [HW2](../assignments/hw2)
