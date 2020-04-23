@@ -1,10 +1,9 @@
 ---
 layout: lecture
-title: Dictionaries
+title: Dictionary Algorithms
 type: lecture
 draft: 1
 num: 15
-description: Dictionaries
 due_date: 2020-05-26
 ---
 

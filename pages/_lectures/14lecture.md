@@ -1,10 +1,9 @@
 ---
 layout: lecture
-title: Exam 1
+title: Files and Strings
 type: lecture
 draft: 1
 num: 12
-description: Midterm Exam
 due_date: 2020-05-14
 ---
 

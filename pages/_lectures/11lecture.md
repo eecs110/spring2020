@@ -1,7 +1,7 @@
 ---
 layout: lecture
 title: | 
-    Loops 3: Looping Algorithms
+    User Inputs & Events
 type: lecture
 draft: 1
 num: 9
