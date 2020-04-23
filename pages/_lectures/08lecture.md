@@ -19,6 +19,20 @@ readings:
   - title: "Ch5: Conditionals"
     source: "ThinkCS"
     url: http://openbookproject.net/thinkcs/python/english3e/conditionals.html
+videos:
+  - title: "Intro to conditionals"
+    url: "https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=de0c78b8-2fe1-49a8-a290-aba600df60c7"
+    duration: "9:20"
+  - title: "If and else"
+    url: "https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=797f5dbb-a2a9-49d7-81b0-aba600e3cccf"
+    duration: "15:03"
+  - title: "Elif"
+    url: "https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5f32d64c-1c4f-4118-88c5-aba600e819ed"
+    duration: "11:06"
+  - title: "Logical operators and Truth Tables"
+    url: "https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cac8268f-2163-49e7-92da-aba600eb5db4"
+    duration: "22:49"
+
 exercise_url: "lecture_06.zip"
 ---
 
