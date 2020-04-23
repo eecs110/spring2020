@@ -14,6 +14,8 @@ draft: 0
     Homework Starter Files <i class="fas fa-download"></i>
 </a> 
 
+One of our peer mentors, Katherine, has also created a <a href="https://www.youtube.com/watch?v=RftT-A5vzH8&feature=youtu.be" target="_blank">get started video</a> to get you oriented with the assignment.
+
 {: .blockquote-no-margin}
 > **LEARNING OBJECTIVES:** 
 > 1. Practice working with loops
@@ -24,7 +26,7 @@ draft: 0
 <img class="large frame" src="/spring2020/assets/images/hw04/bubbles.png" /> 
 <img class="large frame" src="/spring2020/assets/images/hw04/stars.png" /> 
 
-In `landscapes.py`, replace the code on lines 23-32 (which are repetitive) with a loop (any kind of loop you want) that makes 1,000 stars that fill the entire canvas. Hints:
+In `landscapes.py`, replace the code on lines 23-32 (which is repetitive) with a loop (any kind of loop you want) that makes 1,000 stars that fill the entire canvas. Hints:
 
 1. Use a loop
 1. Use the random module, and in particular the random.uniform function to give each star (or bubble if you choose) a random (x, y) position (given the dimensions of the screen) and a random width (so that it renders stars of different sizes).
