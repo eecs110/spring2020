@@ -1,14 +1,14 @@
+avatar_position = (100, 100)
+
 def move_avatar(direction, units):
-    if direction == 'up':
-        print('subtract', units, 'from y-position')
-    elif direction == 'down':
-        print('add', units, 'to y-position')
-    elif direction == 'left':
-        print('subtract', units, 'to x-position')
-    elif direction == 'right':
-        print('add', units, 'to x-position')
+    global avatar_position
+    # your code here...
 
 move_avatar('up', 10)
+print('The new avatar position is:', avatar_position)
 move_avatar('down', 15)
+print('The new avatar position is:', avatar_position)
 move_avatar('left', 2)
+print('The new avatar position is:', avatar_position)
 move_avatar('right', 3)
+print('The new avatar position is:', avatar_position)

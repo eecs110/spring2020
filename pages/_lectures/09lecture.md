@@ -5,9 +5,6 @@ title: |
 type: lecture
 draft: 1
 num: 7
-description:
-  - If / Else
-  - Booleans
 due_date: 2020-04-28
 ---
 

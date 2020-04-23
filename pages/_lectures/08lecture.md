@@ -11,6 +11,8 @@ due_date: 2020-04-23
 slides: 
    - title: "Conditionals & Boolean Logic"
      url: https://docs.google.com/presentation/d/1u0CjfXsmMPPxgRSKgw7MmUdKRqtrldc14FmH_iqm0VA/edit?usp=sharing
+   - title: "Supplementary Slides for Live Lecture"
+     url: https://docs.google.com/presentation/d/1KIr2QtoLRThQG7pv2186p10wKoO6LZ1SGjM9YGawq_Q/edit?usp=sharing
 readings:
   - title: "Ch3: Conditionals"
     author: "Severance"
