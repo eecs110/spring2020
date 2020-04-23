@@ -30,28 +30,35 @@ def generate_hex_color():
     color += random.choice(legal_hex_vals)
     color += random.choice(legal_hex_vals)
     color += random.choice(legal_hex_vals)
-    print(color)
     return color
 
 
+id = canvas.create_text(
+    250, 250, text='Hi', font=("Purisa", 500), fill='#222222'
+)
 def draw_random_circle():
     x = random.randint(0, 500)
     y = random.randint(0, 500)
-    r = random.randint(3, 6)
+    r = random.randint(15, 48)
     top_left = (x - r, y - r)
     bottom_right = (x + r, y + r)
     
-    canvas.create_oval([
+    canvas.create_rectangle([
             top_left,  # top_left
             bottom_right   # bottom_right
         ],  
         fill=colors[random.randint(0, 4)],  # option 1
         # fill=generate_hex_color()
+        width=0
     )
 
-for n in range(0, 2000, 1):
+for n in range(0, 700):
     draw_random_circle()
-    time.sleep(.005)
+    if n == 400:
+        time.sleep(1)
+    if n < 400:
+        canvas.lift(id)
+    # time.sleep(1)
     gui.update()
 
 
