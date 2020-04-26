@@ -1,18 +1,16 @@
 from tkinter import Canvas, Tk
-import random
 from helpers import make_circle
 
 gui = Tk()
 gui.title('Circle')
-# initialize canvas:
 canvas = Canvas(gui, width=500, height=500, background='#000022')
 canvas.pack()
-
-
 ########################## YOUR CODE BELOW THIS LINE ##############################
 
+
+
 # Challenge 1: 
-#   How could I rewrite the following code using a while loop
+#   How could I rewrite the following code using a while loop?
 
 make_circle(canvas, (100, 50), 25)
 make_circle(canvas, (100, 100), 25)

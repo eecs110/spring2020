@@ -37,8 +37,8 @@ Your job is to finish the game by implementing the following features:
 1. You will need a variable to track the number of guesses
 1. You will need a variable to store the user’s guess
 1. You will need a while loop that keeps prompting the user for their guess (until they win)
-1. You will need an if/elif/else statement to check whether the user’s guess is too low or too high
-1. To get you started, please take a look at the `01_number_game.py` file
+1. You will need some combination of if, elif, and/or else statements to check whether the user’s guess is too low or too high. There are many ways to do this.
+
 
 ## Part 2: Simplify the vertical circles program
 1. Open `02_vertical_circles.py` 
