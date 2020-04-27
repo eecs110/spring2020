@@ -12,7 +12,7 @@ show_schedule: 1
 {% if page.exercise_url %}
     <h3 id="code">{{num}}. Download the Exercise Files</h3> 
     <a class="nu-button" href="{{site.baseurl}}/course-files/lectures/{{page.exercise_url}}" target="_blank">
-        Lecture Files <i class="fas fa-download"></i>
+        Exercise Files <i class="fas fa-download"></i>
     </a>
     {% assign num = num | plus: 1 %}
 {% endif %}
@@ -31,9 +31,10 @@ show_schedule: 1
     <p>Slides will be posted soon.</p>
 {% endif %}
 
+{% if page.videos %}
 <h3 id="videos">{{num}}. Watch the Lecture Video(s)</h3>
 {% assign num = num | plus: 1 %}
-{% if page.videos %}
+
     <table class="medium module">
         <thead>
             <tr>
@@ -72,8 +73,6 @@ show_schedule: 1
         {% endfor %}
         </tbody>
     </table>
-{% else %}
-    <p>Videos will be posted soon.</p>
 {% endif %}
 
 {% if page.readings %}
