@@ -17,6 +17,20 @@ readings:
   - title: "Ch7: Iteration"
     source: "ThinkCS"
     url: http://openbookproject.net/thinkcs/python/english3e/iteration.html
+videos:
+   - title: "Introduction to Loops"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8afbfded-0762-4174-ac45-abab00da5780
+     duration: "9:35"
+   - title: "While Loops Practice"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5982e725-b08b-4c83-8e21-abab00e06b35
+     duration: "12:22"
+   - title: "Loops & Lists"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0423a570-253f-44dd-a7e4-abab00e40b49
+     duration: "11:37"
+   - title: "Challenge Problem"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aee45eb6-585f-40de-a5b4-abab00e74b9e
+     duration: "15:26"
+
 exercise_url: "lecture_07.zip"
 ---
 
