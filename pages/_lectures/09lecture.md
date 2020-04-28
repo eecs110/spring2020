@@ -20,18 +20,22 @@ readings:
     source: "ThinkCS"
     url: http://openbookproject.net/thinkcs/python/english3e/iteration.html
 videos:
-   - title: "Introduction to Loops"
+   - title: "Introduction to loops"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8afbfded-0762-4174-ac45-abab00da5780
      duration: "9:35"
-   - title: "While Loops Practice"
+   - title: "While loops practice"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5982e725-b08b-4c83-8e21-abab00e06b35
      duration: "12:22"
-   - title: "Loops & Lists"
+   - title: "Loops & lLists"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0423a570-253f-44dd-a7e4-abab00e40b49
      duration: "11:37"
-   - title: "Challenge Problem"
+   - title: "Challenge problem"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aee45eb6-585f-40de-a5b4-abab00e74b9e
      duration: "15:26"
+   - title: "More practice with while loops"
+     url: https://northwestern.zoom.us/rec/share/4ZdNAJvyqlFJYaPo7kP4Br4fFaPaX6a82ykXq6Ffnx17ME6O2-qtorVAPSLQoIFx
+     duration: "1:24:10"
+     live: 1
 
 exercise_url: "lecture_07.zip"
 ---

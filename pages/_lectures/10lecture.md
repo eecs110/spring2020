@@ -23,6 +23,7 @@ videos:
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0f842e61-e876-4cce-a6dc-abab0146eafb
      duration: "14:02"
 
+
 exercise_url: "lecture_08.zip"
 ---
 
