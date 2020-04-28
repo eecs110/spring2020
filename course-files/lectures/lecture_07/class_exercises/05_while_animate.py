@@ -42,9 +42,6 @@ while True:
     counter += 1
 
 
-
-
-
 ##while num_squares_drawn < 3:
 ##    if counter < 50:
 ##        # right
