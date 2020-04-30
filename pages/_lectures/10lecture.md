@@ -24,6 +24,10 @@ videos:
    - title: "Looping algorithms"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0f842e61-e876-4cce-a6dc-abab0146eafb
      duration: "14:02"
+   - title: "More practice with for loops"
+     url: https://northwestern.zoom.us/rec/share/yOAkFo3s3E1LQrPByh7UaowaB5buaaa81yVPr6AInR0_kak3HLmRnGGJ8O4wk8g0?startTime=1588278440000
+     duration: "1:23:55"
+     live: 1
 
 
 exercise_url: "lecture_08.zip"
