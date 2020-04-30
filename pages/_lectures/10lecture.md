@@ -9,6 +9,8 @@ due_date: 2020-04-30
 slides: 
    - title: "More Loops: For Loops & Lists"
      url: https://docs.google.com/presentation/d/1JQyC48FgPS4UqgVbIRZejWGuQelI38yICTpJawa7T80/edit?usp=sharing
+   - title: "Supplementary Slides for Live Lecture"
+     url: https://docs.google.com/presentation/d/1pvxr4V5eI6-FHzWgyegmPQbEha_Cw6-Xlb3DoDjudS4/edit?usp=sharing
 videos:
    - title: "Intro to For Loops"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a4ad3c3-64bc-4591-a9f8-abab013d4453
