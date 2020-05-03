@@ -1,7 +1,7 @@
 ---
 layout: two-column
 title: |
-    For Loops & Event Handlers
+    For Loops Activity
 type: tutorial
 draft: 0
 points: 4
