@@ -4,7 +4,7 @@ title: Dictionaries
 type: tutorial
 draft: 1
 points: 4
-num: 6
+num: 7
 description:
   - Practicing working with dictionaries
   - Practice reading / writing from files
