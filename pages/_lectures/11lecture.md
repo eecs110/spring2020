@@ -9,7 +9,7 @@ due_date: 2020-05-05
 slides: 
    - title: "Handling User Input & Event Handlers"
      url: https://docs.google.com/presentation/d/18EMjTKqVWranGyYn28ps_dfExS-qdBQQ1JJRHiRF4Es/edit?usp=sharing
-exercise_url: "lecture_08.zip"
+exercise_url: "lecture_09.zip"
 # videos:
 #    - title: "A"
 #      url: #
