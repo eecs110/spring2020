@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: two-column
 title: Course Zoom Instructions
-permalink: /zoom/
+permalink: /resources/zoom/
 ---
 
 ## Logging Into Zoom
