@@ -9,6 +9,8 @@ due_date: 2020-05-05
 slides: 
    - title: "Handling User Input & Event Handlers"
      url: https://docs.google.com/presentation/d/18EMjTKqVWranGyYn28ps_dfExS-qdBQQ1JJRHiRF4Es/edit?usp=sharing
+   - title: "Supplementary Slides for Live Lecture"
+     url: https://docs.google.com/presentation/d/11fqiTJBxYyaUx5oUMWyAtcCZXw4XQ8WxNYC7JNiC11A/edit?usp=sharing
 exercise_url: "lecture_09.zip"
 videos:
    - title: "L9a: Intro to the Project"
