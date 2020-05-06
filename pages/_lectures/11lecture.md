@@ -28,6 +28,7 @@ videos:
    - title: "Even more loops practice"
      url: https://northwestern.zoom.us/rec/share/zPVUF-mhqVhOc5Xs81Dkfp8rNN3jaaa8hHdM8_cIy02NdcZekdAlYc0ACLkCqtio?startTime=1588710413000
      duration: "1:26:32"
+     live: 1
 ---
 
 Today, we will be going over some various ways of interpreting input beyond the command line using event handlers. Nothing from this lecture will be on the exam, but this lecture will certainly help you with [project 1](../assignments/p1) (due in 2 weeks).
