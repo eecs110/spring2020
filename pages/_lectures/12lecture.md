@@ -9,6 +9,11 @@ due_date: 2020-05-07
 slides: 
    - title: "Practice Problems & Review"
      url: https://docs.google.com/presentation/d/1o4CtImrKK1JqK_9k7lNNfW1YHY8xFQEKs54fb--hgiA/edit?usp=sharing
+videos:
+   - title: "Q&A"
+     url: https://northwestern.zoom.us/rec/share/vNMpcbHtql9IZYXSr17OQKg_HIHVaaa8gCEb__Fen02qslwrzBOwMIqvagdvaYBU?startTime=1588883303000
+     duration: "1:26:45"
+     live: 1
 
 exercise_url: "../practice_exams/midterm.zip"
 ---
