@@ -60,6 +60,9 @@ layout: default
                             {% assign className = 'lab' %}
                             {% assign prefix = "Tutorial " | append: lecture.num %}
                         {% endif %} 
+                        {% if lecture.type == 'review' or lecture.type == 'exam' %}
+                            {% assign prefix = lecture.title %}
+                        {% endif %}
                         {% if lecture.draft == 1 and prefix %}
                             <span class="badge">
                                 {{ prefix }}
@@ -69,7 +72,9 @@ layout: default
                                 {{ prefix }} <i class="fas fa-link"></i>
                             </a>
                         {% endif %}
-                        {{ lecture.title }} 
+                        {% if lecture.type == 'tutorial' or lecture.type == 'lecture' %}
+                            {{ lecture.title }} 
+                        {% endif %}
                     </td>
                 {% else %}
                     <!-- If no lecture -->
