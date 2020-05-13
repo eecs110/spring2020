@@ -1,7 +1,7 @@
 ---
 layout: two-column
 title: |
-    Optional: Use for Office Hours
+    Cancelled: Use for Office Hours
 type: tutorial
 draft: 1
 points: 0
