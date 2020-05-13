@@ -22,7 +22,8 @@ layout: default
         {% assign last_week = 0 %}
         {% assign sortedAssignments = site.assignments | sort: 'due_date' %}
         {% assign tutorials = site.lectures | sort: 'due_date' | where: "type", "tutorial" %}
-        {% assign assignments = sortedAssignments | concat: tutorials  | sort: 'due_date' %}
+        {% assign exams = site.lectures | sort: 'due_date' | where: "type", "exam" %}
+        {% assign assignments = sortedAssignments | concat: tutorials  | concat: exams | sort: 'due_date' %}
         {% for assignment in assignments %}
             {% assign dueDate = assignment.due_date | date: '%s' %}
             {% assign diffSeconds = dueDate | minus: dateStart %}
