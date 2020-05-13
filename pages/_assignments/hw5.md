@@ -21,7 +21,6 @@ draft: 0
 </a> 
 
 
-{: .blockquote-no-margin}
 > **LEARNING OBJECTIVES:** 
 > 1. Practice working with loops
 > 1. Practice working with sequences
