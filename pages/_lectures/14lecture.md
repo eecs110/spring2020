@@ -8,8 +8,8 @@ due_date: 2020-05-14
 slides: 
    - title: "Working with Files"
      url: https://docs.google.com/presentation/d/1f0ld5xWppp_U8M2q8gUFk7dTdZ7JlDB2CWG5OLNZcI0/edit?usp=sharing
-#    - title: "Supplementary Slides for Live Lecture"
-#      url: ""
+   - title: "Supplementary Slides for Live Lecture"
+     url: "https://docs.google.com/presentation/d/1WpseHl8GaXUtVu_123-ZANk6kj1-tpxuvXqQTaU0eps/edit?usp=sharing"
 readings:
   - title: "Ch6: Strings"
     author: "Severance"
