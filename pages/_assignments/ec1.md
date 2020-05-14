@@ -15,6 +15,8 @@ points: 5
 > **Important**: This assignment is **OPTIONAL**, and can be completed for 5 points extra credit.
 
 ## Covid-19: A Real-World Learning Opportunity for Programming
+<img class="medium frame" src="/spring2020/assets/images/ec01/simulation.png" />
+
 Given the Covid-19 pandemic, in this activity, Peter Zhong, one of our peer mentors, has created an extra credit (optional) tutorial that walks you through how a data scientist might model the progression of diseases with the aid of computer technologies such as Python. In fact, an effective (though somewhat simplified) model can be built using only CS 110 concepts to simulate the different parameters governing a real-world outbreak. 
 
 The computer can simulate the spread of disease by modeling people as particles in random motion. Of course, this model is by no mean sophisticated sufficiently for real-world applications but should suffice for this purpose. The disease can spread to people at some distance to it, at some probability. The probability and distance jointly model how the disease spreads and the precaution people can take to minimise exposure(washing hands for instance). After a period of time, a person is removed. This could be interpreted in several ways: the person could have recovered, been isolated or died, removing them from the equation completely.
