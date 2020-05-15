@@ -32,10 +32,10 @@ videos:
    - title: "L10d: Some Example Programs"
      url: "https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c9be0d79-b400-47c7-9ebc-abbb00ddba9c"
      duration: "5:39"
-#    - title: ""
-#      url: ""
-#      duration: ""
-#      live: 1
+   - title: "File Practice"
+     url: "https://northwestern.zoom.us/rec/share/wpRUMZep0jlIXrPixkPmeatiNajBX6a81nJI-qYEyhtU1pqqgc1DRpJRVtgXhYZu?startTime=1589488087000"
+     duration: "1:22:01"
+     live: 1
 
 
 exercise_url: "lecture_10.zip"

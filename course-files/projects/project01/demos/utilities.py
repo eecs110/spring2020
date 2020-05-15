@@ -45,6 +45,7 @@ def _get_coordinates_by_dimension(canvas, tag, dimension='x'):
     return coords
 
 def make_circle(canvas, center, radius, color='#FF4136', tag=None, stroke_width=2, outline=None):
+    print('make circle')
     make_oval(
         canvas, center, radius, radius, color=color, tag=tag,
         stroke_width=stroke_width, outline=outline
