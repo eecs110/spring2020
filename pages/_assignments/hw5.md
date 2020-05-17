@@ -72,8 +72,8 @@ Before you submit, make sure you’ve tested that your program does the followin
 * Program honors the user’s selection (1-9) and places the symbol correctly 
 * If the user enters something other than 1-9, the program tells the user what they did wrong and re-prompts them 
    * Note: consider using try/catch + continue (as we did in the beginning of Lecture 13)
-* Computer move does not overwrite the user’s move
-* User’s move does not overwrite computer’s move
+* Computer move does not overwrite a slot that is already taken
+* User’s move does not overwrite a slot that is already taken
 * If the user and / or computer wins, the program ends and tells the user which player won
 * If there’s a tie, the program ends and displays a “tie” message
 
