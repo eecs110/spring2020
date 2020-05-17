@@ -12,7 +12,7 @@ def make_creature(canvas, center, size=100, tag='creature', fill='hotpink'):
         (center[0] - size / 2, center[1] + size / 3), 
         (center[0], center[1] + size / 1.2), 
         (center[0] + size / 2, center[1] + size / 3)
-    ], curvy=True)
+    ], curvy=True, tag=tag)
     
 
 def make_landscape_object(canvas, position, size=100):
