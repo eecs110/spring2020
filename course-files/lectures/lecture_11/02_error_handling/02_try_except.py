@@ -1,4 +1,7 @@
-# This loop keeps going until the user has entered a valid age:
+# Challenge: write some code that will handle any user input
+# errors so that if the user enters a value that is invalid,
+# the program tells the user what their error is and prompts
+# them again:
 while True:
     age = input('enter your age: ')
     year = input('enter a year in the future: ')

@@ -13,7 +13,7 @@ slides:
 #      url: https://northwestern.zoom.us/rec/share/vNMpcbHtql9IZYXSr17OQKg_HIHVaaa8gCEb__Fen02qslwrzBOwMIqvagdvaYBU?startTime=1588883303000
 #      duration: "1:26:45"
 #      live: 1
-# exercise_url: "lecture_11.zip"
+exercise_url: "lecture_11.zip"
 ---
 
 In this lesson, we're going to go over a few more examples of using files in the "real world." This includes:
