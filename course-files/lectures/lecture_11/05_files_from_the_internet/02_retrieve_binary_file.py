@@ -23,4 +23,4 @@ for item in items:
     f = open(file_path, 'wb')  #note the 'wb' flag (b is for binary)
     f.write(file_data)
     f.close()
-    print('Image written to', file_path, '\nGo take a look!')
+    print('Binary file written to', file_path, '\nGo take a look!')
