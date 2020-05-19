@@ -29,10 +29,10 @@ videos:
    - title: "L11f: Retrieving files via HTTP/HTTPS"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cb72d17f-a93e-466d-b1de-abbf0136b2ee
      duration: "10:25"
-#   - title: "Practice with files, string functions, and error handling"
-#     url: ""
-#     duration: ""
-#     live: 1
+   - title: "Practice with files, string functions, and error handling"
+     url: https://northwestern.zoom.us/rec/share/y8hOFYugxH5ObtbduEbfdOliErTJeaa81yIb8_sPmUcWhCOAtswg8XLig-cQbnuI?startTime=1589919928000
+     duration: "1:26:38"
+     live: 1
     
 
 
