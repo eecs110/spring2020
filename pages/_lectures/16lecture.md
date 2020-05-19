@@ -14,6 +14,20 @@ slides:
    - title: "Dictionaries"
      url: https://docs.google.com/presentation/d/1Oh6AKbYM--VPREY1CzQwIWkzwNcBDuBzSc8xSnQHOU4/edit?usp=sharing
 
+videos:
+   - title: "L12a: Dictionary syntax / functionality"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=85b74b8a-fb6e-4214-9d35-abc0013d2a77
+     duration: "16:49"
+   - title: "L12b: Dictionaries as lookup tables"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=842eff10-500b-43be-a49b-abc00140e52b
+     duration: "10:37"
+   - title: "L12c: Dictionaries as entity representations"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e1af8ddc-5d48-4c01-aee3-abc001448c0d
+     duration: "7:20"
+   - title: "L12d: Lists of dictionaries (Twitter)"
+     url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eefa7970-1dc1-4571-8b4d-abc00149ab7f
+     duration: "14:50"
+
 exercise_url: "lecture_12.zip"
 ---
 
