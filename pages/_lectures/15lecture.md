@@ -9,7 +9,7 @@ slides:
    - title: "More Files & Strings + Error Handling"
      url: "https://docs.google.com/presentation/d/1ayIL0VDUHvzybFBwrF64gFA4BOJ5q6SKLm7qY-6WtzM/edit?usp=sharing"
    - title: "Supplementary Slides for Live Lecture"
-     url: hhttps://docs.google.com/presentation/d/1vgd9Y1MODkuwJNeHqRydzNOZeIvOWM8nKuEWEfgsza8/edit?usp=sharing
+     url: https://docs.google.com/presentation/d/1vgd9Y1MODkuwJNeHqRydzNOZeIvOWM8nKuEWEfgsza8/edit?usp=sharing
 videos:
    - title: "L11a: Parsing file data"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c1cae01e-9a5d-445e-b399-abbf01241b59
