@@ -13,6 +13,8 @@ readings:
 slides: 
    - title: "Dictionaries"
      url: https://docs.google.com/presentation/d/1Oh6AKbYM--VPREY1CzQwIWkzwNcBDuBzSc8xSnQHOU4/edit?usp=sharing
+   - title: title: "Supplementary Slides for Live Lecture"
+     url: https://docs.google.com/presentation/d/1YcrEhx1dZY6I2ggwPBOHue3ERufKgpgpOXIhPMWftAc/edit?usp=sharing
 
 videos:
    - title: "L12a: Dictionary syntax / functionality"
