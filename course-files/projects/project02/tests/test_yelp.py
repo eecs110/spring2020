@@ -3,7 +3,7 @@ def path_hack():
     currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
     parentdir = os.path.dirname(currentdir)
     sys.path.insert(0,parentdir) 
-    print('path added:', sys.path[0])
+    # print('path added:', sys.path[0])
 
 path_hack()
 
@@ -185,6 +185,21 @@ class TestYelp(unittest.TestCase):
             ]))
             time.sleep(1.0)
 
+    def test_execute_business_queries_just_one_simplified(self):
+        kwargs = self.valid_argument_list[0]
+        results = yelp.get_businesses(**kwargs)
+        self.assertEqual(type(results), list)
+        self.assertGreaterEqual(len(results), 1)
+        self.assertEqual(type(results[0]), dict)
+        keys = set(results[0].keys())
+        if 'price' in keys:
+            keys.remove('price')
+        self.assertSetEqual(keys, set([
+                'id', 'name', 'rating', 'image_url', 'display_address',
+                'coordinates', 'review_count', 'share_url', 'categories'
+        ]))
+        time.sleep(1.0)
+
     def test_execute_business_queries(self):
         for kwargs in self.valid_argument_list:
             results = yelp.get_businesses(simplify=False, **kwargs)
@@ -230,3 +245,5 @@ class TestYelp(unittest.TestCase):
         time.sleep(1.0)
 
 
+if __name__ == '__main__':
+    unittest.main()

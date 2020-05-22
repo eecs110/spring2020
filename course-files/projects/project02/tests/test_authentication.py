@@ -3,7 +3,7 @@ def path_hack():
     currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
     parentdir = os.path.dirname(currentdir)
     sys.path.insert(0,parentdir) 
-    print('path added:', sys.path[0])
+    # print('path added:', sys.path[0])
 
 path_hack()
 
@@ -39,3 +39,6 @@ class TestAuthentication(unittest.TestCase):
         self.assertIn(
             'This URL is invalid: https://www.apitutor.org/spotify/ke', str(cm.exception)
         )
+
+if __name__ == '__main__':
+    unittest.main()

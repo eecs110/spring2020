@@ -3,7 +3,7 @@ def path_hack():
     currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
     parentdir = os.path.dirname(currentdir)
     sys.path.insert(0,parentdir) 
-    print('path added:', sys.path[0])
+    # print('path added:', sys.path[0])
 
 path_hack()
 
@@ -63,6 +63,13 @@ class TestSpotify(unittest.TestCase):
             print('Loading:', url)
             self.assertEqual(type(data), dict)
             time.sleep(1)
+
+    def test__issue_get_request_only_one(self):
+        print()
+        url = self.urls[0]
+        data = spotify._issue_get_request(url)
+        print('Loading:', url)
+        self.assertEqual(type(data), dict)
 
     def test__simplify_tracks(self):
         for url in self.track_urls:
@@ -263,3 +270,5 @@ class TestSpotify(unittest.TestCase):
         self.assertEqual(1, 1)
     
 
+if __name__ == '__main__':
+    unittest.main()
