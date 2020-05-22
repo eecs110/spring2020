@@ -9,14 +9,13 @@ path_hack()
 
 import unittest
 import urllib
-from apis import authentication, my_token
+from apis import authentication
 import time
 from unittest.mock import MagicMock
 
 class TestAuthentication(unittest.TestCase):
 
     def test_token(self):
-        self.assertEqual(authentication.API_TUTOR_TOKEN, my_token.API_TUTOR_TOKEN)
         self.assertEqual(authentication.API_TUTOR_TOKEN, 'API.fda8c628-f8f0-448d-aad8-42c2fcd067ec')
 
     def test_get_key(self):
