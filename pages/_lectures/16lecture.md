@@ -29,6 +29,10 @@ videos:
    - title: "L12d: Lists of dictionaries (Twitter)"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eefa7970-1dc1-4571-8b4d-abc00149ab7f
      duration: "14:50"
+   - title: "Practice with dictionaries"
+     url: https://northwestern.zoom.us/rec/share/391WKpah-1xISKvI5RnEAqI5Qq65T6a82iBN-vtbmktqw-Kz_dhPImLh6IuPiiC7?startTime=1590092990000
+     duration: "45:24"
+     live: 1
 
 exercise_url: "lecture_12.zip"
 ---
