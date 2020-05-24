@@ -202,6 +202,21 @@ def get_businesses(location:str='Evanston, IL', limit:int=10, term:str=None, cat
         return data
     return _simplify_businesses(data)
 
+def print_formatted_businesses_table(businesses:list, columns=['name', 'display_address', 'rating', 'review_count']):
+    flattened_data = flatten_for_pandas(businesses)
+    df = get_dataframe(flattened_data)
+    df = df[columns]
+    formatters={
+        'name': '{{:<{}s}}'.format(df['name'].str.len().max()).format,
+        'display_address': '{{:<{}s}}'.format(df['display_address'].str.len().max()).format
+    }
+
+    pd.set_option('display.max_colwidth', 5)
+    print()
+    print(df.to_string(formatters=formatters, justify='left'))
+    print()
+
+
 def get_reviews(business_id:str, simplify:bool=True):
     '''
     Retrieves a list of Yelp reviews for a particular business.

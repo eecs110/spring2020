@@ -203,6 +203,19 @@ def get_album_player_html(album_id:int, width:int=300, height:int=380):
         allow="encrypted-media">
     </iframe>'''.format(album_id=album_id, width=width, height=height)
 
+def print_formatted_tracklist_table(tracks:list, col_width=25, columns=['name', 'artist_name', 'album_name']):
+    flattened_data = flatten_for_pandas(tracks)
+    df = get_dataframe(flattened_data)
+    df = df[columns]
+    formatters={}
+    for key in columns:
+        formatters[key] =  '{{:<.{}s}}'.format(col_width).format
+    pd.set_option('display.max_colwidth', 5)
+    pd.set_option('display.width', 50)
+    print()
+    print(df.to_string(formatters=formatters))
+    print()
+
 def get_formatted_tracklist_table_html(tracks:list):
     '''
     Makes a nice formatted HTML table of tracks. Good for writing to an 
