@@ -1,6 +1,7 @@
 # How many representatives does each state have in the House?
 import sys
 import os
+from csv import reader
 dir_path = os.path.dirname(sys.argv[0])
 file_path = os.path.join(dir_path, 'legislators-current.csv')
 # End VS Code Hack:
@@ -8,8 +9,7 @@ file_path = os.path.join(dir_path, 'legislators-current.csv')
 f = open(file_path, 'r', encoding='utf8', errors='ignore')
 
 congress_representatives_by_state = {}
-for line in f.readlines():
-    cells = line.split(',')
+for cells in reader(f):
     house_or_senate = cells[8]
     state = cells[9]
     if house_or_senate == 'rep':

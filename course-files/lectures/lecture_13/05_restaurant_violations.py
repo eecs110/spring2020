@@ -5,10 +5,11 @@
 # VS Code Hack:
 import sys
 import os
+from csv import reader
 dir_path = os.path.dirname(sys.argv[0])
 file_path = os.path.join(dir_path, 'Food_Establishment_Violations.csv')
 # End VS Code Hack:
 
 f = open(file_path, 'r', encoding='utf8', errors='ignore')
-for line in f.readlines():
-    print(line)
+for row in reader(f):
+    print(row)
