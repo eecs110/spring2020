@@ -25,6 +25,11 @@ videos:
    - title: "L13d: Grouping & Counting - Legislature"
      url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fef34a0b-2380-43c6-a52e-abc6013e8587
      duration: "20:10"
+   - title: "More practice with dictionaries"
+     url: https://northwestern.zoom.us/rec/share/u9ElAqjhxEdJZ8_PuG7EZpQGHbjrX6a81iQZ-vsEmUlL-wIgZC32xdKNRH5FdafE?startTime=1590524830000
+     duration: "1:10:41"
+     live: 1
+    
 ---
 
 Dictionaries are also very useful tools for data analysis. Today, we'll go over how dictionaries can help you to group, tally, and analyze data.
