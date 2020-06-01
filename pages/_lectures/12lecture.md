@@ -14,7 +14,7 @@ videos:
      duration: "1:26:45"
      live: 1
 
-exercise_url: "../practice_exams/midterm.zip"
+exercise_url: "../practice_exams/exam01.zip"
 ---
 
 A few notes on Exam 1:
