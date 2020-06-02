@@ -18,4 +18,4 @@ videos:
 
 ---
 
-Today we will be transitioning to working with Cloud-based data services, which we will be doing for the remainder of the quarter. I did not have time to make videos this week, but will be posting some over the weekend.
+Today we will be transitioning to working with Cloud-based data services, which we will be doing for the remainder of the quarter. I did not have time to make videos this week, but will record the lecture.
